@@ -1,6 +1,6 @@
 // Caches the app shell and plaza data so the app opens on weak mobile data.
 // Routing, geocoding and map tiles always come from the network.
-const CACHE = "tollcheck-v10";
+const CACHE = "tollcheck-v11";
 const SHELL = ["./", "index.html", "styles.css", "app.js", "i18n.js", "plazas.json", "manifest.webmanifest", "icon.svg", "icon-192.png", "icon-512.png", "apple-touch-icon.png",
   "https://unpkg.com/leaflet@1.9.4/dist/leaflet.css", "https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"];
 

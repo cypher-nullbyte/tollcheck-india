@@ -399,10 +399,34 @@ const placeName = (p) => encodeURIComponent(p.full || `${p.lat},${p.lon}`);
 // name it after the plaza (not a random shop, as happened with arbitrary points).
 function viaTolls(r) {
   if (!r) return [];
-  const pts = r.shown.map((x) => (x.group ? x.plazas[0] : x)).filter((p) => p && p.lat);   // expressway: its entry
-  // ONE stop is enough to lock the maps app onto this road and keeps "arrived → Continue" to a single tap:
-  // the toll nearest the middle of the trip.
-  return pts.length ? [pts[Math.floor(pts.length / 2)]] : [];   // 2 tolls → the 2nd (further along pins the road better)
+  const bb = bboxOf(r.coords);
+  const at = (p) => nearestOnLine(p.lat, p.lon, r.coords, [bb[0] - 0.05, bb[1] - 0.05, bb[2] + 0.05, bb[3] + 0.05]).idx;
+  const stops = [];
+  // 1. The toll nearest the middle of the trip (2 tolls → the 2nd): Google names it after the plaza.
+  const tolls = r.shown.map((x) => (x.group ? x.plazas[0] : x)).filter((p) => p && p.lat);
+  if (tolls.length) { const p = tolls[Math.floor(tolls.length / 2)]; stops.push({ lat: p.lat, lon: p.lon, idx: at(p) }); }
+  // 2. Where this route is farthest from the other routes: the stretch that makes it different
+  //    (e.g. Rewari–Narnaul). Checked separately before and after the toll stop, because Google can
+  //    leave our road on either side of it. Only used where the difference is over 3 km.
+  const others = state.routes.filter((o) => o !== r);
+  if (others.length) {
+    const n = r.coords.length, step = Math.max(1, Math.floor(n / 400));
+    const ob = others.map((o) => { const b = bboxOf(o.coords); return [o, [b[0] - 1, b[1] - 1, b[2] + 1, b[3] + 1]]; });
+    const farthest = (from, to) => {
+      let best = null, bestD = 3000;
+      for (let k = Math.max(from, Math.floor(n * 0.08)); k < Math.min(to, n * 0.92); k += step) {
+        const [lon, lat] = r.coords[k];
+        let d = Infinity;
+        for (const [o, b] of ob) d = Math.min(d, nearestOnLine(lat, lon, o.coords, b).d);
+        if (d > bestD) { bestD = d; best = { lat, lon, idx: k }; }
+      }
+      return best;
+    };
+    const cut = stops.length ? Math.round(stops[0].idx) : Math.floor(n / 2);
+    const gap = Math.floor(n * 0.15);                         // well away from the toll stop (no bunching)
+    for (const p of [farthest(0, cut - gap), farthest(cut + gap, n)]) if (p) stops.push(p);
+  }
+  return stops.sort((a, b) => a.idx - b.idx).slice(0, 3);     // in driving order, max 3
 }
 const ll = (p) => `${p.lat.toFixed(5)},${p.lon.toFixed(5)}`;
 // Google Maps URLs: https://developers.google.com/maps/documentation/urls/get-started
