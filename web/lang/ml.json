@@ -144,5 +144,9 @@
  "stopNote": "ഈ റോഡിലെ 1–3 സ്ഥലങ്ങൾ സ്റ്റോപ്പുകളായി ചേർക്കുന്നു, അതിനാൽ Google/Apple Maps ഇതേ റോഡിലൂടെ പോകും. ഓരോ സ്റ്റോപ്പിലും Continue അമർത്തുക.",
  "ownRoute": "Google-ന്റെ സ്വന്തം വേഗമേറിയ റൂട്ട് (സ്റ്റോപ്പുകളില്ലാതെ) ↗",
  "ownNote": "ഇത് വേറെ ടോളുകളുള്ള വേറൊരു റോഡ് ആകാം.",
- "routeVia": "<b>{roads}</b> വഴി · {km} km · {time}"
+ "routeVia": "<b>{roads}</b> വഴി · {km} km · {time}",
+ "themeSystem": "◐ സിസ്റ്റം",
+ "themeLight": "☀ ലൈറ്റ്",
+ "themeDark": "☾ ഡാർക്ക്",
+ "theme": "തീം"
 }

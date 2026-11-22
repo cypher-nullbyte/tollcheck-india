@@ -144,5 +144,9 @@
  "stopNote": "ਇਸ ਸੜਕ 'ਤੇ 1–3 ਥਾਵਾਂ ਸਟਾਪ ਵਜੋਂ ਜੁੜਦੀਆਂ ਹਨ, ਤਾਂ ਜੋ Google/Apple Maps ਇਹੀ ਸੜਕ ਲੈਣ। ਹਰ ਸਟਾਪ 'ਤੇ Continue ਦਬਾਓ।",
  "ownRoute": "Google ਦਾ ਆਪਣਾ ਸਭ ਤੋਂ ਤੇਜ਼ ਰੂਟ (ਬਿਨਾਂ ਸਟਾਪ) ↗",
  "ownNote": "ਇਹ ਵੱਖਰੀ ਸੜਕ ਹੋ ਸਕਦੀ ਹੈ, ਜਿਸ ਦੇ ਟੋਲ ਵੱਖਰੇ ਹੋਣ।",
- "routeVia": "<b>{roads}</b> ਰਾਹੀਂ · {km} km · {time}"
+ "routeVia": "<b>{roads}</b> ਰਾਹੀਂ · {km} km · {time}",
+ "themeSystem": "◐ ਸਿਸਟਮ",
+ "themeLight": "☀ ਲਾਈਟ",
+ "themeDark": "☾ ਡਾਰਕ",
+ "theme": "ਥੀਮ"
 }

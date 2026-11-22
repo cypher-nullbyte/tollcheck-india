@@ -144,5 +144,9 @@
  "stopNote": "ఈ రోడ్డులో 1–3 చోట్లు స్టాప్‌లుగా చేరుతాయి, కాబట్టి Google/Apple Maps ఇదే రోడ్డులో వెళ్తాయి. ప్రతి స్టాప్‌లో Continue నొక్కండి.",
  "ownRoute": "Google సొంత వేగవంతమైన రూట్ (స్టాప్‌లు లేకుండా) ↗",
  "ownNote": "ఇది వేరే టోల్‌లు ఉన్న వేరే రోడ్డు కావచ్చు.",
- "routeVia": "<b>{roads}</b> మీదుగా · {km} km · {time}"
+ "routeVia": "<b>{roads}</b> మీదుగా · {km} km · {time}",
+ "themeSystem": "◐ సిస్టమ్",
+ "themeLight": "☀ లైట్",
+ "themeDark": "☾ డార్క్",
+ "theme": "థీమ్"
 }

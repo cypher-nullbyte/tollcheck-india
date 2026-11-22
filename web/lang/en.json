@@ -144,5 +144,9 @@
  "stopNote": "Adds 1–3 points on this road as stops (a toll plaza, and where this route differs) so Google/Apple Maps follow it. At each stop, tap Continue.",
  "ownRoute": "Google's own fastest route (no stops) ↗",
  "ownNote": "May be a different road with different tolls.",
- "routeVia": "Via <b>{roads}</b> · {km} km · {time}"
+ "routeVia": "Via <b>{roads}</b> · {km} km · {time}",
+ "themeSystem": "◐ System",
+ "themeLight": "☀ Light",
+ "themeDark": "☾ Dark",
+ "theme": "Theme"
 }

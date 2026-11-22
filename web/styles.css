@@ -2,10 +2,14 @@
   --bg: #f6f7f5; --card: #ffffff; --ink: #1c2420; --muted: #5d6a63; --line: #dde3df;
   --brand: #0f6b4f; --covered: #1f9d55; --paid: #d64541; --unknown: #8a8f8c; --pick: #e8f4ee;
 }
+/* Theme: follows the phone (system) unless the person picks Light or Dark (html[data-theme]). */
 @media (prefers-color-scheme: dark) {
-  :root { --bg: #121614; --card: #1b201d; --ink: #e7ece9; --muted: #9aa6a0; --line: #2c3430;
-          --brand: #4cc497; --pick: #1e3329; }
+  :root:not([data-theme="light"]) { --bg: #121614; --card: #1b201d; --ink: #e7ece9; --muted: #9aa6a0; --line: #2c3430;
+          --brand: #4cc497; --pick: #1e3329; color-scheme: dark; }
 }
+:root[data-theme="dark"] { --bg: #121614; --card: #1b201d; --ink: #e7ece9; --muted: #9aa6a0; --line: #2c3430;
+          --brand: #4cc497; --pick: #1e3329; color-scheme: dark; }
+:root[data-theme="light"] { color-scheme: light; }
 * { box-sizing: border-box; }
 html, body { margin: 0; }
 /* The page scrolls normally: nothing is squeezed, nothing overlaps (footer always comes after the content). */
@@ -152,3 +156,5 @@ footer .version { font-weight: 600; color: var(--ink); }
 .home-link { color: inherit; text-decoration: none; }
 .reset-btn { padding: 0 10px; font-size: 14px; white-space: nowrap; }
 @media (max-width: 420px) { .reset-btn span { display: none; } .reset-btn { width: 46px; font-size: 18px; } }
+.head-tools { display: flex; gap: 6px; align-items: center; margin-left: auto; flex-wrap: wrap; justify-content: flex-end; }
+.head-tools select { font: inherit; font-size: 14px; padding: 6px 8px; border-radius: 8px; border: 1px solid var(--line); background: var(--card); color: var(--ink); cursor: pointer; }

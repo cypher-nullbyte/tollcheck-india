@@ -781,6 +781,23 @@ function newTrip() {
 $("home").addEventListener("click", (e) => { e.preventDefault(); newTrip(); });
 $("reset").addEventListener("click", newTrip);
 
+// ---------- theme (system / light / dark) ----------
+const THEME_KEY = "tollcheck:theme";
+function applyTheme(v) {
+  if (v === "light" || v === "dark") document.documentElement.dataset.theme = v; else delete document.documentElement.dataset.theme;
+  const dark = v === "dark" || (v !== "light" && matchMedia("(prefers-color-scheme: dark)").matches);
+  document.querySelector('meta[name="theme-color"]').content = dark ? "#121614" : "#0f6b4f";
+}
+(() => {
+  let v = "system"; try { v = localStorage.getItem(THEME_KEY) || "system"; } catch { /* default */ }
+  $("theme").value = v; applyTheme(v);
+  $("theme").addEventListener("change", (e) => {
+    try { localStorage.setItem(THEME_KEY, e.target.value); } catch { /* not saved */ }
+    applyTheme(e.target.value);
+  });
+  matchMedia("(prefers-color-scheme: dark)").addEventListener("change", () => applyTheme($("theme").value));
+})();
+
 // ---------- language ----------
 applyLang();                                   // English/Hindi immediately; other languages once their file loads
 if (!I18N[LANG]) loadLang(LANG).then((ok) => { if (!ok) LANG = "en"; applyLang(); document.dispatchEvent(new Event("langchange")); });
@@ -788,6 +805,7 @@ $("lang").addEventListener("change", (e) => setLang(e.target.value));
 document.addEventListener("langchange", () => {
   renderSaved();
   locateBtn.title = t("myLocation");
+  $("theme").setAttribute("aria-label", t("theme"));
   if (state.routes.length) {           // redo the cards and map labels in the new language
     state.routes = state.routes.map((r) => analyse(r.route, r.i));
     draw(); cards();

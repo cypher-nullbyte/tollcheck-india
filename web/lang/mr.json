@@ -144,5 +144,9 @@
  "stopNote": "या रस्त्यावर 1–3 ठिकाणे थांबे म्हणून जोडली जातात, म्हणजे Google/Apple Maps हाच रस्ता घेतात. प्रत्येक थांब्यावर Continue दाबा.",
  "ownRoute": "Google चा स्वतःचा सर्वात जलद रूट (थांब्यांशिवाय) ↗",
  "ownNote": "हा वेगळा रस्ता असू शकतो, ज्याचे टोल वेगळे असतील.",
- "routeVia": "<b>{roads}</b> मार्गे · {km} km · {time}"
+ "routeVia": "<b>{roads}</b> मार्गे · {km} km · {time}",
+ "themeSystem": "◐ सिस्टम",
+ "themeLight": "☀ लाइट",
+ "themeDark": "☾ डार्क",
+ "theme": "थीम"
 }

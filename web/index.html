@@ -15,15 +15,26 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
   <link rel="stylesheet" href="styles.css">
+  <script>try { var q = new URLSearchParams(location.search).get("theme"); if (q) localStorage.setItem("tollcheck:theme", q);
+    var th = localStorage.getItem("tollcheck:theme"); if (th === "light" || th === "dark") document.documentElement.dataset.theme = th; } catch (e) {}</script>
 </head>
 <body>
   <header>
     <div class="head-row">
       <h1><a href="./" id="home" class="home-link" data-i18n="title">TollCheck India</a></h1>
-      <button type="button" id="installBtn" class="install-btn" hidden data-i18n="installApp">⬇ Install app</button>
-      <label class="lang-pick"><span class="sr">Language / भाषा</span>
-        <select id="lang" aria-label="Language / भाषा"></select>
-      </label>
+      <div class="head-tools">
+        <button type="button" id="installBtn" class="install-btn" hidden data-i18n="installApp">⬇ Install app</button>
+        <label class="lang-pick"><span class="sr">Language / भाषा</span>
+          <select id="lang" aria-label="Language / भाषा"></select>
+        </label>
+        <label><span class="sr" data-i18n="theme">Theme</span>
+          <select id="theme" aria-label="Theme">
+            <option value="system" data-i18n="themeSystem">◐ System</option>
+            <option value="light" data-i18n="themeLight">☀ Light</option>
+            <option value="dark" data-i18n="themeDark">☾ Dark</option>
+          </select>
+        </label>
+      </div>
     </div>
     <p class="sub"><span data-i18n="sub">Which tolls does the Annual Pass cover on your trip?</span>
       <button type="button" class="linkbtn" data-help data-i18n="howItWorks">ⓘ How it works</button></p>

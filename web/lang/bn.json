@@ -144,5 +144,9 @@
  "stopNote": "এই রাস্তায় ১–৩টি জায়গা স্টপ হিসেবে যোগ হয়, যাতে Google/Apple Maps এই রাস্তাই নেয়। প্রতিটি স্টপে Continue চাপুন।",
  "ownRoute": "Google-এর নিজের দ্রুততম রুট (স্টপ ছাড়া) ↗",
  "ownNote": "এটি আলাদা রাস্তা হতে পারে, যার টোলও আলাদা।",
- "routeVia": "<b>{roads}</b> হয়ে · {km} km · {time}"
+ "routeVia": "<b>{roads}</b> হয়ে · {km} km · {time}",
+ "themeSystem": "◐ সিস্টেম",
+ "themeLight": "☀ লাইট",
+ "themeDark": "☾ ডার্ক",
+ "theme": "থিম"
 }

@@ -144,5 +144,9 @@
  "stopNote": "આ રસ્તા પર 1–3 બિંદુ સ્ટોપ તરીકે ઉમેરાય છે, જેથી Google/Apple Maps આ જ રસ્તો લે. દરેક સ્ટોપ પર Continue દબાવો.",
  "ownRoute": "Google નો પોતાનો સૌથી ઝડપી રૂટ (સ્ટોપ વગર) ↗",
  "ownNote": "આ અલગ રસ્તો હોઈ શકે, જેના ટોલ અલગ હોય.",
- "routeVia": "<b>{roads}</b> થઈને · {km} km · {time}"
+ "routeVia": "<b>{roads}</b> થઈને · {km} km · {time}",
+ "themeSystem": "◐ સિસ્ટમ",
+ "themeLight": "☀ લાઇટ",
+ "themeDark": "☾ ડાર્ક",
+ "theme": "થીમ"
 }
