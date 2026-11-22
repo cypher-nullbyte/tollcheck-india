@@ -405,16 +405,26 @@ function viaTolls(r) {
 }
 const ll = (p) => `${p.lat.toFixed(5)},${p.lon.toFixed(5)}`;
 // Google Maps URLs: https://developers.google.com/maps/documentation/urls/get-started
+// Google/Apple only offer "Start" (turn-by-turn) when the trip begins at the phone's current location.
+// So when the trip starts where the user is (◎ used, or within 5 km of "From"), leave out the origin
+// and ask Google to start navigating; otherwise keep the origin (planning → "Preview").
+function startsHere() {
+  if (state.from && state.from.isMe) return true;
+  if (!meMarker || !state.from) return false;
+  const me = meMarker.getLatLng();
+  return km({ lat: me.lat, lon: me.lng }, state.from) < 5;
+}
 function googleUrl(r, exact = false) {
   const via = exact ? viaTolls(r) : [];
   return "https://www.google.com/maps/dir/?api=1&travelmode=driving" +
-    `&origin=${placeName(state.from)}&destination=${placeName(state.to)}` +
+    (startsHere() ? "&dir_action=navigate" : `&origin=${placeName(state.from)}`) +
+    `&destination=${placeName(state.to)}` +
     (via.length ? `&waypoints=${encodeURIComponent(via.map(ll).join("|"))}` : "");
 }
 // Apple unified Maps URLs (iOS 18.4+ / macOS 15.4+): repeated `waypoint`
 function appleUrl(r) {
   return `https://maps.apple.com/directions?mode=driving` +
-    `&source=${placeName(state.from)}&destination=${placeName(state.to)}`;
+    (startsHere() ? "" : `&source=${placeName(state.from)}`) + `&destination=${placeName(state.to)}`;
 }
 
 // ---------- rendering ----------
@@ -508,6 +518,7 @@ function cards() {
       <div class="actions"><button type="button" data-show="${r.i}">${t("showOnMap")}</button>
         <a href="${googleUrl(r)}" target="_blank" rel="noopener">${t("googleMaps")}</a>
         <a href="${appleUrl(r)}" target="_blank" rel="noopener">${t("appleMaps")}</a></div>
+      ${startsHere() ? "" : `<p class="preview-note">${t("previewNote")}</p>`}
       ${viaTolls(r).length ? `<div class="exact"><a href="${googleUrl(r, true)}" target="_blank" rel="noopener">${t("exactRoute")}</a>
         <small>${t("exactNote")}</small></div>` : ""}
       <button type="button" class="linkbtn" data-help-same>${t("sameRoadHow")}</button>
@@ -704,10 +715,12 @@ function onPosition(pos) {
   if (!meCentered) { meCentered = true; if (!state.routes.length) map.setView(at, 12); }
   if (!$("from").value.trim()) {              // plan from here
     $("from").value = t("myLocation");
-    $("from")._picked = { lat, lon, label: t("myLocation"), text: t("myLocation"), full: `${lat.toFixed(5)},${lon.toFixed(5)}` };
+    $("from")._picked = { lat, lon, isMe: true, label: t("myLocation"), text: t("myLocation"), full: `${lat.toFixed(5)},${lon.toFixed(5)}` };
   }
   locateBtn.classList.add("on");
+  if (state.routes.length && !meWasKnown) { meWasKnown = true; cards(); }
 }
+let meWasKnown = false;
 function onPositionError(err) {
   locateBtn.classList.remove("on");
   if (err.code === err.PERMISSION_DENIED) $("status").textContent = t("locOff");

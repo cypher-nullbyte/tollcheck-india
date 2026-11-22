@@ -147,3 +147,4 @@ footer { padding-bottom: calc(72px + env(safe-area-inset-bottom)); }
 .exact small { display: block; color: var(--muted); font-size: 12px; margin-top: 2px; }
 .route .linkbtn { margin-top: 8px; }
 footer .version { font-weight: 600; color: var(--ink); }
+.preview-note { font-size: 12px; color: var(--muted); margin: 6px 0 0; }

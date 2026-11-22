@@ -138,5 +138,6 @@
  "helpSame2": "<b>Exact road:</b> tap <b>Exact road in Google Maps</b>. The toll plazas become stops, so Google follows this road. When Google says you have arrived at a stop, tap Continue.",
  "helpSame3": "<b>On a computer:</b> on google.com/maps, drag the blue line onto the road you want (a pass-through point, not a stop), then use “Send directions to your phone”.",
  "helpSameNote": "Google and this app use different map data, so their first choice of road can differ.",
- "versionNote": "TollCheck India v1.0 (trial). We are improving it."
+ "versionNote": "TollCheck India v1.0 (trial). We are improving it.",
+ "previewNote": "Google shows “Start” only when the trip begins where you are now. Tap ◎ on the map to start from your location."
 }
