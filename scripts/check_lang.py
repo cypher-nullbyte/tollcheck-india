@@ -45,7 +45,7 @@ def check(code, en):
             errs.append(f"{k}: placeholders differ: en={re.findall(r'{\w+}', ev)} {code}={re.findall(r'{\w+}', v)}")
         if re.findall(r"</?\w+", ev) != re.findall(r"</?\w+", v):
             errs.append(f"{k}: HTML tags differ")
-        letters = [ch for ch in re.sub(r"\{\w+\}|<[^>]+>|FASTag|Google|Apple|Maps|NHAI|IHMCL|NETC|OpenStreetMap|GeoNames|Rajmargyatra|FAQ|WhatsApp|km|iPhone|Safari|Add to Home [Ss]creen|Install app|TollCheck India", "", v) if ch.isalpha()]
+        letters = [ch for ch in re.sub(r"\{\w+\}|<[^>]+>|FASTag|Google|Apple|Maps|NHAI|IHMCL|NETC|OpenStreetMap|GeoNames|Rajmargyatra|FAQ|WhatsApp|km|iPhone|Safari|Add to Home [Ss]creen|Install app|TollCheck India|google\.com/maps|Send directions to your phone|Continue|Start", "", v) if ch.isalpha()]
         if len(letters) >= 12 and code in SCRIPTS:
             share = sum(lo <= ord(ch) <= hi for ch in letters) / len(letters)
             if share < 0.6: errs.append(f"{k}: only {share:.0%} in the {code} script")

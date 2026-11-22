@@ -128,5 +128,15 @@
  "min": "min",
  "reportSoon": "Reporting tolls is coming soon. Thank you for wanting to help!",
  "myLocation": "My location",
- "locOff": "Location is off. Allow location for this site in your phone or browser settings."
+ "locOff": "Location is off. Allow location for this site in your phone or browser settings.",
+ "matchLine": "In Google/Apple Maps, pick the route <b>via {roads}</b> · {km} km · {time}. The toll list is for this road.",
+ "exactRoute": "Exact road in Google Maps ↗",
+ "exactNote": "Adds the toll plazas as stops so Google follows this road. When it says you have arrived, tap Continue.",
+ "sameRoadHow": "ⓘ How to get the same road in Google Maps",
+ "helpSameTitle": "Getting the same road in Google or Apple Maps",
+ "helpSame1": "<b>Easiest:</b> tap <b>Google Maps</b>. Google shows 1–3 routes; tap the one whose “via” roads and km match this app, then Start. No stops.",
+ "helpSame2": "<b>Exact road:</b> tap <b>Exact road in Google Maps</b>. The toll plazas become stops, so Google follows this road. When Google says you have arrived at a stop, tap Continue.",
+ "helpSame3": "<b>On a computer:</b> on google.com/maps, drag the blue line onto the road you want (a pass-through point, not a stop), then use “Send directions to your phone”.",
+ "helpSameNote": "Google and this app use different map data, so their first choice of road can differ.",
+ "versionNote": "TollCheck India v1.0 (trial). We are improving it."
 }

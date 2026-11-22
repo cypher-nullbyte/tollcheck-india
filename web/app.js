@@ -405,8 +405,8 @@ function viaTolls(r) {
 }
 const ll = (p) => `${p.lat.toFixed(5)},${p.lon.toFixed(5)}`;
 // Google Maps URLs: https://developers.google.com/maps/documentation/urls/get-started
-function googleUrl(r) {
-  const via = viaTolls(r);
+function googleUrl(r, exact = false) {
+  const via = exact ? viaTolls(r) : [];
   return "https://www.google.com/maps/dir/?api=1&travelmode=driving" +
     `&origin=${placeName(state.from)}&destination=${placeName(state.to)}` +
     (via.length ? `&waypoints=${encodeURIComponent(via.map(ll).join("|"))}` : "");
@@ -414,8 +414,7 @@ function googleUrl(r) {
 // Apple unified Maps URLs (iOS 18.4+ / macOS 15.4+): repeated `waypoint`
 function appleUrl(r) {
   return `https://maps.apple.com/directions?mode=driving` +
-    `&source=${placeName(state.from)}&destination=${placeName(state.to)}` +
-    viaTolls(r).map((p) => `&waypoint=${ll(p)}`).join("");
+    `&source=${placeName(state.from)}&destination=${placeName(state.to)}`;
 }
 
 // ---------- rendering ----------
@@ -505,10 +504,13 @@ function cards() {
           ${p.detail ? `<br><small>${esc(p.detail)}</small>` : ""}
           ${p.coords_suspect ? '<span class="warn">(location doubtful)</span>' : ""}</span></li>`;
       }).join("")}</ul></details>` : ""}
-      ${roads(r) ? `<div class="meta">${t("mainRoads", { roads: esc(roads(r)) })}</div>` : ""}
+      ${roads(r) ? `<div class="match">${t("matchLine", { roads: esc(roads(r)), km: r.km.toFixed(0), time: fmtTime(r.min) })}</div>` : ""}
       <div class="actions"><button type="button" data-show="${r.i}">${t("showOnMap")}</button>
         <a href="${googleUrl(r)}" target="_blank" rel="noopener">${t("googleMaps")}</a>
         <a href="${appleUrl(r)}" target="_blank" rel="noopener">${t("appleMaps")}</a></div>
+      ${viaTolls(r).length ? `<div class="exact"><a href="${googleUrl(r, true)}" target="_blank" rel="noopener">${t("exactRoute")}</a>
+        <small>${t("exactNote")}</small></div>` : ""}
+      <button type="button" class="linkbtn" data-help-same>${t("sameRoadHow")}</button>
       <div class="actions secondary"><button type="button" data-save="${r.i}">${t("saveRoute")}</button>
         <button type="button" data-share="${r.i}">${t("share")}</button></div>
     </div>`;
@@ -680,6 +682,7 @@ drawReports();
 if (new URLSearchParams(location.search).get("report")) $("reportBtn").click();   // link straight to the report sheet
 
 // ---------- help ----------
+document.addEventListener("click", (e) => { if (e.target.closest("[data-help-same]")) { openHelp(); setTimeout(() => $("helpSame").scrollIntoView({ block: "start" }), 50); } });
 function openHelp() { $("help").showModal(); $("help").scrollTop = 0; $("helpTop").focus(); }   // open at the top, not at "Got it"
 document.addEventListener("click", (e) => { if (e.target.closest("[data-help]")) openHelp(); });
 $("helpClose").addEventListener("click", () => $("help").close());
