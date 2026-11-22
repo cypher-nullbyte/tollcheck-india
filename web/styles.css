@@ -127,3 +127,16 @@ html[lang="en"] [data-lang="hi"], html[lang="hi"] [data-lang="en"] { display: no
 .head-row { flex-wrap: wrap; }
 .install-btn { margin-left: auto; padding: 6px 10px; font-size: 13px; font-weight: 600; border-radius: 8px; border: 1px solid var(--brand);
   color: var(--brand); background: transparent; }
+/* iPhone/Android installed app: keep content clear of the notch, rounded corners and home bar */
+header { padding-top: calc(12px + env(safe-area-inset-top)); padding-left: calc(16px + env(safe-area-inset-left)); padding-right: calc(16px + env(safe-area-inset-right)); }
+#panel { padding-left: calc(16px + env(safe-area-inset-left)); padding-right: calc(16px + env(safe-area-inset-right)); }
+.fab { bottom: calc(16px + env(safe-area-inset-bottom)); right: calc(16px + env(safe-area-inset-right)); }
+footer { padding-bottom: calc(72px + env(safe-area-inset-bottom)); }
+.sheet { padding-bottom: calc(16px + env(safe-area-inset-bottom)); }
+/* my location */
+.locate-btn { width: 34px; height: 34px; font-size: 20px; line-height: 1; background: #fff; color: #333; cursor: pointer; padding: 0; }
+.locate-btn.on { color: #2a7de1; }
+.me-icon { background: none; border: 0; }
+.me-dot { width: 18px; height: 18px; margin: 4px; border-radius: 50%; background: #2a7de1; border: 3px solid #fff; box-shadow: 0 0 6px rgba(0,0,0,.4); box-sizing: border-box; }
+.me-arrow { width: 0; height: 0; margin: 1px 4px; border-left: 9px solid transparent; border-right: 9px solid transparent;
+  border-bottom: 24px solid #2a7de1; filter: drop-shadow(0 0 2px #fff) drop-shadow(0 0 3px rgba(0,0,0,.4)); transform-origin: 50% 60%; }

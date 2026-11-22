@@ -126,5 +126,7 @@
  "nearbyNot": "Nearby, not on this road",
  "interchange": "Expressway interchange you drive past (no extra toll)",
  "min": "min",
- "reportSoon": "Reporting tolls is coming soon. Thank you for wanting to help!"
+ "reportSoon": "Reporting tolls is coming soon. Thank you for wanting to help!",
+ "myLocation": "My location",
+ "locOff": "Location is off. Allow location for this site in your phone or browser settings."
 }

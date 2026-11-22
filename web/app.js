@@ -10,6 +10,13 @@ const RETURN_TO_SINGLE = 1.5; // NH fee rules: return fare = 1.5 x single; used 
 
 const $ = (id) => document.getElementById(id);
 const map = L.map("map", { zoomControl: true }).setView([21.5, 78.5], 5);
+// Installed apps / phones: the map can measure itself before the layout settles, so re-measure and
+// show all of India once the page is ready (until a route is drawn).
+const INDIA = [[7.5, 68.5], [35.5, 97.0]];
+const showIndia = () => { map.invalidateSize(); if (!state.routes.length) map.fitBounds(INDIA); };
+window.addEventListener("load", () => setTimeout(showIndia, 50));
+window.addEventListener("resize", () => map.invalidateSize());
+window.addEventListener("orientationchange", () => setTimeout(showIndia, 300));
 L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
   maxZoom: 18, attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
 }).addTo(map);
@@ -387,15 +394,28 @@ function roads(r) {
   return s.replace(/\b(NH|SH|NE)\s*-?\s*(\d+\w*)/g, "$1 $2");
 }
 const placeName = (p) => encodeURIComponent(p.full || `${p.lat},${p.lon}`);
-// Google Maps URLs: https://developers.google.com/maps/documentation/urls/get-started
-function googleUrl() {
-  return "https://www.google.com/maps/dir/?api=1&travelmode=driving" +
-    `&origin=${placeName(state.from)}&destination=${placeName(state.to)}`;
+// To make Google/Apple take THIS road, pass the route's toll plazas as stops (max 3, spread out).
+// A link stop is always shown as a stop; a toll plaza is a place the driver passes anyway, and maps
+// name it after the plaza (not a random shop, as happened with arbitrary points).
+function viaTolls(r) {
+  if (!r) return [];
+  const pts = r.shown.map((x) => (x.group ? x.plazas[0] : x)).filter((p) => p && p.lat);   // expressway: its entry
+  if (pts.length <= 3) return pts;
+  return [0, Math.floor((pts.length - 1) / 2), pts.length - 1].map((i) => pts[i]);
 }
-// Apple unified Maps URLs (iOS 18.4+ / macOS 15.4+)
-function appleUrl() {
+const ll = (p) => `${p.lat.toFixed(5)},${p.lon.toFixed(5)}`;
+// Google Maps URLs: https://developers.google.com/maps/documentation/urls/get-started
+function googleUrl(r) {
+  const via = viaTolls(r);
+  return "https://www.google.com/maps/dir/?api=1&travelmode=driving" +
+    `&origin=${placeName(state.from)}&destination=${placeName(state.to)}` +
+    (via.length ? `&waypoints=${encodeURIComponent(via.map(ll).join("|"))}` : "");
+}
+// Apple unified Maps URLs (iOS 18.4+ / macOS 15.4+): repeated `waypoint`
+function appleUrl(r) {
   return `https://maps.apple.com/directions?mode=driving` +
-    `&source=${placeName(state.from)}&destination=${placeName(state.to)}`;
+    `&source=${placeName(state.from)}&destination=${placeName(state.to)}` +
+    viaTolls(r).map((p) => `&waypoint=${ll(p)}`).join("");
 }
 
 // ---------- rendering ----------
@@ -487,8 +507,8 @@ function cards() {
       }).join("")}</ul></details>` : ""}
       ${roads(r) ? `<div class="meta">${t("mainRoads", { roads: esc(roads(r)) })}</div>` : ""}
       <div class="actions"><button type="button" data-show="${r.i}">${t("showOnMap")}</button>
-        <a href="${googleUrl()}" target="_blank" rel="noopener">${t("googleMaps")}</a>
-        <a href="${appleUrl()}" target="_blank" rel="noopener">${t("appleMaps")}</a></div>
+        <a href="${googleUrl(r)}" target="_blank" rel="noopener">${t("googleMaps")}</a>
+        <a href="${appleUrl(r)}" target="_blank" rel="noopener">${t("appleMaps")}</a></div>
       <div class="actions secondary"><button type="button" data-save="${r.i}">${t("saveRoute")}</button>
         <button type="button" data-share="${r.i}">${t("share")}</button></div>
     </div>`;
@@ -501,7 +521,7 @@ async function shareRoute(r) {
   const text = [`${state.from.label} → ${state.to.label}` + (roads(r) ? ` (${t("via", { r: roads(r) })})` : ""),
     t("shareTolls", { km: Math.round(r.km), time: fmtTime(r.min), n: r.shown.length, p: r.c.paid, c: r.c.covered, t: r.trips }),
     ...r.shown.map((p) => `- ${p.name}${p.detail ? ` (${p.detail})` : ""}: ${label[status(p)]}`),
-    t("shareOpen", { url: googleUrl() }),
+    t("shareOpen", { url: googleUrl(r) }),
     t("shareNote")].join("\n");
   try {
     if (navigator.share) { await navigator.share({ title: t("title"), text }); return; }
@@ -665,12 +685,54 @@ document.addEventListener("click", (e) => { if (e.target.closest("[data-help]"))
 $("helpClose").addEventListener("click", () => $("help").close());
 if (new URLSearchParams(location.search).get("help")) openHelp();
 
+// ---------- my location (blue dot + direction arrow) ----------
+// Asks for permission only when the ◎ button is tapped. Works on https (and localhost) on web, iPhone, Android.
+let meWatch = null, meMarker = null, meCircle = null, meCentered = false;
+const meIcon = (heading) => L.divIcon({ className: "me-icon", iconSize: [26, 26], iconAnchor: [13, 13],
+  html: heading == null || isNaN(heading) ? '<div class="me-dot"></div>'
+       : `<div class="me-arrow" style="transform:rotate(${heading}deg)"></div>` });
+function onPosition(pos) {
+  const { latitude: lat, longitude: lon, accuracy, heading } = pos.coords;
+  const at = [lat, lon];
+  if (!meMarker) {
+    meCircle = L.circle(at, { radius: accuracy, color: "#2a7de1", weight: 1, fillOpacity: 0.12 }).addTo(map);
+    meMarker = L.marker(at, { icon: meIcon(heading), zIndexOffset: 1000, interactive: false }).addTo(map);
+  } else { meMarker.setLatLng(at).setIcon(meIcon(heading)); meCircle.setLatLng(at).setRadius(accuracy); }
+  if (!meCentered) { meCentered = true; if (!state.routes.length) map.setView(at, 12); }
+  if (!$("from").value.trim()) {              // plan from here
+    $("from").value = t("myLocation");
+    $("from")._picked = { lat, lon, label: t("myLocation"), text: t("myLocation"), full: `${lat.toFixed(5)},${lon.toFixed(5)}` };
+  }
+  locateBtn.classList.add("on");
+}
+function onPositionError(err) {
+  locateBtn.classList.remove("on");
+  if (err.code === err.PERMISSION_DENIED) $("status").textContent = t("locOff");
+}
+const LocateControl = L.Control.extend({
+  options: { position: "topleft" },
+  onAdd() {
+    const b = L.DomUtil.create("button", "locate-btn leaflet-bar");
+    b.type = "button"; b.innerHTML = "◎"; b.title = t("myLocation"); b.setAttribute("aria-label", t("myLocation"));
+    L.DomEvent.disableClickPropagation(b);
+    b.addEventListener("click", () => {
+      if (!navigator.geolocation) { $("status").textContent = t("locOff"); return; }
+      if (meWatch !== null && meMarker) { map.setView(meMarker.getLatLng(), Math.max(map.getZoom(), 12)); return; }
+      meCentered = false;
+      meWatch = navigator.geolocation.watchPosition(onPosition, onPositionError, { enableHighAccuracy: true, maximumAge: 5000, timeout: 20000 });
+    });
+    return b;
+  },
+});
+const locateBtn = new LocateControl().addTo(map).getContainer();
+
 // ---------- language ----------
 applyLang();                                   // English/Hindi immediately; other languages once their file loads
 if (!I18N[LANG]) loadLang(LANG).then((ok) => { if (!ok) LANG = "en"; applyLang(); document.dispatchEvent(new Event("langchange")); });
 $("lang").addEventListener("change", (e) => setLang(e.target.value));
 document.addEventListener("langchange", () => {
   renderSaved();
+  locateBtn.title = t("myLocation");
   if (state.routes.length) {           // redo the cards and map labels in the new language
     state.routes = state.routes.map((r) => analyse(r.route, r.i));
     draw(); cards();
