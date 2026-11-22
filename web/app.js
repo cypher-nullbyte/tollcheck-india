@@ -742,6 +742,18 @@ const LocateControl = L.Control.extend({
 });
 const locateBtn = new LocateControl().addTo(map).getContainer();
 
+// ---------- home / new trip ----------
+// The title and the ↺ button clear the trip and show all of India again (works offline and when installed).
+function newTrip() {
+  state.routes = []; state.selected = 0; layers.clearLayers(); $("routes").innerHTML = "";
+  for (const id of ["from", "to"]) { $(id).value = ""; $(id)._picked = null; }
+  $("status").textContent = PLAZAS.length ? t("plazasLoaded", { n: PLAZAS.length }) : "";
+  history.replaceState(null, "", location.pathname + (LANG !== "en" ? `?lang=${LANG}` : ""));
+  map.fitBounds(INDIA); window.scrollTo({ top: 0, behavior: "smooth" });
+}
+$("home").addEventListener("click", (e) => { e.preventDefault(); newTrip(); });
+$("reset").addEventListener("click", newTrip);
+
 // ---------- language ----------
 applyLang();                                   // English/Hindi immediately; other languages once their file loads
 if (!I18N[LANG]) loadLang(LANG).then((ok) => { if (!ok) LANG = "en"; applyLang(); document.dispatchEvent(new Event("langchange")); });

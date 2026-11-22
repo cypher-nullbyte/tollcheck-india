@@ -148,3 +148,7 @@ footer { padding-bottom: calc(72px + env(safe-area-inset-bottom)); }
 .route .linkbtn { margin-top: 8px; }
 footer .version { font-weight: 600; color: var(--ink); }
 .preview-note { font-size: 12px; color: var(--muted); margin: 6px 0 0; }
+/* home link + new trip */
+.home-link { color: inherit; text-decoration: none; }
+.reset-btn { padding: 0 10px; font-size: 14px; white-space: nowrap; }
+@media (max-width: 420px) { .reset-btn span { display: none; } .reset-btn { width: 46px; font-size: 18px; } }
