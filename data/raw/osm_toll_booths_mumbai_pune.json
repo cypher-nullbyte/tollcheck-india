@@ -1,0 +1,991 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-11-21T19:10:51Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 206291071,
+  "lat": 19.0641486,
+  "lon": 72.9804748,
+  "tags": {
+    "barrier": "toll_booth",
+    "name": "Vashi Toll Plaza",
+    "name:mr": "वाशी पथकर नाके"
+  }
+},
+{
+  "type": "node",
+  "id": 245654830,
+  "lat": 18.9473000,
+  "lon": 73.1788100,
+  "tags": {
+    "barrier": "toll_booth",
+    "source": "AND"
+  }
+},
+{
+  "type": "node",
+  "id": 283138803,
+  "lat": 18.7602290,
+  "lon": 73.4397180,
+  "tags": {
+    "barrier": "toll_booth"
+  }
+},
+{
+  "type": "node",
+  "id": 315832517,
+  "lat": 18.9660292,
+  "lon": 73.1614006,
+  "tags": {
+    "barrier": "toll_booth"
+  }
+},
+{
+  "type": "node",
+  "id": 315832599,
+  "lat": 18.9659840,
+  "lon": 73.1613066,
+  "tags": {
+    "barrier": "toll_booth"
+  }
+},
+{
+  "type": "node",
+  "id": 342119953,
+  "lat": 19.2569911,
+  "lon": 72.8712932,
+  "tags": {
+    "barrier": "toll_booth",
+    "name": "Toll Naka",
+    "operator": "Dahisar Toll Naka"
+  }
+},
+{
+  "type": "node",
+  "id": 457459986,
+  "lat": 19.0431329,
+  "lon": 72.8244914,
+  "tags": {
+    "barrier": "toll_booth",
+    "charge": "Rs 75"
+  }
+},
+{
+  "type": "node",
+  "id": 514921812,
+  "lat": 18.7391212,
+  "lon": 73.7478362,
+  "tags": {
+    "barrier": "toll_booth"
+  }
+},
+{
+  "type": "node",
+  "id": 533708752,
+  "lat": 18.8009731,
+  "lon": 73.2852158,
+  "tags": {
+    "barrier": "toll_booth",
+    "name": "Khalapur Toll Plaza",
+    "name:en": "Khalapur Toll Plaza",
+    "name:mr": "खालापूर पथकर नाके"
+  }
+},
+{
+  "type": "node",
+  "id": 652613468,
+  "lat": 19.0938306,
+  "lon": 72.8550571,
+  "tags": {
+    "barrier": "toll_booth"
+  }
+},
+{
+  "type": "node",
+  "id": 921175142,
+  "lat": 18.7602923,
+  "lon": 73.4299695,
+  "tags": {
+    "barrier": "toll_booth",
+    "name": "Kusgaon",
+    "name:mr": "कुसगांव"
+  }
+},
+{
+  "type": "node",
+  "id": 1078664195,
+  "lat": 19.0976122,
+  "lon": 73.0716552,
+  "tags": {
+    "barrier": "toll_booth"
+  }
+},
+{
+  "type": "node",
+  "id": 1131077221,
+  "lat": 18.7601276,
+  "lon": 73.4397208,
+  "tags": {
+    "barrier": "toll_booth"
+  }
+},
+{
+  "type": "node",
+  "id": 1131077654,
+  "lat": 18.7604178,
+  "lon": 73.4281241,
+  "tags": {
+    "barrier": "toll_booth",
+    "name": "Kusgaon",
+    "name:mr": "कुसगांव"
+  }
+},
+{
+  "type": "node",
+  "id": 1365119541,
+  "lat": 18.7033501,
+  "lon": 73.0356528,
+  "tags": {
+    "barrier": "toll_booth",
+    "name": "Dharamtar Toll Naka"
+  }
+},
+{
+  "type": "node",
+  "id": 1645524582,
+  "lat": 18.9473650,
+  "lon": 73.1789216,
+  "tags": {
+    "barrier": "toll_booth"
+  }
+},
+{
+  "type": "node",
+  "id": 1645663508,
+  "lat": 18.8449895,
+  "lon": 73.0944550,
+  "tags": {
+    "barrier": "toll_booth",
+    "name": "Kharpada Toll Naka"
+  }
+},
+{
+  "type": "node",
+  "id": 1712272441,
+  "lat": 19.1688074,
+  "lon": 73.0791316,
+  "tags": {
+    "barrier": "toll_booth",
+    "name": "Katai Gao Toll Plaza"
+  }
+},
+{
+  "type": "node",
+  "id": 2097290711,
+  "lat": 19.0034641,
+  "lon": 73.2853168,
+  "tags": {
+    "barrier": "toll_booth"
+  }
+},
+{
+  "type": "node",
+  "id": 2215898743,
+  "lat": 18.6867643,
+  "lon": 73.8465931,
+  "tags": {
+    "barrier": "toll_booth"
+  }
+},
+{
+  "type": "node",
+  "id": 2215898746,
+  "lat": 18.6867815,
+  "lon": 73.8466817,
+  "tags": {
+    "barrier": "toll_booth"
+  }
+},
+{
+  "type": "node",
+  "id": 2215899617,
+  "lat": 18.8378322,
+  "lon": 73.8800973,
+  "tags": {
+    "barrier": "toll_booth"
+  }
+},
+{
+  "type": "node",
+  "id": 2215899618,
+  "lat": 18.8378898,
+  "lon": 73.8799591,
+  "tags": {
+    "barrier": "toll_booth"
+  }
+},
+{
+  "type": "node",
+  "id": 2237657474,
+  "lat": 18.4931444,
+  "lon": 73.9930590,
+  "tags": {
+    "barrier": "toll_booth"
+  }
+},
+{
+  "type": "node",
+  "id": 2237657477,
+  "lat": 18.4932581,
+  "lon": 73.9930753,
+  "tags": {
+    "barrier": "toll_booth"
+  }
+},
+{
+  "type": "node",
+  "id": 2249202040,
+  "lat": 19.2570841,
+  "lon": 72.8711380,
+  "tags": {
+    "barrier": "toll_booth",
+    "name": "Toll Naka",
+    "operator": "Dahisar Toll Naka"
+  }
+},
+{
+  "type": "node",
+  "id": 2285328910,
+  "lat": 18.7000684,
+  "lon": 73.6921173,
+  "tags": {
+    "barrier": "toll_booth",
+    "name": "Somatne Toll Naka",
+    "name:mr": "सोमटणे टोल नाका"
+  }
+},
+{
+  "type": "node",
+  "id": 2285328911,
+  "lat": 18.7003569,
+  "lon": 73.6921929,
+  "tags": {
+    "barrier": "toll_booth",
+    "name": "Somatne Toll Naka",
+    "name:mr": "सोमटणे टोल नाका"
+  }
+},
+{
+  "type": "node",
+  "id": 2290049672,
+  "lat": 18.7893952,
+  "lon": 73.2765816,
+  "tags": {
+    "barrier": "toll_booth",
+    "name": "Vadwal Toll Booth",
+    "name:mr": "वडवळ पथकर नाके"
+  }
+},
+{
+  "type": "node",
+  "id": 2290095618,
+  "lat": 18.7033810,
+  "lon": 73.0355738,
+  "tags": {
+    "barrier": "toll_booth",
+    "name": "Dharamtar Toll Naka"
+  }
+},
+{
+  "type": "node",
+  "id": 2440235117,
+  "lat": 19.1837128,
+  "lon": 72.9539035,
+  "tags": {
+    "barrier": "toll_booth",
+    "name": "Mulund Check Naka"
+  }
+},
+{
+  "type": "node",
+  "id": 2494695753,
+  "lat": 19.0030186,
+  "lon": 73.2853165,
+  "tags": {
+    "barrier": "toll_booth"
+  }
+},
+{
+  "type": "node",
+  "id": 2498568368,
+  "lat": 18.6345450,
+  "lon": 74.0435707,
+  "tags": {
+    "barrier": "toll_booth"
+  }
+},
+{
+  "type": "node",
+  "id": 2498568372,
+  "lat": 18.6349732,
+  "lon": 74.0442342,
+  "tags": {
+    "barrier": "toll_booth"
+  }
+},
+{
+  "type": "node",
+  "id": 3447892790,
+  "lat": 18.8008662,
+  "lon": 73.2850323,
+  "tags": {
+    "barrier": "toll_booth",
+    "name": "Khalapur Toll Plaza",
+    "name:en": "Khalapur Toll Plaza",
+    "name:mr": "खालापूर पथकर नाके"
+  }
+},
+{
+  "type": "node",
+  "id": 3659069321,
+  "lat": 19.0976980,
+  "lon": 73.0717989,
+  "tags": {
+    "barrier": "toll_booth"
+  }
+},
+{
+  "type": "node",
+  "id": 4625570752,
+  "lat": 19.1535183,
+  "lon": 72.9658069,
+  "tags": {
+    "barrier": "toll_booth",
+    "name": "Mulund-Airoli Toll Naka"
+  }
+},
+{
+  "type": "node",
+  "id": 4644026833,
+  "lat": 19.1532109,
+  "lon": 72.9657475,
+  "tags": {
+    "barrier": "toll_booth",
+    "name": "Mulund-Airoli Toll Naka"
+  }
+},
+{
+  "type": "node",
+  "id": 4844510599,
+  "lat": 19.0435020,
+  "lon": 72.8247602,
+  "tags": {
+    "barrier": "toll_booth"
+  }
+},
+{
+  "type": "node",
+  "id": 5177728408,
+  "lat": 19.2349646,
+  "lon": 73.0133167,
+  "tags": {
+    "barrier": "toll_booth"
+  }
+},
+{
+  "type": "node",
+  "id": 5177728409,
+  "lat": 19.2350933,
+  "lon": 73.0132063,
+  "tags": {
+    "barrier": "toll_booth"
+  }
+},
+{
+  "type": "node",
+  "id": 5613342058,
+  "lat": 18.9521819,
+  "lon": 72.9602065,
+  "tags": {
+    "barrier": "toll_booth"
+  }
+},
+{
+  "type": "node",
+  "id": 5613342059,
+  "lat": 18.9527901,
+  "lon": 72.9601959,
+  "tags": {
+    "barrier": "toll_booth"
+  }
+},
+{
+  "type": "node",
+  "id": 5613484216,
+  "lat": 19.0373567,
+  "lon": 73.0783748,
+  "tags": {
+    "barrier": "toll_booth",
+    "name": "Kharghar Toll Booth"
+  }
+},
+{
+  "type": "node",
+  "id": 5613484531,
+  "lat": 19.0298192,
+  "lon": 73.0898584,
+  "tags": {
+    "barrier": "toll_booth",
+    "name": "Kharghar Toll Booth"
+  }
+},
+{
+  "type": "node",
+  "id": 7298879733,
+  "lat": 19.1746545,
+  "lon": 72.9690639,
+  "tags": {
+    "barrier": "toll_booth"
+  }
+},
+{
+  "type": "node",
+  "id": 7345381697,
+  "lat": 18.9536490,
+  "lon": 72.9611830,
+  "tags": {
+    "barrier": "toll_booth"
+  }
+},
+{
+  "type": "node",
+  "id": 7350117532,
+  "lat": 18.9529845,
+  "lon": 72.9602040,
+  "tags": {
+    "barrier": "toll_booth"
+  }
+},
+{
+  "type": "node",
+  "id": 7551297421,
+  "lat": 18.9534053,
+  "lon": 72.9604182,
+  "tags": {
+    "barrier": "toll_booth"
+  }
+},
+{
+  "type": "node",
+  "id": 7551297443,
+  "lat": 18.9524683,
+  "lon": 72.9601985,
+  "tags": {
+    "barrier": "toll_booth"
+  }
+},
+{
+  "type": "node",
+  "id": 7551686607,
+  "lat": 18.9357548,
+  "lon": 72.9504613,
+  "tags": {
+    "barrier": "toll_booth"
+  }
+},
+{
+  "type": "node",
+  "id": 7551686608,
+  "lat": 18.9358541,
+  "lon": 72.9505948,
+  "tags": {
+    "barrier": "toll_booth"
+  }
+},
+{
+  "type": "node",
+  "id": 8507768259,
+  "lat": 19.1691635,
+  "lon": 72.9667431,
+  "tags": {
+    "barrier": "toll_booth"
+  }
+},
+{
+  "type": "node",
+  "id": 8507768260,
+  "lat": 19.1690951,
+  "lon": 72.9668594,
+  "tags": {
+    "barrier": "toll_booth"
+  }
+},
+{
+  "type": "node",
+  "id": 9067722994,
+  "lat": 18.8449235,
+  "lon": 73.0945784,
+  "tags": {
+    "barrier": "toll_booth"
+  }
+},
+{
+  "type": "node",
+  "id": 9530812385,
+  "lat": 19.0375761,
+  "lon": 73.0785404,
+  "tags": {
+    "barrier": "toll_booth",
+    "name": "Kharghar Toll Booth"
+  }
+},
+{
+  "type": "node",
+  "id": 9819048902,
+  "lat": 19.1533551,
+  "lon": 72.9665818,
+  "tags": {
+    "barrier": "toll_booth"
+  }
+},
+{
+  "type": "node",
+  "id": 10931274556,
+  "lat": 18.8127721,
+  "lon": 73.4084378,
+  "tags": {
+    "access": "yes",
+    "barrier": "toll_booth",
+    "lift_gate:type": "single",
+    "locked": "no",
+    "name": "Forest Department Toll Booth",
+    "name:mr": "वनविभाग टोल नाका",
+    "source": "survey"
+  }
+},
+{
+  "type": "node",
+  "id": 11998746902,
+  "lat": 19.1723813,
+  "lon": 74.0769073,
+  "tags": {
+    "barrier": "toll_booth"
+  }
+},
+{
+  "type": "node",
+  "id": 11998746903,
+  "lat": 19.1704258,
+  "lon": 74.0752451,
+  "tags": {
+    "barrier": "toll_booth"
+  }
+},
+{
+  "type": "node",
+  "id": 12162831159,
+  "lat": 19.2581683,
+  "lon": 73.2348759,
+  "tags": {
+    "barrier": "toll_booth"
+  }
+},
+{
+  "type": "node",
+  "id": 12162831173,
+  "lat": 19.2596958,
+  "lon": 73.2257194,
+  "tags": {
+    "barrier": "toll_booth"
+  }
+},
+{
+  "type": "node",
+  "id": 12167848629,
+  "lat": 18.9517672,
+  "lon": 73.0186546,
+  "tags": {
+    "barrier": "toll_booth",
+    "name": "Atal Setu Toll Plaza"
+  }
+},
+{
+  "type": "node",
+  "id": 12167848630,
+  "lat": 18.9521317,
+  "lon": 73.0188729,
+  "tags": {
+    "barrier": "toll_booth",
+    "name": "Atal Setu Toll Plaza"
+  }
+},
+{
+  "type": "node",
+  "id": 12184983234,
+  "lat": 19.1390853,
+  "lon": 73.2476083,
+  "tags": {
+    "barrier": "toll_booth"
+  }
+},
+{
+  "type": "node",
+  "id": 12328669404,
+  "lat": 19.0664604,
+  "lon": 72.9832828,
+  "tags": {
+    "barrier": "toll_booth",
+    "name": "Vashi Toll Plaza",
+    "name:mr": "वाशी पथकर नाके"
+  }
+},
+{
+  "type": "node",
+  "id": 12415235444,
+  "lat": 18.7404315,
+  "lon": 73.8393883,
+  "tags": {
+    "access": "unknown",
+    "barrier": "toll_booth"
+  }
+},
+{
+  "type": "node",
+  "id": 12415235445,
+  "lat": 18.7403791,
+  "lon": 73.8395430,
+  "tags": {
+    "access": "unknown",
+    "barrier": "toll_booth"
+  }
+},
+{
+  "type": "node",
+  "id": 12415235455,
+  "lat": 18.7436335,
+  "lon": 73.8353619,
+  "tags": {
+    "access": "unknown",
+    "barrier": "toll_booth"
+  }
+},
+{
+  "type": "node",
+  "id": 12415235463,
+  "lat": 18.7466491,
+  "lon": 73.8360416,
+  "tags": {
+    "access": "unknown",
+    "barrier": "toll_booth"
+  }
+},
+{
+  "type": "node",
+  "id": 12463302441,
+  "lat": 18.7140029,
+  "lon": 73.6246091,
+  "tags": {
+    "barrier": "toll_booth",
+    "motor_vehicle": "yes",
+    "name": "Talegaon Toll Plaza",
+    "operator": "MSRDC",
+    "payment:fasttag": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 12463302442,
+  "lat": 18.7149793,
+  "lon": 73.6294254,
+  "tags": {
+    "barrier": "toll_booth",
+    "motor_vehicle": "yes",
+    "name": "Talegaon Toll Plaza",
+    "operator": "MSRDC"
+  }
+},
+{
+  "type": "node",
+  "id": 12840396902,
+  "lat": 18.7904171,
+  "lon": 73.2713752,
+  "tags": {
+    "barrier": "toll_booth"
+  }
+},
+{
+  "type": "node",
+  "id": 12871625902,
+  "lat": 18.8042642,
+  "lon": 73.2836472,
+  "tags": {
+    "barrier": "toll_booth",
+    "name": "Khalapur Toll Plaza",
+    "name:en": "Khalapur Toll Plaza",
+    "name:mr": "खालापूर पथकर नाके",
+    "payment:fasttag": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13637469028,
+  "lat": 19.0629863,
+  "lon": 72.8415970,
+  "tags": {
+    "barrier": "toll_booth"
+  }
+},
+{
+  "type": "node",
+  "id": 13637469029,
+  "lat": 19.0629916,
+  "lon": 72.8416614,
+  "tags": {
+    "barrier": "toll_booth"
+  }
+},
+{
+  "type": "node",
+  "id": 13637469030,
+  "lat": 19.0629849,
+  "lon": 72.8416958,
+  "tags": {
+    "barrier": "toll_booth"
+  }
+},
+{
+  "type": "node",
+  "id": 13991095139,
+  "lat": 19.1391812,
+  "lon": 73.2473774,
+  "tags": {
+    "barrier": "toll_booth"
+  }
+},
+{
+  "type": "node",
+  "id": 14065292521,
+  "lat": 19.2581065,
+  "lon": 73.2351938,
+  "tags": {
+    "barrier": "toll_booth"
+  }
+},
+{
+  "type": "node",
+  "id": 14065292523,
+  "lat": 19.2597056,
+  "lon": 73.2254476,
+  "tags": {
+    "barrier": "toll_booth"
+  }
+},
+{
+  "type": "way",
+  "id": 56257077,
+  "center": {
+    "lat": 19.0433516,
+    "lon": 72.8247353
+  },
+  "tags": {
+    "area": "yes",
+    "barrier": "toll_booth",
+    "building": "yes",
+    "name": "BWSL Toll Booth",
+    "payment:fasttag": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 171770749,
+  "center": {
+    "lat": 19.1686319,
+    "lon": 73.0793328
+  },
+  "tags": {
+    "barrier": "toll_booth",
+    "name": "KATAI_TOLL_NAKA_(Exempted_For_CAR)"
+  }
+},
+{
+  "type": "way",
+  "id": 320659669,
+  "center": {
+    "lat": 19.1691064,
+    "lon": 72.9668508
+  },
+  "tags": {
+    "barrier": "toll_booth",
+    "building": "yes",
+    "layer": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 746652417,
+  "center": {
+    "lat": 18.6867942,
+    "lon": 73.8466297
+  },
+  "tags": {
+    "area": "yes",
+    "barrier": "toll_booth",
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 807538915,
+  "center": {
+    "lat": 18.9524991,
+    "lon": 72.9602187
+  },
+  "tags": {
+    "area": "yes",
+    "barrier": "toll_booth",
+    "building": "yes",
+    "layer": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 807538920,
+  "center": {
+    "lat": 18.9534238,
+    "lon": 72.9604284
+  },
+  "tags": {
+    "area": "yes",
+    "barrier": "toll_booth",
+    "building": "yes",
+    "layer": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 807538921,
+  "center": {
+    "lat": 18.9536619,
+    "lon": 72.9612289
+  },
+  "tags": {
+    "area": "yes",
+    "barrier": "toll_booth",
+    "building": "yes",
+    "layer": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 807538922,
+  "center": {
+    "lat": 18.9358299,
+    "lon": 72.9505407
+  },
+  "tags": {
+    "area": "yes",
+    "barrier": "toll_booth",
+    "building": "yes",
+    "layer": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 808794049,
+  "center": {
+    "lat": 18.9659845,
+    "lon": 73.1613713
+  },
+  "tags": {
+    "area": "yes",
+    "barrier": "toll_booth",
+    "building": "yes",
+    "layer": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 955874245,
+  "center": {
+    "lat": 19.2350773,
+    "lon": 73.0132727
+  },
+  "tags": {
+    "access": "destination",
+    "area": "yes",
+    "barrier": "toll_booth",
+    "bicycle": "yes",
+    "building": "yes",
+    "currency:INR": "yes",
+    "foot": "yes",
+    "layer": "1",
+    "motor_vehicle": "yes",
+    "name": "Kasheli Toll naka",
+    "payment:cash": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1084289116,
+  "center": {
+    "lat": 19.1535690,
+    "lon": 72.9657055
+  },
+  "tags": {
+    "area": "yes",
+    "barrier": "toll_booth",
+    "building": "yes",
+    "layer": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 1084289135,
+  "center": {
+    "lat": 19.1532074,
+    "lon": 72.9658022
+  },
+  "tags": {
+    "area": "yes",
+    "barrier": "toll_booth",
+    "building": "yes",
+    "layer": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 1084289212,
+  "center": {
+    "lat": 19.1534268,
+    "lon": 72.9649403
+  },
+  "tags": {
+    "area": "yes",
+    "barrier": "toll_booth",
+    "building": "yes",
+    "layer": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 1244636934,
+  "center": {
+    "lat": 18.9518844,
+    "lon": 73.0187177
+  },
+  "tags": {
+    "area": "yes",
+    "barrier": "toll_booth",
+    "building": "yes",
+    "name": "MTHL Toll Booth"
+  }
+}
+
+  ]
+}

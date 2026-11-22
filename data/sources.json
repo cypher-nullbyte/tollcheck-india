@@ -1,0 +1,87 @@
+{
+  "_about": "Data sources for plazas.json. fetch: auto = scripts/update_data.sh downloads it; fetch: manual = save it from a browser into data/raw/<file>. Credits: DATA_SOURCES.md.",
+  "sources": [
+    {
+      "id": "ihmcl_nh",
+      "name": "IHMCL National Highway (NH) Fee Plazas",
+      "role": "decides covered (by NETC plaza code)",
+      "page": "https://ihmcl.co.in/nh-toll-plaza/",
+      "find_link_on_page": "NH-Fee-Plaza",
+      "fetch": "auto",
+      "file": "ihmcl-nh-fee-plazas-latest.pdf",
+      "parse": "scripts/parse_ihmcl.py",
+      "output": "ihmcl_nh_fee_plazas_latest.csv",
+      "current_copy": {
+        "file": "ihmcl-nh-fee-plazas-2026-07.pdf",
+        "url": "https://ihmcl.co.in/wp-content/uploads/2026/07/NH-Fee-Plazas-5.pdf"
+      }
+    },
+    {
+      "id": "ihmcl_nh_2025_08",
+      "name": "IHMCL NH Fee Plazas (Aug 2025, history)",
+      "role": "history: plazas added/removed",
+      "url": "https://ihmcl.co.in/wp-content/uploads/2025/08/NH-Toll-Plaza-.pdf",
+      "fetch": "auto",
+      "file": "ihmcl-nh-toll-plaza-2025-08.pdf",
+      "parse": "scripts/parse_ihmcl.py",
+      "output": "ihmcl_nh_fee_plazas_2025-08.csv"
+    },
+    {
+      "id": "netc_master",
+      "name": "NETC Plaza Master",
+      "role": "location + NATIONAL/STATE type + operator of every FASTag plaza",
+      "page": "https://www.netc.org.in",
+      "url": "https://www.netc.org.in/uploads/Plaza_Master_Sep26_2ced29b177.pdf",
+      "fetch": "manual",
+      "why_manual": "netc.org.in returns 403 to scripts",
+      "file": "npci-plaza-master-2026-09.pdf",
+      "parse": "scripts/parse_netc.py",
+      "output": "netc_plaza_master_2026-09.csv"
+    },
+    {
+      "id": "npci_master_2025_05",
+      "name": "NPCI Plaza Master (May 2025)",
+      "role": "backup coordinates",
+      "url": "https://web.archive.org/web/20250623111732id_/https://www.npci.org.in/PDF/netc/Plaza-Master-May-2025.pdf",
+      "fetch": "auto",
+      "file": "npci-plaza-master-2025-05.pdf",
+      "parse": "scripts/parse_npci.py",
+      "output": "npci_plaza_master_2025-05.csv"
+    },
+    {
+      "id": "npci_master_2026_02",
+      "name": "NETC Plaza Master (Feb 2026, history)",
+      "role": "history only (not parsed)",
+      "url": "https://web.archive.org/web/20260509053822id_/https://www.netc.org.in/uploads/Plaza_Master_Feb_26_2ddf69d321.pdf",
+      "fetch": "auto",
+      "file": "npci-plaza-master-2026-02.pdf"
+    },
+    {
+      "id": "opencity_2024",
+      "name": "OpenCity Toll Plazas in India (2024)",
+      "role": "car rates (2024) + backup coordinates",
+      "page": "https://data.opencity.in/dataset/toll-plazas-in-india",
+      "fetch": "manual",
+      "why_manual": "Cloudflare bot check",
+      "file": "opencity-toll-plazas-2024.kml"
+    },
+    {
+      "id": "nhai_tis_2022",
+      "name": "NHAI TIS toll plaza map (Jan 2022, via geohacker/toll-plazas-india)",
+      "role": "2022 rates; NH plazas missing elsewhere",
+      "url": "https://raw.githubusercontent.com/geohacker/toll-plazas-india/master/data/01-01-2022/tolls-with-metadata.csv",
+      "fetch": "auto",
+      "file": "nhai_tis_2022-01-01.csv"
+    },
+    {
+      "id": "osm_toll_booths",
+      "name": "OpenStreetMap toll booths (barrier=toll_booth)",
+      "role": "physical booths no list has -> you pay",
+      "url": "https://overpass-api.de/api/interpreter",
+      "fetch": "auto",
+      "script": "scripts/fetch_osm.sh",
+      "file": "osm_toll_booths_india.json",
+      "note": "slow (64 map squares, 1-2 h); run weekly, not daily"
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>TollCheck India</title>
+  <meta name="description" content="TollCheck India: for Indian highways. See which tolls on your route the FASTag Annual Pass covers, and where you still pay (state, city and private tolls).">
+  <meta name="theme-color" content="#0f6b4f">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="TollCheck">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="head-row">
+      <h1 data-i18n="title">TollCheck India</h1>
+      <button type="button" id="installBtn" class="install-btn" hidden data-i18n="installApp">⬇ Install app</button>
+      <label class="lang-pick"><span class="sr">Language / भाषा</span>
+        <select id="lang" aria-label="Language / भाषा"></select>
+      </label>
+    </div>
+    <p class="sub"><span data-i18n="sub">Which tolls does the Annual Pass cover on your trip?</span>
+      <button type="button" class="linkbtn" data-help data-i18n="howItWorks">ⓘ How it works</button></p>
+  </header>
+
+  <main>
+    <section id="panel">
+      <form id="trip" autocomplete="off">
+        <label><span data-i18n="from">From</span> <input id="from" required placeholder="e.g. Mumbai" data-i18n-ph="phFrom"></label>
+        <label><span data-i18n="to">To</span> <input id="to" required placeholder="e.g. Pune" data-i18n-ph="phTo"></label>
+        <div class="row">
+          <button type="submit" id="go" data-i18n="compare">Compare routes</button>
+          <button type="button" id="swap" data-i18n-title="swap" title="Swap from and to" aria-label="Swap">⇅</button>
+        </div>
+        <div class="presets"><span data-i18n="try">Try:</span>
+          <button type="button" data-from="Mumbai" data-to="Pune">Mumbai → Pune</button>
+          <button type="button" data-from="Delhi" data-to="Jaipur">Delhi → Jaipur</button>
+          <button type="button" data-from="Bengaluru" data-to="Mysuru">Bengaluru → Mysuru</button>
+        </div>
+      </form>
+      <div id="saved"></div>
+      <p id="status" role="status"></p>
+      <p class="planning-note" data-i18n-html="planningNote"></p>
+      <div id="routes"></div>
+      <div class="legend">
+        <span><i class="dot covered"></i><span data-i18n="legendOnCovered">On road, pass covers</span></span>
+        <span><i class="dot near-covered"></i><span data-i18n="legendNearCovered">Nearby / interchange, pass covers</span></span>
+        <span><i class="dot paid"></i><span data-i18n="legendOnPaid">On road, you pay</span></span>
+        <span><i class="dot near-paid"></i><span data-i18n="legendNearPaid">Nearby, you pay</span></span>
+        <span><i class="dot unknown"></i><span data-i18n="legendUnknown">Unknown</span></span>
+        <button type="button" class="linkbtn" data-help data-i18n="whatColours">ⓘ What do the colours mean?</button>
+      </div>
+    </section>
+    <div id="map"></div>
+  </main>
+
+  <!-- Report a toll: floating button + bottom sheet. 3 taps: photo, type, send. -->
+  <button id="reportBtn" class="fab" type="button" data-i18n="reportBtn">＋ Report a toll</button>
+  <dialog id="report" class="sheet">
+    <form method="dialog" id="reportForm">
+      <h2 data-i18n="reportTitle">Report a toll</h2>
+      <label class="photo-pick">
+        <input id="rPhoto" type="file" accept="image/*" capture="environment" hidden>
+        <img id="rPreview" alt="" hidden>
+        <span id="rPhotoText">📷 Take a photo of the toll board</span>
+      </label>
+      <p class="r-loc" id="rLoc">📍 Getting your location…</p>
+      <div class="r-label" data-i18n="coveredQ">Is this toll covered by the FASTag Annual Pass?</div>
+      <div class="r-types">
+        <button type="button" data-type="nhai" data-i18n="typeNhai">NHAI / National</button>
+        <button type="button" data-type="state" data-i18n="typeState">State / Local</button>
+        <button type="button" data-type="unknown" data-i18n="typeUnknown">Don't know</button>
+      </div>
+      <details class="r-more"><summary data-i18n="addMore">Add name or mobile (optional)</summary>
+        <input id="rName" placeholder="Toll name (if you know it)" data-i18n-ph="phTollName" autocomplete="off">
+        <input id="rMobile" type="tel" inputmode="tel" placeholder="Mobile number (optional)" data-i18n-ph="phMobile" autocomplete="tel">
+        <small data-i18n="mobileNote">Your number is used only to contact you about this report. It is never shown in the app.</small>
+      </details>
+      <p class="r-msg" id="rMsg"></p>
+      <div class="r-actions">
+        <button type="button" id="rCancel" data-i18n="cancel">Cancel</button>
+        <button type="button" id="rSend" class="primary" disabled data-i18n="sendReport">Send report</button>
+      </div>
+    </form>
+  </dialog>
+
+  <dialog id="help" class="sheet help">
+    <h2 tabindex="-1" id="helpTop" data-i18n="helpTitle">How to read the map</h2>
+    <table class="help-colours">
+      <tr><td><i class="dot covered big"></i></td><td data-i18n-html="helpCovered"></td></tr>
+      <tr><td><i class="dot near-covered big"></i></td><td data-i18n-html="helpNearCovered"></td></tr>
+      <tr><td><i class="dot paid big"></i></td><td data-i18n-html="helpPaid"></td></tr>
+      <tr><td><i class="dot near-paid big"></i></td><td data-i18n-html="helpNearPaid"></td></tr>
+      <tr><td><i class="dot unknown big"></i></td><td data-i18n-html="helpUnknown"></td></tr>
+      <tr><td><i class="dot reported big"></i></td><td data-i18n-html="helpReported"></td></tr>
+    </table>
+    <h3 data-i18n="helpTripsTitle"></h3>
+    <ul><li data-i18n-html="helpTrip1"></li><li data-i18n-html="helpTrip2"></li><li data-i18n-html="helpTrip3"></li><li data-i18n-html="helpTrip4"></li></ul>
+    <p class="help-src" data-i18n="helpSrc"></p>
+    <h3 data-i18n="helpBestTitle"></h3>
+    <p data-i18n="helpBest"></p>
+    <h3 data-i18n="helpDataTitle"></h3>
+    <p data-i18n="helpData"></p>
+    <h3 data-i18n="helpNoteTitle"></h3>
+    <p data-i18n-html="helpNote"></p>
+    <div class="r-actions"><button type="button" class="primary" id="helpClose" data-i18n="gotIt">Got it</button></div>
+  </dialog>
+
+  <dialog id="installHelp" class="sheet">
+    <p id="installHelpText"></p>
+    <div class="r-actions"><button type="button" class="primary" id="installHelpClose" data-i18n="gotIt">Got it</button></div>
+  </dialog>
+
+  <footer>
+    <p data-i18n-html="footerNote"></p>
+    <p>Toll booths © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a> (ODbL).
+      Routing: OSRM demo server. Place search: Photon (OpenStreetMap data) and <a href="https://www.geonames.org/">GeoNames</a> (CC BY 4.0). Not affiliated with NHAI or IHMCL.</p>
+  </footer>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="i18n.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

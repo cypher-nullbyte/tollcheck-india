@@ -1,0 +1,1222 @@
+s_no,code,name,state,district,section,nh
+1,1002,Bharthana Toll Plaza,Gujarat,Vadodara,Vadodara - Bharuch,48 (old NH-8)
+2,2001,Boriach Toll Plaza,Gujarat,Navsari,Surat - Dahisar,48
+3,2002,Charoti Toll Plaza,Maharashtra,Palghar,Surat - Dahisar,8
+4,2003,Bhagwada Toll Plaza,Gujarat,Valsad,Surat - Dahisar,48
+5,2004,Choryasi Toll Plaza,Gujarat,Surat,Bharuch - Surat,48
+6,2005,Ahmedabad Toll Plaza,Gujarat,Ahmedabad,A V Expressway Phase 1 & 2,NE-1
+7,2006,Ahmedabad (Ring Road) Toll Plaza,Gujarat,Ahmedabad,A V Expressway Phase 1 & 2,NE-1
+8,2007,Nadiad Toll Plaza,Gujarat,Kheda,A V Expressway Phase 1 & 2,NE-1
+9,2008,Anand Toll Plaza,Gujarat,Anand,A V Expressway Phase 1 & 2,NE-1
+10,2009,Vadodara Toll Plaza,Gujarat,Vadodara,A V Expressway Phase 1 & 2,NE-1
+11,2010,Ahmedabad Ring Road 2,Gujarat,Ahmedabad,Ahmedabad-Vadodara Expressway(Km 0.00 to Km 93.302 ),NE-1
+12,2011,Kheda,Gujarat,Kheda,Ahmedabad - Vadodra,48
+13,2012,Vasad,Gujarat,Anand,Ahmedabad - Vadodra,48
+14,6001,Gegal,Rajasthan,Ajmer,Six lanning of Kishangarh-Ajmer-Beawar Section of NH-8 in the state of Rajasthan under NHDP,448 & 58
+15,6002,Pipalaz,Rajasthan,Ajmer,Phase-III,
+16,7001,Kherki Daula,Haryana,Gurgaon,Phase-III on DBFOT Basis (BOT),
+17,8001,Jaipur Plaza,Rajasthan,Jaipur,Jaipur - Kishangarh,8
+18,8002,Kishangarh Plaza,Rajasthan,Ajmer,Jaipur - Kishangarh,8
+19,9001,Shahjahanpur Toll Plaza,Rajasthan,Ajmer,Gurgaon-Kotputli-Jaipur Bypass,8
+20,9002,Manoharpura Toll plaza,Rajasthan,Jaipur,Gurgaon-Kotputli-Jaipur Bypass,8
+21,9003,Daulatpura Toll Plaza,Rajasthan,Jaipur,Gurgaon-Kotputli-Jaipur Bypass,8 & 11
+22,10002,Jojro Ka Kheda Toll Plaza,Rajasthan,Chittaurgarh,6lane Gulabpura-Chittorgarh Section of from of NH-79 PKG-II (BOT),48
+23,10004,Narayanpura Toll Plaza,Rajasthan,Udaipur,6lane Chittorgarh-Udaipur section of NH-76 (New NH - 48 ) PKG-III (BOT),48
+24,10006,Khandi Obri Toll Plaza,Rajasthan,Udaipur,6lane Udaipur-Ratanpur-Shamalji section of NH-48 PKG-V (BOT),48
+25,14001,Ambala Chandigarh,Punjab,Ambala,Ambala - Zirakpur,22 & 21
+26,15001,Pantangi,Telangana,Yadadri-Bhuvanagiri,Hyderabad – Vijayawada,65
+27,15002,Koralaphad,Telangana,Nalgonda,Hyderabad – Vijayawada,65
+28,15003,Chillakallu,Andhra Pradesh,Krishna,Hyderabad – Vijayawada,65
+29,16001,Vanagiri,Karnataka,Koppal,Hungund - Hospet,13
+30,16002,Shahapur,Karnataka,Koppal,Hungund - Hospet,13
+31,16003,Hitnal,Karnataka,Koppal,Hungund - Hospet,13
+32,17001,Karjeevanhally Toll Plaza,Karnataka,Sira,Tumkur- Chitradurga,4
+33,17002,Guilalu Toll Plaza,Karnataka,Chitradurga,including Tumkur,
+34,18001,Vikkravandi Toll Plaza,Tamil Nadu,Viluppuram,Tindivanam-Ulundurpet,Viluppuram
+35,19001,Sengurichi Toll Plaza,Tamil Nadu,VILLUPURAM,Ulundurpet - Padalur,45
+36,19002,Thirumandurai Toll Plaza,Tamil Nadu,Perambalur,Ulundurpet - Padalur,45
+37,23001,Nandgaon Toll Plaza,Maharashtra,Amravati,Talegaon - Amrawati section,6
+38,24001,Mansar Toll Plaza,Maharashtra,Nagpur,7,Nagpur
+39,24002,Kamptee Kanhan Bypass Check Toll Plaza,Maharashtra,Nagpur,7,Nagpur
+40,24003,NAGPUR BYPASS CHECK TOLL PLAZA,Maharashtra,Nagpur,7,Nagpur
+41,24004,BORKHEDI TOLL PLAZA,Maharashtra,Nagpur,7,Nagpur
+42,25001,Karanja Toll Plaza,Maharashtra,Wardha,Kondhali - Talegaon,6
+43,26001,Korai Toll Plaza,Uttar Pradesh,Dhar,Agra-Bharatpur,11
+44,27001,Khalghat Toll Plaza,Madhya Pradesh,Dhar,NH-52 / Indore - Khalghat,52
+45,28001,Bara Jode,Uttar Pradesh,Kanpur Dehat,Etawah - Chakeri,2 (New 19)
+46,28002,Anantram Toll Plaza,Uttar Pradesh,Auraiya,Etawah - Chakeri,2 (New 19)
+47,29001,Laxamannath Plaza,Odisha,Balasore,Baleshwar to Kharagpur,16 (Old NH-60)
+48,29002,Rampura Plaza,West Bengal,Paschim Medinipur,Baleshwar to Kharagpur,16 (Old NH-60)
+49,30001,LADPALWAN TOLL PLAZA,Punjab,Pathankot,Amritsar-Pathankot,15
+50,30002,WARYAM NANGAL TOLL PLAZA,Punjab,Amritsar,Amritsar-Pathankot,15
+51,31001,Barkheda Toll Plaza,Rajasthan,Tonk,Jaipur - Deoli,12
+52,31002,Sonwa Toll Plaza,Rajasthan,Rajasthan,Jaipur - Deoli,12
+53,32001,Omalur Toll Plaza,Tamil Nadu,Salem,Thumbipadi - Namakkal,44 ( NH-7 )
+54,33001,Daffi Toll Plaza,Uttar Pradesh,Varanasi,Varanasi - Aurangabad,19
+55,33002,Mohania Toll Plaza,Bihar,Kaimur,Varanasi - Aurangabad,19
+56,33003,Sasaram Toll Plaza,Bihar,Rohtas,Varanasi - Aurangabad,19
+57,34001,Raikal Toll Plaza,Telangana,Ajmer,Thondapali - Jedcherla,44
+58,35001,ELECTRONIC CITY Phase 1,Karnataka,Bangalore Urban,Silk Board Junction - Hosur,7
+59,35002,Attibele Toll Plaza,Karnataka,Bangalore Urban,Silk Board Junction - Hosur,7
+60,36001,Samayapuram Toll Plaza,Tamil Nadu,Tiruchirappalli,Padalur - Trichy,45
+61,39001,L&T PANIPAT,Haryana,Panipat,Panipat Elevated Highway,44 (old NH-1)
+62,40001,Khaniwade Toll Plaza,Maharashtra,Palghar,Surat - Dahisar,8
+63,41001,Dhilwan,Punjab,kapurthala,Jalandhar - Amritsar,3
+64,41002,JATL Nijjerpura,Punjab,Amritsar,Jalandhar - Amritsar,3
+65,42001,Vijayamangalam Toll Plaza,Tamil Nadu,Tiruppur,Kumarapalayam - Chengalpalli,544 ( NH-47 )
+66,43001,Vaiguntham Toll Plaza,Tamil Nadu,Salem,Salem - Kumarapalayam,544 ( NH-47 )
+67,44001,TASAWADE TOLL PLAZA,Maharashtra,Satara,Satara - Kagal,4
+68,44002,Kini Toll Plaza,Maharashtra,Kolhapur,Satara - Kagal,4
+69,45001,Guduru Toll Plaza,Telangana,Yadadri Bhongir,Hyderabad - Yadhgiri,163
+70,46001,Bijapur Toll Plaza,Karnataka,Vijayapura,Bijapur – Hungund,13 (New NH – 50)
+71,46002,Nagarhalla Toll Plaza,Karnataka,Bagalkot,Bijapur – Hungund,13 (New NH – 50)
+72,47001,Tatiawas Toll Plaza,Rajasthan,Jaipur,Jaipur - Reengus,11
+73,48001,"Sullurpet Plaza (NH- 16), (old NH-5)",Andhra Pradesh,Tirupati,Tada - Nellore,5
+74,48002,"Budhanam Plaza (NH- 16),(old NH-5)",Andhra Pradesh,Tirupati,Tada - Nellore,5
+75,48003,"Nellore Plaza (NH- 16), (old NH-5)",Andhra Pradesh,Nellore,Tada - Nellore,5
+76,48004,"Keesara Plaza (NH-65), (old NH-9)",Andhra Pradesh,NTR,Nandigama - Vijayawada,9
+77,49001,Kaza Toll Plaza,Andhra Pradesh,Guntur,Vijayawada – Chilakaluripet,5
+78,50001,Niyamatpur Ekrotiya Toll Plaza,Uttar Pradesh,Jaipur,Moradabad -Bareilly,24 (New NH-9)
+79,50002,Thiriya Khetal Toll Plaza,Uttar Pradesh,Bareilly,Moradabad -Bareilly,24 (New NH-9)
+80,51001,Sawaleshwar Toll Plaza,Maharashtra,Solapur,Pune-Solapur (144.4 - 249.00),9
+81,51002,Varwade Toll Plaza,Maharashtra,Solapur,Pune-Solapur (144.4 - 249.00),9
+82,52001,Pithadiya Toll Plaza,Gujarat,Rajkot,Jetpur - Gondal - Rajkot and rajkot Bypass,8B
+83,52002,Bharudi Toll Plaza,Gujarat,Rajkot,Jetpur - Gondal - Rajkot and rajkot Bypass,8B
+84,53001,Gondkhairi Plaza,Maharashtra,Nagpur,Nagpur - Kondhali,6
+85,54001,Patas Plaza,Maharashtra,Pune,Pune - Solapur,9
+86,54002,Sardewadi Plaza,Maharashtra,Pune,Pune - Solapur,9
+87,55001,Ponnambalapatti Plaza,Tamil Nadu,Tiruchirappalli,Trichy - Dindigul,45
+88,56001,Kozhinjiipatti Plaza,Tamil Nadu,Thrissur,Dindigul Bypass - Samyanallore,7
+89,57001,Rasampalayam Plaza,Tamil Nadu,Namakkal,Nammakal - Karur,44 ( NH-7 )
+90,58001,Mettupatti Plaza,Tamil Nadu,Salem,Salem - Ulundrupet,68 (New NH 79)
+91,58002,Nathakkarai Plaza,Tamil Nadu,Salem,Salem - Ulundrupet,68 (New NH 79)
+92,58003,Veeracholapuram Plaza,Tamil Nadu,Kallakurichi,Salem - Ulundrupet,68 (New NH 79)
+93,59001,Thiruparaithurai Plaza,Tamil Nadu,Tiruchirappalli,Trichy-Karur,81
+94,59002,Manavasi Plaza,Tamil Nadu,Dindigul,Trichy-Karur,81
+95,60001,Krishnagiri Plaza,Tamil Nadu,Krishnagiri,Hosur-Krishnagiri,44 ( NH-7 )
+96,61001,Anewadi Toll Plaza,Maharashtra,Satara,Khandala - Satara,4
+97,61002,Khed-Shivapur Toll Plaza,Maharashtra,Pune,"Westerly Diversion, Katraj Realignment & Katraj - Sarole",4
+98,62002,Mahuvan Toll Plaza,Uttar Pradesh,Mathura,Delhi - Agra,2
+99,63001,Bhatwada Toll Plaza,Gujarat,Dahod,Godhra - Gujarat / MP Border,47 (old NH-59)
+100,63101,Karapadu,Andhra Pradesh,Srikakulam,Icchapuram-Puintola,5
+101,69001,Vempadu,Andhra Pradesh,Anakapalli,Ankapalli - Tuni,16(old 5)
+102,70001,Krishnavaram,Andhra Pradesh,Kakinada,Tuni - Diwancheruvu,16(old 5)
+103,73001,Bollapalli Toll Plaza,Andhra Pradesh,Bapatla,Chilakaluripet - Nellore,5
+104,73002,Tangatur Toll Plaza,Andhra Pradesh,Prakasam,Chilakaluripet - Nellore,5
+105,73003,Musunur Toll Plaza,Andhra Pradesh,Nellore,Chilakaluripet - Nellore,5
+106,78001,Indalwai,Telangana,Indalwai,Armur - Adloor – Yellareddy,44
+107,79001,Sakapur Toll plaza,Telangana,Mahabubnagar,Jatcherla - Kotakatta,44
+108,84001,Hariabara,Bihar,Araria,Forbesganj- Purnea (Muzaffarpur-Darbhanga-purnea),27
+109,85001,Asanpur Toll Plaza,Bihar,Supaul,Asanpur - Forbesganj ( Muzaffarpur-Darbhanga-purnea),27
+110,87001,Maithi,Bihar,Muzaffarpur,Muzaffarpur-Darbhanga (Muzaffarpur-Darbhanga-purnea),27
+111,91001,Durg Bypass,Chhattisgarh,Durg,Durg Bypass,53
+112,92001,Thakurtolla toll plaza,Chhattisgarh,Rajnandgaon,End of Durg Bypass-Chhattisgarh / Mah. Border,53
+113,96001,Surajbari Toll Plaza,Gujarat,Morbi,Garamore - Samakhiyali,27
+114,97001,Vaghasiya Toll Plaza,Gujarat,Morbi,Garamore - Bamanbore,27
+115,98001,Vanana Toll Plaza,Gujarat,Rajkot,Porbandar - Bhiladi - Jetpur,8B
+116,99001,Dhumiyani Toll Plaza,Gujarat,Rajkot,Porbandar - Bhiladi - Jetpur,8B
+117,100001,Samakhiali,Gujarat,Kutch,Samakhiyali-Gandhidham,41
+118,103001,Jat Gangaicha Toll Plaza,Haryana,Rewari,Rohtak - Bawal,71
+119,103002,Dighal Toll Plaza,Haryana,Jhajjar,Rohtak - Bawal,71
+120,104001,Makrauli Kalan Toll Plaza,Haryana,Rohtak,Rohtak-Panipat,71A
+121,104002,Dahar Toll Plaza,Haryana,Panipat,Rohtak-Panipat,71A
+122,111001,Hirebgewadi toll plaza,Karnataka,Belagavi,Belgum - Dharwad,4
+123,115001,Kulumapalya toll plaza,Karnataka,Bangalore Rural,Neelmangla - Tumkur,4
+124,115002,Chokkenahalli toll plaza,Karnataka,Tumkur,Neelmangla - Tumkur,4
+125,116001,Banglaore-Nelamangala Plaza,Karnataka,Bangalore Urban & Rural,Banglore - Neelamangla,4
+126,116003,Devanahalli Toll Plaza,Karnataka,Bagalore Rural,Devanhalli - Bangalore,7
+127,118001,Nelamangala Toll Plaza,Karnataka,Bagalore Rural,Neelamangla Junction - Devihalli,75 (old 45)
+128,118002,Bellur Toll Plaza,Karnataka,Mandya,Neelamangla Junction - Devihalli,75 (old 45)
+129,119001,Hoskote Toll Plaza,Karnataka,Bangalore Urban,Banglore-Hoskote-Mulbagal (Banglore-Kolar-Mulbagal),4
+130,119002,Mulbagal Toll Plaza,Karnataka,Kolar,Banglore-Hoskote-Mulbagal (Banglore-Kolar-Mulbagal),4
+131,120001,Shantigrama Toll Plaza,Karnataka,Hassan,Devihalli - Hassan,48
+132,120002,Kadabhalli (Kirasave) Toll Plaza,Karnataka,Mandya,Devihalli - Hassan,48
+133,123001,Paliyekkara Toll plaza,Kerala,Thrissur,Thrissur-Angamali-Edapalli,544
+134,124001,Kumbalam Toll Plaza,Kerala,Ernakulam,Edapalli – Vyttila – Aroor,66
+135,125002,Choundha,Madhya Pradesh,Morena,Agra-Gwalior NH44(Ch 59.000 to Ch 103.000),44
+136,125003,Baretha or Jajau,Uttar Pradesh,Agra (UP),Agra-Gwalior NH44 (Ch 13.000 to Ch 59.000),44
+137,127001,Malthone,Madhya Pradesh,Sagar,44,Sagar
+138,127002,Chitora,Madhya Pradesh,Sagar,44,Sagar
+139,127003,Titarpani,Madhya Pradesh,Sagar,44,Sagar
+140,127004,Bakori,Madhya Pradesh,Narsinghpur,44,Sagar
+141,131001,Jamli Toll Pllaza,Madhya Pradesh,Barwani,NH-52/ Khalghat -Mp/Maharashtra Border,52
+142,132001,IDTL Toll Plaza-A,Madhya Pradesh,Indore,NH-52 / Indore - Dewas,52
+143,132002,IDTL Toll Plaza-B,Madhya Pradesh,Indore,NH-52 / Indore - Dewas,52
+144,137001,Mathani,Maharashtra,Nagpur,Nagpur-Wainganga Bridge,6
+145,138001,Sendurwafa toll plaza,Maharashtra,Bhandara,Chattisgarh/Maharashtra Border - Wainganga Bridge,6
+146,139001,Shirpur,Maharashtra,Dhule,MP/Maharashtra Border - Dhule,3
+147,139002,Songir,Maharashtra,Dhule,MP/Maharashtra Border - Dhule,3
+148,140001,Chandwad toll plaza,Maharashtra,Nashik,Pimpalgoan - Dhule,3
+149,140002,Laling toll plaza,Maharashtra,Dhule,Pimpalgoan - Dhule,3
+150,142001,Ghoti toll plaza,Maharashtra,Nashik,Vadape - Gonde,3
+151,142002,Arjunalli toll plaza,Maharashtra,Thane,Vadape - Gonde,3
+152,148001,Manguli Toll Plaza,Odisha,CUTTACK,Bhubaneshwar- Jagatpur-Chandikhole section,5
+153,151001,Sambalpur Baragarh Tollways,Odisha,SAMBALPUR,Sambalpur – Baragarh – Orissa / Chhatisgarh Border,6
+154,154001,Gharonda Toll Plaza,Haryana,Karnal,Panipat-Jalandhar,44 (old NH-1)
+155,154002,Sambhu Toll Plaza,Haryana,Ambala,Panipat-Jalandhar,44 (old NH-1)
+156,154003,Ladowal Toll Plaza,Punjab,Ludhiana,Panipat-Jalandhar,44 (old NH-1)
+157,155001,Chandimandir Toll Plaza,Haryana,Panchkula,Zirakpur -Parwanoo,22 (new NH 5)
+158,157001,Behrampur,Punjab,Ropar,Kiratpur - Kurali,21 (New NH-205)
+159,158001,Harsa Mansar Toll Plaza,Punjab,Hoshiarpur,Jallandhar-Punjab/J&K border,44 (old NH 1A)
+160,159001,Chollang Toll Plaza,Punjab,Hoshiarpur,Jallandhar-Punjab/J&K border,45 (old NH 1A)
+161,163001,Ludhwai Toll Plaza,Rajasthan,Bharatpur,Bharatpur-Mahua,11
+162,163002,Amoli Toll Plaza,Rajasthan,Bharatpur,Bharatpur-Mahua,11
+163,164001,Sikandra Toll Plaza,Rajasthan,Mahua,Jaipur - Mahua,11
+164,164002,Rajadhok Toll Plaza,Rajasthan,Jaipur,Jaipur - Mahua,11
+165,167001,Vaniyambadi Toll Plaza,Tamil Nadu,Tirupathur,Krishnagiri -walajhapet,48 ( NH-46
+166,167002,Pallikonda Toll Plaza,Tamil Nadu,Vellore,Krishnagiri -walajhapet,48 ( NH-46
+167,169001,L&T Krishnagiri Thopur Toll Plaza,Tamil Nadu,Dharmapuri,Krishnagiri - Thopurghat,44 ( NH-7
+168,170001,Velanchettiyur,Tamil Nadu,Dindigul,Karur Bypass - Dindigul Bypass,7
+169,176001,Valvanthankottai,Tamil Nadu,Valvanthankottai,Thanjavur - Trichy,67
+170,176002,Elliyarpathy,Tamil Nadu,Virudhunagar,Madurai Tuticorin,45B
+171,176003,Pudurpandiyapuram,Tamil Nadu,Thoothukudi,Madurai Tuticorin,45B
+172,177001,Pondicherry Tindivanam Toll Plaza,Tamil Nadu,Viluppuram,Pondicherry - Tindivanam,32/NH-66
+173,180001,Tundla Toll Plaza,Uttar Pradesh,Firozabad,Tundla makhanpur section,2 (New 19)
+174,180002,Gurau (Semra Atikabad),Uttar Pradesh,Firozabad,Makhanpur-Etawah and Etawh Bypass section,2 (New 19)
+175,182001,Salemgarh Toll Plaza,Uttar Pradesh,Dewaria,Gorakhpur-Kasya-UP/bihar Border OMT-27A,28
+176,183001,Muzaina Hetim Toll Plaza,Uttar Pradesh,Dewaria,Gorakhpur-Kasya-UP/bihar Border OMT-27A,28
+177,184001,Tendua Toll Plaza,Uttar Pradesh,Gorakhpur,Gorakhpur-Kasya-UP/bihar Border OMT-27A,28
+178,185001,Chaukadi Toll Plaza,Uttar Pradesh,Basti,Ayodhya – Gorakhpur,28 (new NH-27)
+179,186001,Mandawnagar Toll Plaza,Uttar Pradesh,Basti,Ayodhya – Gorakhpur,28 (new NH-27)
+180,187001,Nawabganj Toll Plaza,Uttar Pradesh,Unnao,Kanpur-Ayodhya (Lucknow),25 (New NH-27)
+181,187002,Ahmadpur Toll Plaza,Uttar Pradesh,Barabanki,Lucknow Bypass and Lucknow-Ayodhya section,28 (New NH-27)
+182,187003,Ronahi,Uttar Pradesh,Ayodhya,Kanpur-Ayodhya (Lucknow),27
+183,189001,AIT Toll Plaza,Uttar Pradesh,"Auraiya, Etawah, and Kanpur",Poonch- Orai Section,Jhansi
+184,190001,Semri Toll Plaza,Uttar Pradesh,Jhansi,Jhansi to Poonch section,25 (New NH-27)
+185,193001,Brijghat Toll Plaza,Uttar Pradesh,Hapur,Hapur - Garhmuketeshwar,24 (New NH-9)
+186,194001,Joya Toll Plaza,Uttar Pradesh,Amroha,Hapur Bypass to Moradabad Section,24 (New NH-9)
+187,196001,Itaunja Toll Plaza,Uttar Pradesh,Lucknow,Lucknow - Sitapur,24
+188,197001,Kherabad,Uttar Pradesh,Sitapur,Lucknow - Sitapur,24
+189,199001,KOKHRAJ (Sirohi) Toll Plaza,Uttar Pradesh,Kausambhi,Allahabad Bypass,2 ( new NH-19)
+190,199002,HANDIYA (Sujala ) Toll Plaza,Uttar Pradesh,Prayagraj,Allahabad Bypass,2 ( new NH-19)
+191,199003,Nawabganj Toll Plaza P,Uttar Pradesh,Prayagraj,Allahabad Bypass,2 ( new NH-19)
+192,199004,SORAON Toll Plaza,Uttar Pradesh,Prayagraj,Allahabad Bypass,2 ( new NH-19)
+193,199005,SAHSON Toll Plaza,Uttar Pradesh,Prayagraj,Allahabad Bypass,2 ( new NH-19)
+194,201001,Madrak Toll Plaza,Uttar Pradesh,Aligarh,Agra-Aligarh,93 ( New NH-509)
+195,201002,Baros Toll Plaza,Uttar Pradesh,Hathras,Agra-Aligarh,93 ( New NH-509)
+196,204001,Rajchandrapur Toll Plaza,West Bengal,Howrah,IInd Vivekananda Bridge & Approach,12 (Old NH-2)
+197,205001,Jaladhulagori toll plaza,West Bengal,Howrah,Dhankuni -kharagpur,16 (Old NH-6)
+198,205002,Debra toll plaza,West Bengal,Paschim Medinipur,Dhankuni -kharagpur,16 (Old NH-6)
+199,208001,Sonapetya,West Bengal,Purba Medinipur,Kolaghat-Haldia,116 (Old NH-41)
+200,209001,Beliyad toll plaza,Jharkhand,Dhanbad,Barwa adda- Panagarh,19 (Old NH-2)
+201,210001,Chandermore Plaza,West Bengal,Murshidabad,Behrampore - Farakka (km 193 - km 295),12 (Old NH -34)
+202,210002,Shibpur Plaza,West Bengal,Murshidabad,Behrampore - Farakka (km 193 - km 295),12 (Old NH -34)
+203,212001,Laxmipuram,Andhra Pradesh,Srikakulam,Icchapuram-Narasannapeta,16(old 5)
+204,215001,Aliyapur Toll Plaza,Uttar Pradesh,Hamirpur,Kanpur-Kabrai section,86
+205,215002,Khanna Toll Plaza,Uttar Pradesh,Ludhiana,Kanpur-Kabrai (2-laning with PS),86
+206,216001,Sivaya Toll Plaza,Uttar Pradesh,Meerut,Meerut - Muzaffarnagar,58
+207,217001,Bhatia Toll Plaza,Gujarat,Kutch,Gujarat/Mah Border - Surat-Hazira port section,53
+208,217002,Mandal Toll Plaza,Gujarat,Ahmedabad,Gujarat/Mah Border - Surat-Hazira port section,53
+209,220001,Raipur,Rajasthan,Raipur,Beawar- Pali- Pindwara,14
+210,220002,Indranagar,Rajasthan,Jodhpur,Beawar- Pali- Pindwara,14
+211,220003,BIRAMI,Rajasthan,Jodhpur,Beawar- Pali- Pindwara,14
+212,220004,UTHMAN,Rajasthan,Sirohi,Beawar- Pali- Pindwara,14
+213,230001,IVRCL Chengapally Tollways Limited,Tamil Nadu,Coimbatore,Chenagapalli - Coimbatore - TN/Kerala Border,544 ( NH-47 )
+214,234002,Chagalmarri Toll Plaza,Andhra Pradesh,Nandyal,40 (Old 18),Kadapa
+215,235001,Mandawara Toll Plaza,Rajasthan,Rajsamand,4lane Gomati Chauraha-Udaipur section of NH - 58 in Rajasthan (BOT),58
+216,235002,Negadiya Toll Plaza,Rajasthan,Rajsamand,4lane Gomati Chauraha-Udaipur section of NH - 58 in Rajasthan (BOT),58
+217,239100,Luhari Village,Uttar Pradesh,Alighar,Ghaziabad-Aligarh Section,91
+218,239101,Gabhana (Somna Toll plaza,Uttar Pradesh,Alighar,Ghaziabad-Aligarh Section,91
+219,239300,Unguturu Toll Plaza,Andhra Pradesh,Eluru,Siddhantham - Gundugolanu,216A(Old 5)
+220,239301,Eethakota at Km.946.300,Andhra Pradesh,Dr. B. R. Ambedkar Konaseema,Diwancheruvu - Siddhantham,216A(Old 5)
+221,239400,Rohad,Haryana,Jhajjar,Delhi / Haryana Border - Rohtak,10
+222,239600,Nangli Toll Plaza,Karnataka,Kolar,Mulbagal-Karnataka / AP border,4
+223,239700,PamPamPallam Toll Plaza,Kerala,Palakkad,Walayar-Vadakkancherry,544
+224,239900,Raje Toll Plaza (T-2),Bihar,Darbhanga,Darbhanga-Asanpur (Muzaffarpur-Darbhanga-purnea),27
+225,241700,Chhuhipali Toll Plaza,Chhattisgarh,Mahasamund,Orissa/Chattisgarh border- Aurang,53
+226,241701,Dhank Toll Plaza,Chhattisgarh,Mahasamund,Orissa/Chattisgarh border- Aurang,53
+227,241900,Lakholi/ Mandir Hasaud Toll Plaza,Chhattisgarh,Raipur,53,Raipur 1
+228,242000,Madina Toll Plaza,Haryana,Rohtak,Rohtak-Hissar,10 (New NH-09)
+229,242001,Mayar Toll Plaza,Haryana,Hisar,Rohtak-Hissar,10 (New NH-09)
+230,243000,Rupakheda Toll Plaza,Rajasthan,Chittaurgarh,4lane Rajsamand-Bhilwara section (km. 0 to 87.25) in Rajasthan (BOT),758
+231,243001,Mujras Toll Plaza,Gujarat,Ahmedabad,4lane Chittorgarh-Kota section of from (km.891.929 to km. 1052.429) in the State of Rajasthan,27
+232,244000,18th Mile (Lakshmipur ) Toll Plaza,West Bengal,Malda,Farakka-Raiganj,12 (Old NH -34)
+233,244001,Gazole (Bagsarai )Toll Plaza,West Bengal,Malda,Farakka-Raiganj,12 (Old NH -34)
+234,245001,SONWAY Toll Plaza,Madhya Pradesh,Indore,NH-52 / Indore - Khalghat,52
+235,257001,Sasthan Toll Plaza,Karnataka,Udupi,66 (Old 17),Mangalore
+236,257002,Hejamadi Toll Plaza,Karnataka,Udupi,66 (Old 17),Mangalore
+237,257003,Talapady Toll Plaza,Karnataka,Dakshina Kannada,66 (Old 17),Mangalore
+238,280001,Govindpur (Murlitol ),Bihar,Begusarai,Muzaffarpur - Barauni,122
+239,284001,Mahant Maniyari,Bihar,Muzaffarpur,Muzaffarpur - Barauni,122
+240,311001,Akshardham Plaza DME KM 2500,Delhi,New Delhi,DELHI MEERUT EXPRESSWAY,9
+241,311002,Ghazipur Plaza DME KM 7500,Delhi,New Delhi,DELHI MEERUT EXPRESSWAY,9
+242,311003,Sarai Kalen Khan,Delhi,New Delhi,Delhi-Meerut Expressway (EPE),334
+243,311004,CWG Flyover Plaza DME KM 1500,Delhi,New Delhi,DELHI MEERUT EXPRESSWAY,9
+244,311005,Indirapuram Plaza DME KM 9500,Delhi,New Delhi,Delhi-Meerut Expressway (EPE),334
+245,312001,Narwana,Haryana,Jind,Kaithal-Haryana/Rajasthan Border,65 (New NH-52)
+246,312002,Bado patti,Haryana,Hisar,Kaithal-Haryana/Rajasthan Border,65 (New NH-52)
+247,312003,Chaudhariwas,Haryana,Hisar,2-LPS Kaithal to Haryana Rajasthan Border,65 (New NH-52)
+248,312017,Bhavdeen Plaza,Haryana,Sirsa,Hissar-dabwali (Pkg-II),10 (New -9)
+249,312018,Khuian Malkna,Haryana,Sirsa,Hissar-dabwali (Pkg-II),10 (New -9)
+250,312019,Main Plaza Village Jakhauli,Haryana,Sonipat,NH NE -II(National Highway on NE-II) (EPE) Eastern peripheral Expressway,NE-II
+251,312020,Maujpur,Haryana,East Delhi,NH NE -II(National Highway on NE-II) (EPE) Eastern peripheral Expressway,NE-II
+252,312021,Chhajju Nagar,Haryana,Palwal,NH NE -II(National Highway on NE-II) (EPE) Eastern peripheral Expressway,NE-II
+253,312022,Bhagan Toll Plaza,Haryana,Sonipat,Delhi/Haryana/Kundli Border - Panipat,1
+254,312023,Landhari Toll Plaza,Haryana,Hisar,Hissar-dabwali,10 (New -9)
+255,312024,MilkMajra,Haryana,Yamunanagar,UP/Haryana Border-Yamunanagar-Saha-Barwala-Panchkula,73
+256,312025,Kitlana,Haryana,Bhiwani,Raj./Hr. Border-Bhiwani-Hansi-Punjab Border,148B
+257,312026,Chhara,Haryana,Jhajjar,Rohna-Hassangarh-Jhajjar,334B
+258,312027,Badarpur Faridabad Toll plaza,Haryana,South East,Badarpur Elevated Highways,2
+259,312028,Peont,Haryana,Karnal,Jind-Karnal ( Ch. 128.800),709A
+260,312029,Saini Majra Toll Plaza,Haryana,Ambala,Ambala-Pehowa,152 (old NH-65)
+261,312030,Thana Village Toll Plaza,Haryana,Kurukshetra,Pehowa-Kaithal,152 (old NH-65)
+262,312031,Khatkar Toll plaza,Haryana,Jind,Punjab/Hr. Border - Jind-4L,71 (new-352)
+263,312032,Jaloli Fee Plaza,Haryana,Panchkula,Yamunanagar - Panchkula,73 (new NH-7)
+264,312035,Sirohi Bahali,Haryana,Mahendragarh,"Mor-Narnaul-Pacheri Kalan,Bharatmala",148B
+265,312047,Ghamroj Sohna Road Toll Plaza,Haryana,Gurugram,Gurgaon-Sohna Section,248A
+266,312048,Jharoti,Haryana,Sonipat,UP- Haryana borderSonipat- Jhajjar,334B
+267,312049,Karman Toll Plaza,Haryana,Palwal (Hodal),Delhi - Agra,2
+268,312050,Gadpuri Toll Plaza,Haryana,Palwal,Delhi - Agra (Srinagar plaza shifted in two locations),2
+269,312051,Chandlana Toll Plaza,Haryana,Kaithal,Ismailabad-Gangheri,152D
+270,312052,Mohna Toll Plaza,Haryana,Kaithal,Ismailabad-Gangheri,152D
+271,312053,Kheri Sharaf Ali Toll Plaza,Haryana,Karnal,Ismailabad-Gangheri,152D
+272,312054,Bahri Toll Plaza,Haryana,Karnal,Ismailabad-Gangheri,152D
+273,312055,Amrawali Khera Toll Plaza,Haryana,Jind,Ismailabad-Gangheri,152D
+274,312056,Chabri Toll Plaza,Haryana,Jind,Ismailabad-Gangheri,152D
+275,312057,Kilazafargarh Toll Plaza,Haryana,Jind,Ismailabad-Gangheri,152D
+276,312058,Bainsi Toll Plaza,Haryana,Rohtak,Ismailabad-Gangheri,152D
+277,312059,Kharkhara Toll Plaza,Haryana,Rohtak,Ismailabad-Gangheri,152D
+278,312060,Kherari Toll Plaza,Haryana,Rohtak,Ismailabad-Gangheri,152D
+279,312061,Dadri Toll Plaza,Haryana,Charkhi Dadri,Ismailabad-Gangheri,152D
+280,312062,Buchawas Toll Plaza,Haryana,Mahendragarh,Ismailabad-Gangheri,152D
+281,312063,Bhalkhi Toll Plaza,Haryana,Mahendragarh,Ismailabad-Gangheri,152D
+282,312064,Jat Guwana Toll Plaza,Haryana,Mahendragarh,Ismailabad-Gangheri,152D
+283,312065,Pabanawa Toll Plaza,Haryana,Kaithal,Ismailabad-Gangheri,152D
+284,312066,Bamla Toll Plaza,Haryana,Bhiwani,148B,Sonepat
+285,312067,Hilalpur Fee Plaza,Haryana,Nuh,Delhi-Vadodra Expressway in the states of Haryana and Rajasthan on EPC Mode,NE-4
+286,312068,Khalilpur Plaza( for Delhi Mumbai Expressway closed tolling),Haryana,Nuh,Delhi-Vadodra Expressway in the states of Haryana and Rajasthan on EPC Mode,NE-4
+287,312069,Kalinger Fee Plaza,Haryana,Nuh,Delhi-Vadodra Expressway in the states of Haryana and Rajasthan on EPC Mode,NE-4
+288,312070,Ghata Samsabad Fee Plaza,Haryana,Nuh,Delhi-Vadodra Expressway in the states of Haryana and Rajasthan on EPC Mode,NE-4
+289,312071,Tamsabad,Haryana,Panipat,Panipat Shamli section of NH-709AD,709AD
+290,312072,Pudapada Nildungri Toll Plaza,Odisha,SAMBALPUR,Teleibani to Sambalpur Section,6 (New NH-53)
+291,312073,Kiranj Toll Plaza,Haryana,Nuh,DND- Faridabad - Sohna / 6 Lane,148NA
+292,313003,Morwala,Haryana,Charkhi Dadri,Jhajjar-Loharu (2-LPS) (Ch. 32.460),334B
+293,313004,Bass Toll Plaza,Haryana,Hisar,Bhiwani-Mundhal-Jind (Ch. 41.632),709A
+294,313005,Bisalwas,Haryana,Bhiwani,Jhajjar-Loharu (2-LPS) (Ch. 88.950),334B
+295,314014,Chak Bamniya,Punjab,Jalandhar,Lambra-Shahkot-Moga-Barnala,703 (Old NH-71)
+296,314015,Badbar,Punjab,Sangrur,Sangrur Bypass - Tapa including Sangarur and Dhanaula bypass,64 (new 7)
+297,314016,Lehra Begga,Punjab,Bathinda,Tapa-Bathinda (4-LPS IV),64 (new 7)
+298,314017,Kalajhar Toll Plaza,Punjab,Sangrur,Patiala Bypass - Sangrur bypass 4-LPS,64 (new 7)
+299,314018,Usma Toll plaza,Punjab,Tarn Taran,Amritsar-Taran to taran Harike section (4-LPS IV),54
+300,314019,Zidda Toll Plaza,Punjab,Bathinda,Faridkot-Kotkapura-Bathinda (4-LPS IV),15 (new 54)
+301,314020,Dhareri Jattan,Punjab,Patiala,Zirakpur - Patiala section,64 (new 7)
+302,314021,Azizpur,Punjab,Mohali,Zirakpur - Patiala section,64 (new 7)
+303,314022,Kot Karora Kalan Plaza,Punjab,Ferozepur,Harike-Zira-Faridkot (4-LPS IV),15 (new 54)
+304,314023,Paind Toll Plaza,Punjab,Patiala,Sangrur-Dugal kalan,71 (New-52)
+305,314024,Chiddan Toll Plaza,Punjab,Amritsar,Amritsar - Wagah Border,3
+306,314025,BHAGOMAJRA TOLL PLAZA,Punjab,SAS Nagar,Kharar-Ludhiana (Phase-V),5 (Old-95)
+307,314026,GHULAL,Punjab,Ludhiana,Kharar-Ludhiana (Phase-V,5 (Old-95)
+308,314027,Behram,Punjab,SBS Nagar,Ropar - Phagwara,344A
+309,314028,Bachhwan,Punjab,SBS Nagar,Ropar - Phagwara,344A
+310,314029,Chaukiman/Gurhe,Punjab,Ludhiana,Ludhiana - Talwandi NHDP-III,5(Old-95)
+311,314032,Jagjitpura Toll Plaza,Punjab,Barnala,Lambra-Shahkot-Moga-Barnala Section,71
+312,314033,Chahar,Punjab,Ludhiana,Four lane Laddowal Bypass,95
+313,314034,Shekhpura Toll Plaza,Punjab,Bathinda,Rampura-Maur-Talwandi Manai for the Section,254
+314,314035,Ludana Toll Plaza,Haryana,Patiala,Jind-Gohana-Sonepat,352A
+315,314036,Kala Tibba Toll Plaza,Punjab,Fazilka,Dabwali-Situgunno-Abohar Section,354E
+316,314037,Ferozeshah Toll Plaza,Punjab,Ferozepur,Talwandi Bhai to Ferozepur,5
+317,314038,Balluana Toll Plaza,Punjab,Bathinda,Bathinda-Malout section of NH-07),7
+318,314039,Manan,Punjab,Tarn Taran,Khemkaran Town - Amritsar Bypass,354
+319,314040,Karahewala,Punjab,Moga,Moga (Design Ch. 0+000) to Makhu (Design Ch. 33+611),703B
+320,314041,Bhagupur Toll Plaza,Punjab,Tarn Taran,Harike to Khalra,703B
+321,314042,Darapur Toll Plaza,Punjab,Moga,Ludhiana to Talwandi section,95
+322,317002,Dolhu Nallah Fee Plaza,Himachal Pradesh,Kullu,Kullu - Manali-2LPS,21 (new-3)
+323,317003,Sanwara Toll Plaza,Himachal Pradesh,Solan,Khajuwala Poogal Section of NH 911A & 911,911A & 911
+324,318004,Bann Toll Plaza,Jammu & Kashmir,Nagrota,Jammu Bypass - Udhampur,1A (44 new)
+325,318006,Kachkoot,Jammu & Kashmir,Srinagar,Srinagar-Qazigund,1A (New NH-44)
+326,318007,Lakhanpur,Jammu & Kashmir,Kathua,Jammu-Pathankot,1A (44 new)
+327,318009,Nasri,Jammu & Kashmir,Udhampur,Udhampur-Ramban-Marog section including Chenani-Nashri tunnel (RHS),1A (New NH-44)
+328,318010,Mada,Jammu & Kashmir,Ramban,Udhampur-Ramban-Marog section including Chenani-Nashri tunnel (LHS),1A (New NH-44)
+329,318011,Ujroo,Jammu & Kashmir,Anantnag,Marog-Banihal-Qazigund section (RHS),44
+330,318012,Lamber,Jammu & Kashmir,Banihal,Marog-Banihal-Qazigund section (LHS),44
+331,320028,Andiyari,Uttar Pradesh,Allahabad,Raebareli-Allahabad,24B (new NH-30)
+332,320052,Raibha toll plaza,Uttar Pradesh,Agra,Agra Bypass,3
+333,320053,Aaini Toll Plaza,Uttar Pradesh,Agra,Jarwal - Bahraich Bypass,28C
+334,320054,Mavikala,Uttar Pradesh,Ghaziabad,NH NE -II(National Highway on NE-II) (EPE) Eastern peripheral Expressway,NE-II
+335,320055,Duhai,Uttar Pradesh,Ghaziabad,NH NE -II(National Highway on NE-II) (EPE) Eastern peripheral Expressway,NE-II
+336,320056,Dasana,Uttar Pradesh,Ghaziabad,NH NE -II(National Highway on NE-II) (EPE) Eastern peripheral Expressway,NE-II
+337,320057,Bilakbarpur,Uttar Pradesh,Ghaziabad,NH NE -II(National Highway on NE-II) (EPE) Eastern peripheral Expressway,NE-II
+338,320058,Fatehpur Rampur,Uttar Pradesh,Fatehpur,NH NE -II(National Highway on NE-II) (EPE) Eastern peripheral Expressway,NE-II
+339,320059,Chhajarsi,Uttar Pradesh,Ghaziabad,Delhi-Hapur section (part of Delhi-Meerut Expressway ],24
+340,320060,Badauri Toll Plaza,Uttar Pradesh,Fatehpur,Chakeri - Usrania,2
+341,320062,Lalanagar Toll Plaza,Uttar Pradesh,Bhadhoi,Handia to Rajatalab Section (Allahabad - Handia - Varanasi),2 ( New NH-19)
+342,320063,Katoghan Toll Plaza,Uttar Pradesh,Fatehpur,Rampur-Thariwan-Kokhraj section,2 (New 19)
+343,320064,Jindpur Toll Plaza,Uttar Pradesh,Fatepur,Raebareilly-Banda (2-LPS),232 (New NH-335)
+344,320065,Aihar Toll Plaza,Uttar Pradesh,Raebareli,Raebareilly-Banda (2-LPS),24B (New NH-31)
+345,320066,Gulalpurva,Uttar Pradesh,Hardoi,Bahraich Bypass - Rupadiha,2 (New 19)
+346,320067,Babina Toll Plaza,Uttar Pradesh,Jhansi,Jhansi - Lalitpur (Annuity Project),26 (New NH-44)
+347,320068,Vighakhet Toll Plaza,Uttar Pradesh,Lalitpur,Jhansi to Lalitpur section,26 (New NH-44)
+348,320069,Dakhina Shekpur Toll Plaza,Haryana,Rewari,Lucknow-Raibrelly,24 B (New NH-30)
+349,320070,Bara Toll Plaza,Uttar Pradesh,Sultanpur,Lucknow-Sultanpur section,56
+350,320071,Ukasa (Chamari) Toll Plaza,Uttar Pradesh,Baghpat,Bara-Orai section,25
+351,320072,Pidhi Toll Plaza,Uttar Pradesh,Sultanpur,Tanda- Raebareli - 2-LPS,232 (New NH-128)
+352,320073,Nuruddinpur toll plaza,Uttar Pradesh,Raebareli,Raibareilli-Jaunpur,231
+353,320074,Raksha,Uttar Pradesh,Shivpuri,Shivpuri Jhansi NH27 (Ch 1305.087 to Ch 1380.387),27
+354,320075,Kunwarpur,Uttar Pradesh,Jaunpur,Raibareilli-Jaunpur,231
+355,320076,Asroga Toll Plaza,Uttar Pradesh,Hapur,Lucknow - Sultanpur (HAM),56 (New NH-731)
+356,320077,Kurana Toll Plaza,Uttar Pradesh,Hapur,Meerut-Bulandshahar,334(old235)
+357,320078,Sherpur Chamraha,Uttar Pradesh,Gorakhpur,Gorakhpur Bypass,24
+358,320079,Sayyad Mazra,Uttar Pradesh,Saharanpur,Roorkee-Chutmalpur-Gagalheri and Chutmalpur-Ganeshpur NHDP-IV,73 & 72A
+359,320080,Sarsawa Toll Plaza,Uttar Pradesh,Saharanpur,Gagalheri-Saharanpur-Yamunanagar (UP/Haryana border) NHDP-IV,73
+360,320081,koyla,Uttarakhand,Uttarakhand,Rampur - Kathgodam NHDP-III,87
+361,320082,Mungari,Uttar Pradesh,Prayagraj,Cable Stayed Bridge at Naini and its approach,35
+362,320083,Shahabpur,Uttar Pradesh,Barabanki,Barabanki-Jarwal section,28C (New NH-927)
+363,320084,Nainsar,Uttar Pradesh,Gorakhpur,Sonauli to Gorakhpur (2-LPS),24(Old 29E)
+364,320085,Mohammad Ibrahimpur,Uttar Pradesh,Moradabad,Aligarh-Moradabad Section,509
+365,320086,Sabli Toll Plaza,Uttar Pradesh,Puranpur,Powayan - Puranpur 2-LPS,730A
+366,320087,Harro Toll Plaza near Ganne,Uttar Pradesh,Prayagraj,Allahabad-UP/MP Border,30
+367,320089,Bharatkund,Uttar Pradesh,Ayodhya,Prayagraj-Ayodhya,330(old-96)
+368,320090,Akshda,Uttar Pradesh,Basti,Rudhauli to Basti side of Ghaghra Bridge section - 2LPS,233
+369,320091,Belon,Uttar Pradesh,Bulandshahr,Aligarh-Moradabad Section,509
+370,320092,Hadwa,Uttar Pradesh,campierganj,Farenda - Maharajganj - 2LPS,730
+371,320093,Amdi Fee Plaza,Uttar Pradesh,Azamgarh,Gaghra Bridge - Varanasi 4-LPS,233 (New NH-28)
+372,320094,Aindhi Toll Plaza,Uttar Pradesh,Amethi,Tanda- Raebareli - 2-LPS,232 (New NH-128)
+373,320095,Ramnagar Gansiyari,Uttar Pradesh,Prayagraj,Pratapgarh-Allahabad Bypass,96 (New NH-330)
+374,320096,Dularpur,Uttar Pradesh,Bahraich,Bahraich-Shrawasti,730
+375,320097,Umapur,Uttar Pradesh,Prayagraj,Cable Stayed Bridge at Naini and its approach,35
+376,320098,Chhapar,Uttar Pradesh,Muzaffarnagar,Muzaffarnagar-Haridwar HDP-III,58
+377,320099,Jiwana,Uttar Pradesh,Baghpat,EPE crossing to shamli bypass,709B
+378,320100,Dundahera,Uttar Pradesh,Ghaziabad,Delhi-Meerut Expressway (EPE),334
+379,320101,Dasna,Uttar Pradesh,Ghaziabad,Delhi-Meerut Expressway (EPE),334
+380,320102,Rasoolpur,Uttar Pradesh,Ghaziabad,Delhi-Meerut Expressway (EPE),334
+381,320103,Bhojpur Plaza DME KM 4570,Uttar Pradesh,Ghaziabad,Delhi-Meerut Expressway (EPE),334
+382,320104,DME KM 5200,Uttar Pradesh,Meerut,DELHI MEERUT EXPRESSWAY,9
+383,320105,Partapur Plaza DME KM 5900,Uttar Pradesh,Meerut,DELHI MEERUT EXPRESSWAY,9
+384,320106,Noida Plaza DME KM 1400,Uttar Pradesh,Ghaziabad,DELHI MEERUT EXPRESSWAY,9
+385,320107,Mehrauli Plaza DME KM 2350,Uttar Pradesh,Ghaziabad,DELHI MEERUT EXPRESSWAY,9
+386,320108,Puraini toll plaza,Uttar Pradesh,Nalanda,Nagina-Kashipur,74
+387,320109,Aaspur Plaza,Uttar Pradesh,Etah,Aligarh-Kanpur,91
+388,320110,Badagaon,Uttar Pradesh,Balrampur,Bahrampur to Tulsipur Section,730
+389,320111,Gulhaura,Uttar Pradesh,Sidharthnagar,Balrampur to Tulsipur Section)-2LPS,730
+390,320112,Kashi Plaza DME KM 5823,Uttar Pradesh,Meerut,Delhi-Meerut Expressway (EPE),334
+391,320113,Itora Buzurg,Uttar Pradesh,Raebareli,Raebareli to Allahabad (Prayagraj),30(NH-24B)
+392,320114,Semra,Uttar Pradesh,Maharajganj,Gorakhpur-Partawal-Maharajganj section,730
+393,320116,Shrishikalan,Uttar Pradesh,Mahoba,Kabarai-Banda,76
+394,320130,Kaithi,Uttar Pradesh,Varansi,Varanasi-Gorakhpur,29
+395,320131,Tarwa Deva,Uttar Pradesh,Mainpuri,Aligarh-Kanpur,91
+396,320132,Atralia SivGulam,Uttar Pradesh,Mirzapur,Varansi to Hanumana pkg-III,7 (New NH-135)
+397,320133,Lohari Toll Plaza,Uttar Pradesh,Jhansi,From km 0.000 to km 76.603 (Jhansi-Khajuraho Section NH-39),39
+398,320134,Belgada Toll Plaza,Uttar Pradesh,Gorakhpur,Indo Nepal Border - Rudahuali,233
+399,320135,Sarai Sundarpur,Uttar Pradesh,Bareilly,Pilibhit - Puranpur,730
+400,320136,Hitouta Toll Plaza,Uttar Pradesh,Khutar,Puranpur-Khutar Section,730
+401,320137,Baleni,Uttar Pradesh,Baghpat,Meerut - Baghpat,334B
+402,326002,Deoria Toll Plaza,Uttarakhand,Udham Singh Nagar,Kashipur-Sitarganj (4 L),74
+403,326005,Banushi,Uttarakhand,Dehradun,Sitrganj-Tanakpur,125
+404,326006,Bhagwanpur,Uttarakhand,Roorkee,Roorkee-Chutmalpur-Gagalheri and Chutmalpur-Ganeshpur NHDP-IV,73 & 72A
+405,326007,Bhadarabad,Uttarakhand,Roorkee,Muzaffarnagar-Haridwar NHDP-III,334 (Old-58)
+406,326008,Lacchiwala,Uttarakhand,Dehradun,Haridwar-Dehradoon Phase-III,72
+407,326009,Jagtapur Patti Toll Plaza,Uttarakhand,Najibabad,Nagina-Kashipur,74
+408,330002,Lasedi,Rajasthan,Churu,Rajasthan Border-Fatehpur-Salasar (2 lane with PS),65
+409,330003,Dhadhar,Rajasthan,Churu,Rajasthan Border-Fatehpur-Salasar (2 lane with PS),65
+410,330004,Sobhasar,Rajasthan,Churu,Rajasthan Border-Fatehpur-Salasar (2 lane with PS),65
+411,330007,Lambiya Kalan,Rajasthan,Bhilwara,6lane Gulabpura-Chittorgarh Section of from of NH-79 PKG-II (BOT),48
+412,330008,Khedi,Rajasthan,Bhilwara,48,Ajmer
+413,330016,Khara Toll Plaza,Rajasthan,Bikaner,Jamsar-Bikaner,62
+414,330017,Bhadera Toll Plaza,Rajasthan,Bikaner,Jamsar-Bikaner,62
+415,330018,Hindore Toll Plaza,Rajasthan,Bikaner,Rajiyasar-Suratgarh Ganganagar,62
+416,330019,Salsar Toll Plaza,Rajasthan,Bikaner,Bikaner Phalodi section of NH 11 (BOT),11
+417,330020,Nokhra Toll Plaza,Rajasthan,Bikaner,Bikaner Phalodi section of NH 11 (BOT),11
+418,330021,Kheerwa Toll Plaza,Rajasthan,Bikaner,Bikaner Phalodi section of NH 11 (BOT),11
+419,330025,Rajora Khurd,Rajasthan,Dholpur,Uncha Nagla-Khanua-Roopwas-Dholpur,123
+420,330030,Kadisahena,Rajasthan,Bhilwara,Gulabpura-Uniara,148D
+421,330031,Lal ka Khera,Rajasthan,Bhilwara,Gulabpura-Uniara,148D
+422,330032,Pallai,Rajasthan,Rajasthan,Gulabpura-Uniara,148D
+423,330053,Nimbali,Rajasthan,Pali,Jodhpur-Palli,62
+424,330054,Gajangarh,Rajasthan,Pali,Jodhpur-Palli,62
+425,330055,Ochadi,Rajasthan,Chittorgarh,#N/A,79
+426,330056,Nimbaheda,Rajasthan,Chittorgarh,#N/A,79
+427,330057,Narsingharh,Rajasthan,Chittorgarh,#N/A,113
+428,330058,Sidhpura,Rajasthan,Pratapgarh,#N/A,113
+429,330059,Rashidpura,Rajasthan,Sikar,Sikar-Bikaner,11
+430,330060,Tidiayasar,Rajasthan,Churu,Sikar-Bikaner,11
+431,330061,Lakhasar,Rajasthan,Hanumangarh (Nohar tehsil),Sikar-Bikaner,11
+432,330062,Udairamsar,Rajasthan,Bikaner,Sikar-Bikaner,11
+433,330069,Banthadi,Rajasthan,Nagaur,"2LPS of Nimbi Jodha (Near Ladnu)-Degana-Merta City Section of NH-458 (Package-I),Rajasthan",458
+434,330070,Tamdoli,Rajasthan,Karauli,"2LPS of Nimbi Jodha (Near Ladnu)-Degana-Merta City Section of NH-458 (Package-I),Rajasthan",458
+435,330071,Kondar,Rajasthan,Karauli,Karauli-Dholpur (2 Lane with PS),11 B
+436,330072,Chilla Chond,Rajasthan,Karauli,Karauli-Dholpur (2 Lane with PS),11 B
+437,330073,Sakatura (Kota Bypass),Rajasthan,Kota,Kota Bypass Section of NH-27,27
+438,330074,Nimbasar,Rajasthan,Barmer,Jaisalmer-Barmer (4/2-LPS),15
+439,330075,Nimbi Jodha,Rajasthan,Nagaur,Salasar-Nagaur,58
+440,330076,Harimma,Rajasthan,Nagaur,Salasar-Nagaur,58
+441,330077,UNDVARIYA TOLL PLAZA,Rajasthan,Sirohi,Abu road - Palanpur/Khemana,27
+442,330078,Doli toll plaza,Rajasthan,Nagaur,Jodhpur-Pachpedra Pkg-I (2/4 LPS),112
+443,330079,Similiya,Rajasthan,Kota,Kota Bypass Section of NH-27,27
+444,330080,Fatehpur,Rajasthan,Sikar,Kota - Baran,76
+445,330081,Nekawala,Rajasthan,Jaipur,Manoharpur-Dausa (2-LPS),11A (New-148)
+446,330082,Limdi Toll Plaza,Rajasthan,Dahod,Padhi-Dahod,56 (old NH-113)
+447,330084,Nimbayani,Rajasthan,Barmer,Bagundi - Barmer (2-LPS),112
+448,330085,Hathitala Toll Plaza,Rajasthan,Barmer,Barmer-Sanchore-Gujarat Border,15 (New-68)
+449,330086,Bor Charnan Toll Plaza,Rajasthan,Barme,Barmer-Sanchore-Gujarat Border,15 (New-68)
+450,330087,Kair Fakir Ki Dhani toll plaza,Rajasthan,Barmer,Jaisalmer-Barmer (4/2-LPS),15
+451,330088,Jasnathnagar,Rajasthan,Jodhpur,Jodhpur-Pokaran 2-LPS,114
+452,330089,Khanori,Rajasthan,Sangrur,Jodhpur-Pokaran 2-LPS,114
+453,330090,Lilamba Plaza,Rajasthan,Sangrur,2LPS of Lambia-Raipur in the State of Rajasthan,458
+454,330091,Para Plaza,Rajasthan,Bhind,Porsa - Ater - Bhind (Ch 295.200 to Ch 343.800),552Ext.
+455,330092,Gumanpura,Rajasthan,Kota,Tonk Sawaimadhopur,552
+456,330093,Khachrol,Rajasthan,Bhilwara,4lane Bhilwara-Ladpura Section of from (Km 87.25 to 155)in the Rajasthan,758
+457,330094,Morani,Rajasthan,Jodhpur,Jodhpur-Pokaran,114
+458,330095,Bassi,Rajasthan,Jaipur,Chittoregarh - kota & Chittorgarh Bypass OMT-3,76
+459,330096,Aroli,Rajasthan,Chittorgarh-Kota,4lane Chittorgarh-Kota section of from (km.891.929 to km. 1052.429) in the State of Rajasthan,27
+460,330097,Dhaneshwar,Rajasthan,Kota,Chittoregarh - kota & Chittorgarh Bypass OMT-3,76
+461,330098,Lathi,Rajasthan,Jaisalmer,Phalodi-Jaisalmer,15
+462,330099,Ramdevara,Rajasthan,Jaisalmer,Phalodi-Jaisalmer,15
+463,330100,Akhepura,Rajasthan,Jaipur,Reengus-Sikar,11
+464,330101,Mundiyar,Rajasthan,Shivpuri,Baran Shivpuri NH27 (Ch 1184.322 to Ch 1251.814),27
+465,330102,Malera,Rajasthan,Jaipur,4lane Swaroopganj-Pindwara-Udaipur and Pindwara-Udaipur,27
+466,330103,Gogunda,Rajasthan,udaipur,4lane Swaroopganj-Pindwara-Udaipur and Pindwara-Udaipur,27
+467,330104,Kishorepura Toll Plaza,Rajasthan,bundi,Deoli-Kota,52
+468,330105,Titoli,Rajasthan,Jaipur,Dausa-Lalsot-Kauthun-4L /2LPS,11A
+469,330106,Rabawata,Rajasthan,Jaipur,Dausa-Lalsot-Kauthun-4L /2LPS,11A
+470,330107,Methoon,Rajasthan,jhalawar,"Jhalawar Rajasthan MP Border, NH-52",52
+471,330108,Hingonia,Rajasthan,Jaipur,148C,Jaipur
+472,330109,Sitarampura,Rajasthan,Jaipur,Jaipur Ring road (between Agra Road and Ajmer Road),148C
+473,330110,Mandana Toll Plaza,Rajasthan,kota,Kota - Darah 4-L,12
+474,330111,Netra,Rajasthan,jodhpur,End of Nagaur Bypass- Netra Village- Mandore section,65
+475,330112,Tankala,Rajasthan,barmer,End of Nagaur Bypass- Netra Village- Mandore section,65
+476,330113,Six ml (Hanumangarh),Rajasthan,Hanumangarh,15 (New 62),Hanumangarh
+477,330114,Badi Ghati Toll Plaza,Rajasthan,Rajsamand,Ajmer - Nagaur,89
+478,330115,Kuchera Toll Plaza,Rajasthan,nagaur,Ajmer - Nagaur,89
+479,330116,Bagaliya Toll Plaza,Rajasthan,Pali,Beawar - Gomti - 2L,8
+480,330117,Baggar Toll Plaza,Rajasthan,jhunjhunu,Beawar - Gomti - 2L,8
+481,330118,Raisinghnagar toll plaza,Rajasthan,Sri Ganganagar,Raisinghnagar to Poogal Section from design,911
+482,330119,Patroda Toll Plaza,Rajasthan,Sri Ganganagar,Raisinghnagar Poogal Section of NH 911,911
+483,330120,Narsana,Rajasthan,Jalor,Balotra-Sandrao (2-LPS),325
+484,330121,Balana,Rajasthan,Pali,Balotra-Sandrao (2-LPS),325
+485,330122,THIRPALI BADI Toll Plaza,Rajasthan,Pali,Rajgarh – Haryana Border section,709E
+486,330123,Kathuwas,Rajasthan,Alwar,Rewari to Narnaul Section,11
+487,330124,Gangajali Toll Plaza,Rajasthan,Bikaner,Khajuwala Poogal Section of NH 911A & 911,911A & 911
+488,330125,Seora Toll Plaza,Rajasthan,Bikaner,Khajuwala-Poogal and Poogal-Dantrour-Jaggasar-Gokul-Goddu-Ranjeetpura-Charanwala-Naukh-Bap,911
+489,330126,Barsalpur Toll Plaza,Rajasthan,Bikaner,Khajuwala Poogal Section of NH 911A & 911,911A & 911
+490,330127,Chhoti Villor,Rajasthan,Jalore,Sanchore - Dhanera - Deesa Section,168A
+491,330128,Beer Mandi Toll Plaza,Rajasthan,Kota.,Darah-Jhalawar-Teendhar,52
+492,330129,Biratiya Toll Plaza,Rajasthan,Jodhpur,Bar-Bilara-Jodhpur,112
+493,330130,Binaswas Toll Plaza,Rajasthan,Jodhpur,Bar-Bilara-Jodhpur,112
+494,336005,KHEMANA TOLL PLAZA,Gujarat,Patan,Palanpur/ Khemana - Aburoad,27
+495,336006,Mandva Toll Plaza (Narmada Bridge),Gujarat,Bharuch,Vadodara-Surat,48 (old NH-8)
+496,336007,Vantada Toll Plaza,Gujarat,Sabarkantha,Ratanpur - Himatnagar,48
+497,336008,Kuchadi Toll Plaza,Gujarat,Bharuch,Porbandar-Dwarka,8E
+498,336009,Okhamadi,Gujarat,Dwarka,Porbandar-Dwarka,8E
+499,336010,Dari Toll Plaza,Gujarat,Gir Somnath,Jetpur-Somnath,8D
+500,336011,Varahi Toll Plaza,Gujarat,Kutch,Palanpur-Radhanpur-Samakhiyali,27
+501,336012,Makhel Toll Plaza,Gujarat,Kutch,Samakhiyal- Santhalpur,27
+502,336013,Bhiladi Toll Plaza,Gujarat,Banaskantha,Palanpur-Radhanpur-Samakhiyali,27
+503,336014,Bhalgam Toll Plaza,Gujarat,Kutch,Palanpur-Radhanpur-Samakhiyali,27
+504,336015,Gadoi Toll Plaza,Gujarat,Gandhinagar,Jetpur-Somnath,8D
+505,336016,Pithai Toll Plaza,Gujarat,Panchmahal,Ahmedabad - Godhra,47
+506,336017,Vavadi Toll Plaza,Gujarat,Panchmahal,Ahmedabad - Godhra,47
+507,336018,Mokha Toll Plaza,Gujarat,Kutch,Gandhidham (Kandla)- Mundra Port,41
+508,336019,Kathpur Toll Plaza,Gujarat,Sabarkatha,Himatnagar-Chiloda,48
+509,336020,Kobadi,Gujarat,Vadodara,51,Bhavnagar
+510,336021,Nageshri Toll Plaza,Gujarat,Nageshri,Kagavadar- Una NHDP-IV,51
+511,336022,Gorsar,Gujarat,Mehsana,Gadu-Porbandar (HAM),51
+512,336023,Bhordu,Gujarat,Bhordu,Tharad-Dhanera-Panthawada Section,168
+513,336024,Panthawada,Gujarat,Banaskantha,Tharad-Dhanera-Panthawada Section,168
+514,336025,Bhadbhid Fee Plaza,Gujarat,Bhavnagar,Pipli-Bhavnagar,751
+515,336026,Danta Dharampur Toll Plaza,Gujarat,Banaskantha,151A,Rajkot
+516,340001,Nashik Sinner Tollways Limited,Maharashtra,Nashik,#N/A,60
+517,340002,Tamalwadi Toll Plaza,Maharashtra,Dharashiv,Solapur-Yedeshi,65 (old 9)
+518,340003,Yedashi Toll Plaza,Maharashtra,Dharashiv,Solapur-Yedeshi,65 (old 9)
+519,340004,Pargaon TP,Maharashtra,Osmanabad (Dharashiv),Yedeshi - Aurangabad (PCOD),52 (211)
+520,340005,Padalshingi TP,Maharashtra,Beed,Yedeshi - Aurangabad (PCOD),52 (211)
+521,340006,Maliwadi TP,Maharashtra,Jalna,Yedeshi - Aurangabad (PCOD),52 (211)
+522,340009,Phulwadi Toll Plaza,Maharashtra,Dharashiv,Solapur - MAH / KNT border,9
+523,340010,Talmod Toll Plaza,Maharashtra,Dharashiv,Solapur - MAH / KNT border,9
+524,340019,Baswant Toll Plaza,Maharashtra,Nashik,Pimpalgoan - Nashik - Gonde,3
+525,340020,Daroada,Maharashtra,Wardha,Borkhedi-Wadner,7
+526,340021,Bhagimari Toll Plaza,Maharashtra,Nagpur,Nagpur-Betul,69
+527,340023,Kelapur,Maharashtra,Yavatmal,Deodhari - Kelapur,44
+528,340024,Bhamb Raja,Maharashtra,Yavatmal,Mahagaon-yavatmal (NHDP-IV),361
+529,340025,Kelwad,Maharashtra,Chhindwada,NH-547 Saoner - Chhindwara up to Chhindwara Ring Road Section From km 0.000 to km 75.460,547
+530,340026,Dhoki,Maharashtra,Ahilyanagar,End of Ane Ghat to Start of Ahmednagar,222(New-61)
+531,340027,Dumbarwadi,Maharashtra,Ahilyanagar,Malshej Ghat to Ane Ghat section,222 (New NH-61)
+532,340028,Badewadi,Maharashtra,Ahilyanagar,Kharwandi Kasar - Junction,211
+533,340029,Husnapur,Maharashtra,Wardha,Yavatmal-Vardha 4-L (HAM),361
+534,340030,Ashiv Fee Plaza,Maharashtra,Latur,Tuljapur - Ausa (HAM),361
+535,340031,Haladgao Toll Plaza,Maharashtra,Nagpur,Wardha - Butibori (4-L) HAM,361
+536,340032,Selu Amba,Maharashtra,Beed,Lokhandi Sawargaon to Renapur-Latur road and Ambajogai Bypass,548B
+537,340034,Kharbi toll plaza,Maharashtra,Chandrapur,Nagbhid-Armori section,353 D
+538,340035,Hatnoor Plaza,Maharashtra,C.Sambhaji Nagar,Karodi-Telwadi,211 (New NH -52)
+539,340036,Valsang toll plaza,Maharashtra,Solapur,Akkalkot-Solapur,150E
+540,340037,Nashirabad,Maharashtra,Jalgaon,53,Jalgaon
+541,340038,Selu Toll Plaza,Maharashtra,Nagpur,4-laning of Saoner-Gondkhairi section of NH-547E,547 E
+542,340039,Karodi,Maharashtra,C.Sambhaji Nagar,Aurangabad Km 290.200 to Karid Km 320.104 Road section,52
+543,340040,Undri Toll Plaza,Maharashtra,Buldhana,Chikhali to Khamgaon Section,548CC
+544,340041,Osargaon Toll Plaza,Maharashtra,Sindhudurg,Janavali to Patradevi (Km395.000 to Km 460.410),66
+545,340042,Hativale Fee Plaza,Maharashtra,Sindhudurg,Watul to Janvali Section (Ch.323.700 to Ch.395.000),66
+546,340043,Champa Toll Plaza,Maharashtra,Nagpur,Nagpur -Umred section of NH-353D,353 D
+547,340044,Chachadgaon Toll Plaza,Maharashtra,Nashik,Nashik-Peth,848
+548,340045,Dhumka Tondgaon Toll Plaza,Maharashtra,Washim,Medeshi-Washim-Sawarkheda hingloli,161
+549,340046,Ankadhal,Maharashtra,Solapur,Sangli - Solapur (Pkg-I) (HAM),166
+550,340047,Ichgaon,Maharashtra,Solapur,Sangli - Solapur (Pkg-I),166
+551,340048,Borgaon Toll Plaza,Maharashtra,Sangli,Sangli - Solapur (Pkg-I),166
+552,340049,Vaidyakinhi Toll Plaza,Maharashtra,Beed,Manjarsumba-Chumbaliphata (SPWD),548D (Old SH-56)
+553,340050,Pimparwadi Toll Plaza,Maharashtra,Nashik,Sinnar - Shirdi Section,160
+554,340051,Salava Jharoda Fee Plaza,Maharashtra,Hingoli,Pangare to Waranga Phata section of NH-161,161
+555,340052,Taroda-Kasba Toll Plaza,Maharashtra,Buldhana,Amravati – Chikhali Section,53 (Old NH-6)
+556,340053,Shembal Toll Plaza,Maharashtra,Chandrapur,Warora-Wani Section,930
+557,340054,Urmed,Maharashtra,Yavatmal,Kalamb-Ralegaon-Wadki section (SPWD),361B
+558,340055,Wadgaon,Maharashtra,Yavatmal,Kalamb-Ralegaon-Wadki section (SPWD),361B
+559,340056,Dalsagar Toll Plaza,Bihar,Buxar,Bhojpur-Buxar section,922
+560,340057,Gananguru Toll Plaza,Karnataka,Mandya,NIDAGATTA- MYSORE,275
+561,340058,Kiratpur fee plaza,Uttar Pradesh,Lucknow,Aligarh-Kanpur Section,91
+562,340060,Penur Toll Plaza,Maharashtra,Solapur,Mohol – Wakhari & Wakhari – Khudus Section,965
+563,340061,Bhadesar Toll Plaza,Bihar,Araria,Forbesganj - Jogbani section,527
+564,340062,Karigawan fee,Bihar,Nawada,Bakhtiyarpur- Rajauli Section,20
+565,340063,Labhera Toll Plaza,Uttar Pradesh,Bareilly,Sitarganj-Bareilly Section,74 (New NH-30)
+566,340064,Takoli toll plaza,Himachal Pradesh,Shimla,21 (new-3),Mandi
+567,340065,Mopidevi Toll Plaza,Andhra Pradesh,Krishna,Machilipatnam - avanigadda,214A (New-216)
+568,340066,Khuian Sarvar Plaza,Punjab,Fazilka,Malout-Abohar-Sadhuwali section,7 ( NH-62)
+569,340067,Moura Fee Plaza,Punjab,Mandi,Kiratpur to Nerchowk section f,(Old NH-57A)
+570,341101,Chalakwadi toll plaza,Maharashtra,Pune,Khed-Sinnar,50
+571,341401,Hiwargaon pavasa,Maharashtra,Ahilyanagar,Khed-Sinnar,50
+572,345003,Pagara Toll Plaza,Madhya Pradesh,Guna,Guna Biaora Section of NH-3,3
+573,345004,Jogipur Toll Plaza,Madhya Pradesh,Rajgarh,Guna Biaora Section of NH-3,3
+574,345005,Purankhedi Toll Plaza,Madhya Pradesh,Shivpuri,Shivpuri Guna NH46 (Ch 125.430 to Ch 223.130),46
+575,345006,Methwada,Madhya Pradesh,Indore,NH-47/ Indore to Gujarat Border,47
+576,345007,Dattigaon,Madhya Pradesh,Dhar,NH-47/ Indore to Gujarat Border,47
+577,345010,Chapra New Delhi,Madhya Pradesh,Rajgarh,NH-52 Biaora to Dewas,52
+578,345011,Rojwas,Madhya Pradesh,Ujjian,NH-52 Biaora to Dewas,52
+579,345033,Heeran Khedi,Madhya Pradesh,Shivpuri,Biaora Rajsthan Border,12E
+580,345034,Jognihai,Madhya Pradesh,Sehore,Rewa to M.P. /U.P. Border,7
+581,345035,Masuriha,Madhya Pradesh,Rewa,Rewa to M.P. /U.P. Border,7
+582,345036,Baretha KM 21.120,Madhya Pradesh,Bhind,Gwalior-Bhind-Etawah,92
+583,345037,Phoop (Barahi) KM 105.300,Madhya Pradesh,Bhind,Gwalior-Bhind-Etawah,92
+584,345041,Jhiriya Toll Plaza,Madhya Pradesh,Rewa,Mangawa to M.P./U.P. Border,27
+585,345043,Khambara Toll Plaza,Madhya Pradesh,Pandhurna,Nagpur-Betul,69
+586,345044,Jungawani,Madhya Pradesh,Chhindwada,547,Chindwara
+587,345045,Jaitpur Plaza,Madhya Pradesh,Narsinghpur,NH-547 Amarwara –Narsinghpur Section From km 140.000 to km 210.010,547
+588,345046,Fulara,Madhya Pradesh,Chhindwada,NH-347 Chhindwara (from Ring Road) - Seoni Section From km 91.066 to km 152.351,347
+589,345047,Mungwari,Madhya Pradesh,Chhatarpur,From Km 87.00 to km 130.00 (Sagar-Kabrai Section NH-34),34
+590,345048,Khadda,Madhya Pradesh,Rewa,(Rewa Sidhi Section) 2 lane+PS road & Churhat Bypass including Tunnel on Rewa-Sidhi section,39
+591,345050,Sonvarsha,Madhya Pradesh,Sidhi,(Rewa Sidhi Section) 2 lane+PS road & Churhat Bypass including Tunnel on Rewa-Sidhi section,39
+592,345051,Panihar,Madhya Pradesh,Gwalior,Gwalior Shivpuri NH46 (Ch 0.000 to Ch 51.400),46
+593,345052,Mud Kheda,Madhya Pradesh,Shivpuri,Gwalior Shivpuri NH46(Ch 51.400 to Ch 125.430 ),46
+594,345053,Milanpur Toll Plaza,Madhya Pradesh,Betul,Nagpur-Betul,69
+595,345054,Ramnagar,Madhya Pradesh,Shivpuri,Baran Shivpuri NH27 (Ch 1251.814 to Ch 1305.087),27
+596,345055,Mehra,Madhya Pradesh,Gwalior,Gwalior Bypass NH44(Ch 0.000 to Ch 42.033),44
+597,345056,Dagrai Toll Plaza,Madhya Pradesh,Datia,Gwalior Jhansi NH44 (Ch 1189.000 to Ch 1271.455),44
+598,345057,Shadol/Dhuwar,Madhya Pradesh,Shahdol,43,Katni
+599,345058,Odaki Pipkhar,Madhya Pradesh,Satna,"4 laning of RKJL section of NH-7 from km 242.600 to km 311.000 (P-1, Design length. 69.19 Km )",7
+600,345059,Pathoroundi,Madhya Pradesh,Anuppur,km 142.200 to km 234.000 ( NH 43),43
+601,345060,Ujara,Madhya Pradesh,Chhatarpur,(Sagar-Kabrai Section NH-34),34
+602,345061,Sehatganj,Madhya Pradesh,Raisen,Bhopal Sanchi Section of NH-86 (Extn.),86Ext
+603,345062,Saliwada,Madhya Pradesh,Jabalpur,"21.85 km, of NH 30",30
+604,345063,Pandutala,Madhya Pradesh,Balaghat,"92.35 Km, NH 30",30
+605,345064,Mohtara Toll Plaza,Madhya Pradesh,Jabalpur,"Km 397.000 to km 468.000, Section of NH-30",30
+606,345065,Madai Fee Plaza,Madhya Pradesh,Seoni,NH-44 Lakhnadon to Mohgaon From 547.400 to 610.400,44
+607,345066,Majhgawan,Madhya Pradesh,Katni,Km 0.000 to Km 68.400 (Design length 68.400 km) NH -43 Katni-Umaria 2 lane+PS road,43
+608,345067,Chikhalikala,Madhya Pradesh,Chhindwada,NH- 347 Multai – Chhindwara up to Chhindwara Ring Road Section From km 0.000 to km 75.592,347
+609,345068,Bahoripar Fee Plaza,Madhya Pradesh,Jabalpur,"km 468.000 to km 545.000, Section of NH-30",30
+610,345069,Kherwasani,Madhya Pradesh,Satna,"397.000 (Package II, Design Length - 69.072 Km.)",7
+611,345070,Joharia Sheikh Toll Plaza,Madhya Pradesh,Sagar,Section from Km 81 to Km. 187.600 in the State of Madhya Pradesh,146
+612,345071,Sonkacch,Madhya Pradesh,Sehore,Bhopal-Biaora Section of NH-12 Package-II,12
+613,345072,Kachnaria,Madhya Pradesh,Rajgarh,Bhopal-Biaora Section of NH-12 Package-II,12
+614,345073,Khawasa,Madhya Pradesh,Seoni,NH-44 Mohgaon to Khawasa From km 610.40 to km 653.770,44
+615,345074,Patariya Goyal,Madhya Pradesh,Sehore,Shujalpur to Ashta section of Newly declared NH-752C,752C
+616,345075,Pachwara,Madhya Pradesh,Chhatarpur,39,Chhatarpur
+617,345076,Mandwara,Madhya Pradesh,Badwani,NH-347B / Thikri to Anjad,347B
+618,345077,Mahauri,Madhya Pradesh,Satna,From Km 88.6 to km 92.592 & km 110.5 to 155.(Bamitha-Satna Section NH-39),39
+619,345078,Devgaon Plaza,Madhya Pradesh,Chhatarpur,From Km 124.732 to km 162.132 of NH- 75/76 & km 57.936 to km 74.000 Of Bamitha- Satna,75/76
+620,345079,Vishankheda,Madhya Pradesh,Raisen,Goharganj-Bhopal section of NH-12 Package-V,45
+621,345080,Harshili Toll Plaza,Madhya Pradesh,Raisen,Start of Bareli Bypass to Goharganj section of NH-12 Pkg-IV,45
+622,345081,Shahpura N,Madhya Pradesh,Jabalpur,"km 10.400 to km 66.000, Section of NH-12 (New NH45",45
+623,345082,Khiriya Fee Plaza,Madhya Pradesh,Raisen,Sindoor River to start of Bareli Bypass of NH-12 Pkg-III,45
+624,345083,Newli,Madhya Pradesh,Vidisha,752B,Vidisha
+625,345090,Sarasdol Toll Plaza,Madhya Pradesh,Narsinghpur,"(Km.66.00 - Km.130.00), Section of NH-12",45
+626,345091,Mirzapur,Madhya Pradesh,Rajgarh,Pachore to Shujalpur section of Newly declared NH—752C,752C
+627,345092,Goragaon Toll Plaza,Madhya Pradesh,Bhind,Mihona-Lahar-Daboh-Chigaon UP Border NH-552 Extn.(Ch 17.335 to Ch 36.540),552Ext.
+628,345093,Palhan Toll Plaza,Madhya Pradesh,Rewa,Rewa Sirmour Section Km. 0.000 to km 36.710 of NH- 135 B,135B
+629,345094,Bela Toll Plaza,Madhya Pradesh,Satna,155+00 to 202+63 (Jhansi-Khajuraho Section NH-39),39
+630,345095,Para Fee Plaza,Madhya Pradesh,Gwalior,"2LPS of Bheem-Parasoli-Gulabpura including Parasoli bypass, NH-148D (Package-I&II),Rajasthan",148D
+631,349007,Chotia,Chhattisgarh,Korba,Katghora-Shivnagar,130
+632,349008,Pachira,Chhattisgarh,Surajpur,Surajpur-Ambikapur,43
+633,349009,Mashora,Chhattisgarh,Kondagaon,Bedma- Dahikonga,30
+634,349010,Kumhari,Chhattisgarh,Durg,Raipur-Durg,53
+635,349011,Mudhipar Toll Plaza,Chhattisgarh,Bilaspur,Saragaon-Bilaspur 4-L,49
+636,349012,Bhojpuri Toll Plaza,Chhattisgarh,Bilaspur,4-Laning of Simga-Sargaon Section of NH-200 (New NH-130) (Pkg-II),130
+637,349013,Jagtara,Chhattisgarh,Balod,Dhamtari-Kanker,30
+638,349014,Badaiyiguda,Chhattisgarh,Bastar,Dahikonga - Jagdalpur,30
+639,349015,Paraghat Plaza,Chhattisgarh,Bilaspur,Vill Theka / Darrighat - Vill Banari Section,49
+640,350004,Chinthapally,Telangana,Warangal,365,Warangal
+641,350005,Kadthal,Telangana,Rangareddy,Hyderabad – Dindi (2 LPS),765
+642,350006,Pullur,Telangana,Gadwal,Kothakota bypass–Kurnool,44
+643,350007,Rolmamda,Telangana,Adilabad,"Islam Nagar - Katdal,TOT-16",44
+644,350008,Gamjal,Telangana,Nirmal,"Kadthal-Armur,TOT-16",44
+645,350026,Konetipuram,Telangana,Guntur,Hyderabad – Dindi (2 LPS),765
+646,350027,Manoharabad,Telangana,Medak,"Chegunta - Bewenpally,TOT-16",44
+647,350028,Pippalwada,Telangana,Adilabad,"Maharashtra/AP Border - Islam Nagar,TOT-16",44
+648,350029,Bhiknoor Toll Plaza,Telangana,Nizamabad,"Adloor Yellareddy – Chegunta,TOT-16",44
+649,350030,Gowraram,Telangana,Dharwad,AP/Telangana Border - Rudrampur,30
+650,350031,Komalla,Telangana,Mathura,Yadgiri - Warangal,163
+651,350032,Komatipallii,Telangana,Komatipalli,"Yadgiri - Warangal,NHDP-IV",163
+652,350033,Muthojipet,Telangana,Warangal,Mangalwarpet to Mallampalli,365
+653,350034,Dilawarpur fee plaza,Telangana,Dharwad,Kalyan – Nirmal -2LPS,61
+654,350035,Singarajupally Plaza,Telangana,Jangaon,Janagaon - Thirumalagiri,365B
+655,350036,Yerkaram,Telangana,Suryapet,Thirumalagiri - Suryapet,365B
+656,350040,Singarenipalli Toll Plaza,Telangana,Suryapet,365BB,Khammam-II
+657,350041,Mandamarri Toll Plaza,Telangana,Adilabad,Mancherial - Repellewada,363
+658,350042,Taddanpally Toll Plaza,Telangana,Sangareddy,Kandi to Nizampet,161
+659,350043,Baiti Kala Plaza,Uttar Pradesh,Sultanpur,Sultanpur-Varanasi Section,56 ( New NH-31)
+660,350044,Pudur Toll Plaza,Tamil Nadu,Madurai,Madurai-Chettikulam-Natham-Thuvarankurichi,785
+661,350045,Abul Khurana,Punjab,Sri Muktsar Sahib,"Malout-Mandi Dabwali,(Km 7 to Km 29.500)",9
+662,350046,Mudiveedu Toll Plaza,Andhra Pradesh,Annamayya,Rayachoty - Angallu Road,340
+663,350047,Baloh fee plaza,Himachal Pradesh,Bilaspur,Kiratpur - Nerchowk – Manali section,NH-21
+664,350100,Kamkole,Telangana,Sangareddy,MH-Knt Border - Sangareddy,9 (New-65)
+665,350101,Munnanur,Telangana,Nagarkurnool,Jadcherla-Kalwakurtey,167
+666,350102,Chitlapalli Toll Plaza,Telangana,Sangareddy,Hyderabad-Yadgiri-Warangal,163
+667,350103,Gummadidala,Telangana,Sangareddy,Hyderabad to outer Ring Road Junction to Medak Section,765D
+668,350104,Dharmaram Toll Plaza,Telangana,Nizamabad,Mangloor to Telangana/Maharashtra Section,161
+669,352001,Nannur,Andhra Pradesh,Kurnool,Cudappa-Mydukur-Kurnool NHDP-III,40 (Old 18)
+670,352013,Chapirevula,Andhra Pradesh,Nandyal,Cudappa-Mydukur-Kurnool NHDP-III,40 (Old 18)
+671,352020,Mahasamudram,Andhra Pradesh,Chittoor,AP/TN Border-Nalagampalli & Nalagampalli - AP/KA Border,69 (Old NH-4)
+672,352022,Nathavalasa,Andhra Pradesh,Vizianagaram,Ranastalam- Visakhapatnam,16(old 5)
+673,352023,S.V Puram Toll Plaza,Andhra Pradesh,Tirupati,Tirupati - Tiruthani,716 ( NH-205
+674,352024,Marur toll plaza,Andhra Pradesh,Anantapur,Hyderabad - Bangalore,44
+675,352025,Kasepalli toll plaza,Andhra Pradesh,Anantapur,Hyderabad - Bangalore,44
+676,352026,Amakthadu toll plaza,Andhra Pradesh,Nandyal,Hyderabad - Bangalore,44
+677,352027,Kalaparru,Andhra Pradesh,Eluru,Vijayawada-Gundugolanu,5
+678,352028,Agnampadi,Andhra Pradesh,Visakhapatnam,Vishakhapatnam - Ankapalli,16 (Old NH- 5)
+679,352030,Madapam,Andhra Pradesh,Srikakulam,Narasannapeta- Ranastalam,16 (Old NH- 5)
+680,352031,Badava,Andhra Pradesh,NTR,Ibrahimpatnam – AP / Telangana Border,221
+681,352032,Bhramanapalli,Andhra Pradesh,Nellore,Vaggampalle – Dornala T-Junction 2-LPS,565
+682,352033,Chinthalapalem,Andhra Pradesh,Tirupati,Penchalakona – Yerpedu,565
+683,352034,Mekalavaripalli,Andhra Pradesh,Prakasam,Markapuram to Vaggampalle,565
+684,352035,Raviguntapalli,Andhra Pradesh,Prakasam,"Markapuram to Vaggampalle,2-LPS",565
+685,352036,Rapur,Andhra Pradesh,SPSR Nellore,Penchalakona – Yerpedu,565
+686,352037,Basapuram,Andhra Pradesh,YSR Kadapa,Mydukur to Dornala T-Junction,67
+687,352038,Durgamvaripalli,Andhra Pradesh,Annamaya,Pileru - Rayachoty,40
+688,352039,Pottipadu,Andhra Pradesh,Krishna,Vijayawada-Gundugolanu,5
+689,352040,Davaluru,Andhra Pradesh,Krishna,Vijayawada to Machilipatnam,65 (Old NH-9)
+690,352041,Panchvati Colony(Vishakapatnam Port Connectivity),Andhra Pradesh,Visakhapatnam,Vishakhapatnam Port Connectivity Project,NE-5 (New NH-16)
+691,352042,Goshtani Gate of Navy(Vishakapatnam Port Connectivity),Andhra Pradesh,Visakhapatnam,Vishakhapatnam Port Connectivity Project,516C
+692,352043,yerradoddi,Andhra Pradesh,Anantapur,Mudigubba - Anantapur District Border,42
+693,352044,Jellipalli,Andhra Pradesh,Anantapur,AP Boarder - Anantapur,42
+694,352045,Bandapalli,Andhra Pradesh,Annamaya,Rayachoty - Kadapa,18 (New NH-40)
+695,352046,Millampali,Andhra Pradesh,Prakasam,Davulpalli - Markapuram,565
+696,352047,Halaharvi,Andhra Pradesh,Kurnool,Adoni to Madhavaram (via Mantralayam,167
+697,352048,Gollaprolu,Andhra Pradesh,Kakinada District,Kathipudi to Start of Kakinada Bypass 4-L,216 (old 214)
+698,352049,Chinaganjam,Andhra Pradesh,Bapatla,Eepuripalem to Ongole -2LPS,216 (Old NH-214A)
+699,352051,Medapi,Andhra Pradesh,Prakasam,Giddalur-Vinukonda,544D
+700,352052,Pandillapalli,Andhra Pradesh,Prakasam,Giddalur-Vinukonda,544D
+701,352053,Jodi Dharmapuram,Andhra Pradesh,Anantapur,Gooty-Tadipatri,67
+702,352054,Gadanki,Andhra Pradesh,Tirupati,Chittoor - Mallavaram,140
+703,352055,Bathalapalli,Andhra Pradesh,Anantapur,Rapthadu-Bathalapalli section,42
+704,352056,VeeraValli,Andhra Pradesh,East Godavari,Gundugolanu-Devarapalli-Kovvuru,16
+705,352057,Vaddupalli,Andhra Pradesh,Anantapur,Ananthapuramu to Kalyandurg section (2-LPS),544DD
+706,352058,Jawahar Nagar N,Telangana,Mulugu,Hyderadad-Bhopalapatnam section,163
+707,352059,Dukkavanipalem Toll Plaza,Andhra Pradesh,Visakhapatnam,Anakapalli-PendurthiAnandapuram Section,16
+708,352060,Marripalem Toll Plaza,Andhra Pradesh,Anakapalli,Anakapalli-PendurthiAnandapuram Section,16
+709,352061,Thenepalli,Andhra Pradesh,Chittoor,Pileru - Puthalupattu,40
+710,352062,Danamaiahgaaripalli Toll Plaza,Andhra Pradesh,Chittoor,Palamaneru to Krishnagiri (2LPS),42
+711,352063,Bandlapalli Toll Plaza,Andhra Pradesh,Chittoor,Madanapalli-Punganuru-Palamaneru,42
+712,352064,Cholasamundram Toll Plaza,Andhra Pradesh,Sri Satya Sai,Kodikonda Junction to Madakasira section,544 E
+713,352065,Paatimeeda Palli,Andhra Pradesh,YSR kadapa,"Cudappa-Mydukur-Kurnool,NHDP-III",18
+714,352066,Munjuluru Toll Plaza,Andhra Pradesh,Krishna,Losari - Machavaram section,216
+715,352067,Annampalli Toll Plaza,Andhra Pradesh,Dr. B. R. Ambedkar Konaseema,Gurajanapalli to Pasarlapudi,216 (old 214)
+716,352068,Gorribanda Toll Plaza,Andhra Pradesh,Srikakulam,AP/Odisha Border to Narasannaapeta section,326 A
+717,355076,Jamudihi Toll Plaza,Odisha,SUNDERGARH,Koida to Rajamunda Section,520 (Old NH-215)
+718,356006,Belekeri,Karnataka,Uttara Kannada,Goa-Karnataka Border to Kundapur,66 (Old 17)
+719,356007,Holgegadde,Karnataka,Uttara Kannada,Goa-Karnataka Border to Kundapur,66 (Old 17)
+720,356008,Shirur,Karnataka,Udupi,Goa-Karnataka Border to Kundapur,66 (Old 17)
+721,356016,Bankapur,Karnataka,Haveri,Gabbur - Devgiri,48(Old NH4)
+722,356017,Bagepalli Toll Plaza,Karnataka,Chikkaballapura,AP/ Karnataka Border - Devanhalli,7
+723,356018,Kognoli,Karnataka,Belagavi,Maharashtra Border -Belgaum,4 (New NH-48)
+724,356019,Chalageri,Karnataka,Haveri,Hadadi - Devgiri,4
+725,356020,Hebbalu,Karnataka,Davanagere,Doddasiddanahally - Hadadi,4
+726,356021,Hattargi,Karnataka,Belagavi,Hattargi - Hirebagewadi,4 (New NH-48)
+727,356023,Brahamarakotlu,Karnataka,Dakshina Kannada,"B.C. Road - Padil & Padil Bypass (Suratkal-Nantur),(New Mangalore Port)",48(new 73)
+728,356024,Yeddore,Karnataka,Mysuru,Kerala border - Kollegal,212 (New-766)
+729,356025,K N Huindy,Karnataka,Mysuru,Kerala border - Kollegal,212 (New-766)
+730,356026,Kannole,Karnataka,Vijayapura,Bijapur-Gulbarga-Homnabad 2/4-LPS,218(New-50)
+731,356027,Harwal,Karnataka,Kalaburagi,Bijapur-Gulbarga-Homnabad 2/4-LPS,218(New-50)
+732,356028,Kannegala,Karnataka,Chamarajanagara,Kerala border - Kollegal,212 (New-766)
+733,356029,Hirehalli,Karnataka,Chitradurga,Byrapura-Challkere,150-A
+734,356030,Tidagundi,Karnataka,Vijayapura,Solapur - Bijapur Section,13(new-52)
+735,356100,Mangalgi,Karnataka,Bidar,MH-Knt Border - Sangareddy,9(New-65)
+736,356103,Thimmalapura,Karnataka,Vijayangara,50 (Old NH-13),Chitradurga
+737,356104,Kananakatte,Karnataka,Davanagere,Hospet - Chitradurga 4L,50 (Old NH-13)
+738,356106,Nalavadi,Karnataka,Dharwad,Hubli to Hospet section,63
+739,356107,Halligudi Fee Plaza,Karnataka,Gadag,Hubli to Hospet section,63
+740,356108,Jajirakallu Toll Plaza,Karnataka,Anantapur,Bellary Byrapura section (HAM),150A
+741,356109,Rajatadripura Toll Plaza,Karnataka,Tumkur,Tumkur - Shimogga section,206
+742,356110,Sheshagirihalli Toll Plaza,Karnataka,Bengaluru South,Bangalore -Mysore section,275
+743,356111,Kaniminike Toll Plaza,Karnataka,Bengaluru Urban,Bangalore -Mysore section,275
+744,356112,Ganebail Toll Plaza,Karnataka,Belagavi,Belgaum - Khanapur Section (Km.0.000 to Km.30.000),748 (Old NH-4A)
+745,360028,Surapattu Toll Plaza,Tamil Nadu,Tiruvallur,Chennai Bypass,32
+746,360029,Pattarai Toll Plaza,Tamil Nadu,Tiruvallur,Tirupati Tiruthani Chennai,716 ( NH-205
+747,360030,Athur,Tamil Nadu,Chengalpattu,Tambaram-Tindivanam,32 ( NH- 45
+748,360031,SriPerumbadur,Tamil Nadu,Kancheepuram,Walajhapet - Poonamalai,48 ( NH-4)
+749,360032,Nallur Toll Plaza,Tamil Nadu,Tiruvallur,Chennai-Tada,16 ( 5
+750,360033,Chennasamaduram,Tamil Nadu,Ranipet,Poonamalle - Walajahpet,48 ( NH-4)
+751,360034,Vanagaram Toll Plaza,Tamil Nadu,Tiruvallur,Chennai Bypass,32
+752,360036,VAGAIKULAM TOLL PLAZA,Tamil Nadu,Thoothukudi (Tuticorin),Tirunelveli - Tuticorin,7Amew 138
+753,360037,Kappalur,Tamil Nadu,Madurai,"Madurai - Kannyakumari,(Km 0.000 - Km 243.170)",7
+754,360038,Salaipudur,Tamil Nadu,Tirunelveli,Madurai - Kannyakumari (Km 0.000 - Km 243.170),7
+755,360039,Nanguneri,Tamil Nadu,Tirunelveli,"Madurai - Kannyakumari,(Km 0.000 - Km 243.170)",7
+756,360040,Etturvattam,Tamil Nadu,Madurai,Madurai - Kannyakumari (Km 0.000 - Km 243.170),7
+757,360041,D C Palli,Andhra Pradesh,Nellore,Dornala - Atmakur (AP),67
+758,360043,Chittampatti,Tamil Nadu,Madurai,(Trichy- Tovrankurichi - Madurai) OMT - 16,45B
+759,360044,Buchireddypalem,Andhra Pradesh,Nellore,Atmakur - Nellore (AP),67
+760,360045,Boothakudi,Tamil Nadu,Tirunelveli,"(Trichy- Tovrankurichi - Madurai),OMT - 16",45B
+761,360046,Bogalur,Tamil Nadu,Sivaganga,Madurai-Paramakudi-Ramnathapuram,49
+762,360047,Tirupachethi,Tamil Nadu,Sivaganga,Madurai-Paramakudi-Ramnathapuram-2-LPS,49
+763,360048,Palaya Gandharvakottai,Tamil Nadu,Pudukkottai,Thanjavur – Pudukkottai -2LPS,226
+764,360049,Paranur,Tamil Nadu,Chengalpattu,Tambaram-Tindivanam,32 ( NH- 45 )
+765,360050,Lembalakudi,Tamil Nadu,Pudukkottai,from km 110.016-km 135.930 (annuity),210
+766,360051,Lechchumanapatti,Tamil Nadu,Pudukkottai,(10.00 - 94.000 (design km 10.00 - 91.054) including trichy bypass on NH-67 from km 110.016-km 210,Karaikudi
+767,360054,Shenbagampettai toll plaza,Tamil Nadu,Sivaganga,Thirumayam – Manamadurai (2-LPS),226
+768,360058,Keezhkuppam Toll Plaza,Tamil Nadu,Kallakurchi,Cuddalore-Virudhachalam-Salem,532
+769,360059,Ponnalagaram,Tamil Nadu,Cuddalore,Cuddalore - Vridhachalam,532
+770,360060,Kodikottai Toll Plaza,Tamil Nadu,Pudukkottai,Karaikudi - Ramanathapuram Section,210(new-536)
+771,360061,Vennathur Toll Plaza,Tamil Nadu,Guntur,Karaikudi - Ramanathapuram Section,210(new-536)
+772,360062,Kallakudi Toll plaza,Tamil Nadu,Trichy,Trichy-Kallagam,81 ( NH-227)
+773,360064,Upparpatti,Tamil Nadu,Virudhunagar,Dindigul Theni - Kumili Section,183
+774,360065,Vallam Toll Plaza,Tamil Nadu,Vellore,Vellore-Tiruvannamalai-Villupuram,38( NH 234)
+775,360066,Enamkariyandal Toll Plaza,Tamil Nadu,Tiruvannamalai,Vellore-Tiruvannamalai-Villupuram,38( NH 234
+776,360067,Thennamadevi Toll Plaza,Tamil Nadu,Viluppuram,Vellore-Tiruvannamalai-Villupuram,38( NH 234
+777,360068,Thirupathisaram Toll Plaza,Tamil Nadu,Kanyakumari,Nagercoil to Kavalkinaru Section,47 B(new NH 944)
+778,360069,Sevugampatti Toll Plaza,Tamil Nadu,Dindigul,Dindigul Theni - Kumili Section,183
+779,367004,Poonarimangalam,Kerala,Ernakulam,Kalamassery-ICTT Vallarpadam,966A
+780,367006,Thiruvallam,Kerala,Thiruvananthapuram,Thiruvananthapuram-Kerala/Tamil Nadu border Section,66
+781,367007,Paniyankara Toll Plaza,Kerala,Palakkad,Vadakkancherry to Thrissur Border,544
+782,370001,Banskopa Plaza,West Bengal,Paschim Burdwan,Barwa adda- Panagarh,19 (Old NH-2)
+783,370013,Sali Bamandanga,West Bengal,Nadia,"Krishnagar-Baharampore Phase-III,(Annuity)- 4L/LPS",12 (Old34)
+784,370014,Paschim Madati,West Bengal,Darjeeling,Sonapur - Ghoshpukur,27 (Old NH-31)
+785,370015,Balibhasa,West Bengal,Jhargram,Chichira-Kharagpur,49 (Old NH-6)
+786,370016,Ghogarkuthi,West Bengal,Coochbehar,Pundibari-Bakshirhat,17 (Old NH-31)
+787,370017,Rangalibazna Toll Plaza,West Bengal,Alipurduar,Maynaguri-Changrabandha & Jargaon-Hasimara-Dhupguri,NH-48
+788,370018,Satbhaiya,West Bengal,Darjeeling,Kakarvitta-Panitanki-Bagdogra-Shivmandir More Noukaghat-Fulbari-Banglabandha,AH-02
+789,370019,Sulkhapara Fee Plaza,West Bengal,Jalpaiguri,Mongpong-Chalsa-Telipara,17 (Old NH-31)
+790,370020,Palsit,West Bengal,Purba Burdwan,Budbud-Palsit,19 (Old NH-2)
+791,370021,Dankuni,West Bengal,Hooghly,Palsit - Dhankuni,19 (Old NH-2)
+792,370022,Surjapur,West Bengal,Uttar Dinajpur,Dalkhola-Islampur,27 (Old NH-31)
+793,370023,Guabari Toll Plaza,West Bengal,Alipurduar,Salsalabari - WB - Assam Border,27 (Old NH-31 C)
+794,370024,Namkhana,West Bengal,South 24 Parganas,Kakdwip – Namkhana,12 (Old NH-117)
+795,370025,Mejia,West Bengal,Bankura,Dhaldanga-Mejia,14 (Old NH- 60)
+796,370026,Kalapathar,West Bengal,Bankura,Bankura-Purulia Section,314 (Old NH- 60A)
+797,370034,Panikauri,West Bengal,Jalpaiguri,Ghoshpukur to Dhupguri,27 (Old NH-31 D)
+798,370035,Husludanga,West Bengal,Jalpaiguri,Ghoshpukur to Dhupguri,27 (Old NH-31 D)
+799,370036,Barai Toll Plaza,West Bengal,Uttar Dinajpur,Raiganj-Dalkhola section including Dalkhola Bypass,12 (Old NH -34)
+800,375011,Gurapali,Odisha,BERHAMPUR,Sunakhala - Puintola,5
+801,375012,SERGARH TOLL PLAZA,Odisha,BALASORE,Bhadrak - Balasore,5
+802,375013,Srirampur toll plaza,Odisha,JAJPUR,Chandikhol-Paradip,5A
+803,375015,Pipili,Odisha,PURI,Bhubneshwar - Puri,203
+804,375016,Gudipada or Gangapada Toll Plaza,Odisha,Khordha,Sunakhala - Bhubaneshwar,5
+805,375017,Hasanpur,Odisha,KEONJHER,Panikholi-Rimuli,215
+806,375018,Kantaghar,Odisha,KEONJHER,Panikholi-Rimuli,215
+807,375019,Banajodi,Odisha,KEONJHER,Panikholi-Rimuli,215
+808,375020,Khamara,Odisha,DHENKANAL,Pallahara-Pitiri,149
+809,375022,Brajrajnagar Toll Plaza,Odisha,JHARSUGUDA,Kanaktora to Jharsuguda,49 (Old NH-200)
+810,375023,Bolangir,Odisha,BOLANGIR,Bolangir-Khurda,57
+811,375024,Padmanavapur Toll Plaza,Odisha,MAYURBHANJ,Balasore-Baripada- Jharpokharia section,18 (old-5)
+812,375025,Sukhuapada Toll Plaza,Odisha,MAYURBHANJ,Balasore-Baripada- Jharpokharia section,18 (old-5)
+813,375026,Bideibadkudar Toll Plaza,Odisha,DEOGARH,Binjabahal - Teliebani,6
+814,375027,Rangamatia Toll Plaza,Odisha,NAYAGARH,Adenigada-Maichheli,57 (Old224)
+815,375028,Khireitangiri,Odisha,KEONJHER,Baharagora-Singhara-Sambhalpur section,6
+816,375029,Janasanpur,Odisha,KEONJHER,Baharagora-Singhara-Sambhalpur section,6
+817,375030,Kandra,Odisha,KEONJHER,Rimuli - Koida section,215
+818,375031,Jharpokharia Toll Plaza,Odisha,MAYURBHANJ,Bahargora- Singhara section,49 (Old NH-6)
+819,375032,Bhagada Narayanpur Toll Plaza,Odisha,BHADRAK,Chandikhol-Bhadrak,5
+820,375033,Darjing Toll Plaza,Odisha,SUNDERGARH,Rajamunda Section,23 (New NH-143)
+821,378004,Mikirati Hawgaon Toll Plaza,Assam,Hojai,Nalbari-Bijni-Guwahati-Nagaon-Lanka-hatikhali,27
+822,378005,Nazirakhet,Assam,Kamrup,Nalbari-Bijni-Guwahati & Guwahati to Nagaon section including Guwahati Bypass,37
+823,378006,Madanpur Toll Plaza A,Assam,Kamrup,Nalbari-Bijni-Guwahati,31
+824,378007,Dahalapara,Assam,Bongaigaon,Rakhaldubi to Kohora,31
+825,378008,Raha,Assam,Nagaon,Guwahati Bypass – Nagaon - Daboka – Udauli /section,36 & 37
+826,378009,Patgaon Toll Plaza,Assam,Kokrajhar,31C,Bongoigaon
+827,378010,Manderdisa,Assam,Dima Hasao,Lanka - Hatihkali,54
+828,378011,Balachera,Assam,Cachar,Silchar-Haflong to Daboka to Guwahati,54E
+829,378012,Galia,Assam,Barpeta,Nalbari-Bijni to Guwahati Section,31
+830,379004,Pasyih,Meghalaya,Jowai,Jowai-Meghalay/Assam Border,6
+831,379005,Lomshinong,Meghalaya,East Garo Hills,Jowai-Meghalay/Assam Border,6
+832,379006,Pahammawlein Toll Plaza,Meghalaya,Ri Bhoi,Jorabat-Barapani section,6
+833,379007,Diengpasoh Toll Plaza,Meghalaya,Ri Bhoi,Shilong bypass,6
+834,380001,DidarGanj,Bihar,Patna,Patna-Bakhtiyarpur,922
+835,380012,Saukala Toll Plaza,Bihar,Gaya,Aurangabad - Barachetti,19
+836,380014,Saidpur Patedha,Bihar,Vaishali,Hazipur-Muzafarpur,22
+837,380015,Maranga,Bihar,Purnea,Khagaria - Purnea,31
+838,380016,Parsoni Khem,Bihar,East Champaran,Kotwa – Mehsi - Muzaffarpur,27
+839,380017,Barsoni Toll Plaza,Bihar,Purnia,Purnia- Dalkhola,27
+840,380018,Runni Shaidpur Toll Plaza,Bihar,Sitamarhi,Muzzaffarpur-Sonbarsa 2 lane with PS (Annuity) 07.07.2015,22
+841,380019,Balgudar Toll Plaza,Bihar,Lakhisarai,Mokama-Munger,33
+842,380020,Kharik,Bihar,Bhagalpur,Khagaria - Purnea,31
+843,380022,Jichho Toll Plaza (Bhagalpur),Bihar,Bhagalpur,Bhagalpur Bypass,33
+844,380023,Bishunpurwa,Bihar,West Champaran,Bagaha-Paniyahawa,28 B
+845,380024,Sonho Fee Plaza,Bihar,Saran,Chhapra Rewa Ghat-Muzzafarpur,722
+846,380025,Pokhraira Fee Plaza,Bihar,Muzaffarpur,Chhapra Rewa Ghat-Muzzafarpur,722
+847,380026,Chainwa (Chapraitha) Fee Plaza,Bihar,Saran,Chhapra - Gopalganj 2-LPS,531
+848,380027,Chapwa,Uttar Pradesh,Chapwa,Sonauli to Gorakhpur (2-LPS),24(Old 29E)
+849,380028,Thawe (Brindawan),Bihar,Gopalganj,Chhapra - Gopalganj 2-LPS,531
+850,380029,Khaikhat,Bihar,Kishanganj,Galgalia-Rehman Ganj Chowk,327 (E)
+851,380030,Toda,Bihar,Sheikhpura,Bihar Sharif-Barbigha-Mokama,33
+852,380031,Shahpur Toll Plaza,Bihar,Begusarai,Simaria - Khagaria section,31
+853,380032,Babhaniyawan Toll Plaza,Bihar,Bhojpur,Arrah to Pararia,319
+854,380033,Kulhariya fee plaza,Bihar,Bhojpur,Koilwar-Bhojpur section,922
+855,381000,Managethi,Tamil Nadu,Ariyalur,Kallagam-Meensurutti,81 ( NH-227)
+856,392008,Rasoiya Dhamna Toll Plaza,Jharkhand,Hazaribagh,Barachetti - Gorhar,2
+857,392010,Tand Balidih,Jharkhand,Bokaro,Chas-Ramgarh,23
+858,392011,Murma Toll Plaza,Jharkhand,Ranchi,Ranchi Piska - Bijupura,75
+859,392012,Sosokhurd,Jharkhand,Ramgarh,Chas-Ramgarh,23
+860,392013,Ghanghri Toll Plaza,Jharkhand,Giridih,Gorhar - Barwa Adda,2
+861,392014,Hazaribagh-Ranchi Expressway (Pundag),Jharkhand,Ranchi,33,Ranchi
+862,392015,Navasari,Jharkhand,Ranchi,Giridh - Jharkhand,114A
+863,392016,Kothiya,Jharkhand,Giridih,Dumka - Jharkhand - 2LPS,133
+864,392017,Kokpara,Jharkhand,East Singhbhum,Mahulia-Bahragora-JH/WB Border and Bahragora - Kharagpur,33 (new18)
+865,392018,Nagwan Toll Plaza,Jharkhand,Hazaribagh,Barhi-Hazaribagh,33
+866,392019,Edalhatu Toll Plaza,Jharkhand,Ranchi,Ranchi-rargaon Section,33
+867,392020,Pata Toll Plaza,Jharkhand,Seraikela Kharsawan,Ranchi - Mahulia,33
+868,392021,Pupunki Toll Plaza,Jharkhand,Bokaro,Govindpur-(Rajganj)-Chas-West Bengal Border section,32
+869,392023,Putru Fee Plaza,Jharkhand,East Singhbhum,Jamshedpur-Mahulia Section,33 (New NH -18)
+870,520031,Pratappur Toll Plaza,Uttar Pradesh,Mirzapur,Varanasi-Hanumana Section,7 (new NH-35)
+871,520032,Jorwara Toll Plaza,Uttar Pradesh,Chitrakoot,Kalupur-Lalata Road Section,76
+872,520033,Rasoolpur Plaza (EPE),Uttar Pradesh,Ghazibad,NH NE -II(National Highway on NE-II) (EPE) Eastern peripheral Expressway,NE-II
+873,520034,Hauj Fee Plaza,Uttar Pradesh,Jaunpur,Sultanpur- Varanasi,56 ( New NH-31)
+874,520035,Bamhori Kumari Toll Plaza,Uttar Pradesh,Mahoba,Harpalpur -Sugira section,76 (New NH-39)
+875,520036,Faridpur Toll Plaza,Uttar Pradesh,Bareilly,Bareiily-Sitapur Section,24
+876,520037,Gopalpur Toll Plaza,Uttar Pradesh,Mirzapur,Allahabad-Mirzapur,76E (New35)
+877,520038,Basheerapur Toll Plaza,Uttar Pradesh,Bulandshahr,Aligarh-Kanpur section,91
+878,520039,Mirzapur / Kyampur Toll Plaza,Uttar Pradesh,Ghazipur,Varanasi to Gorakhpur section,29
+879,536043,Seetharampuram Toll Plaza,Andhra Pradesh,West Godavari,Dhindi to Digamarru,216 (old 214)
+880,536048,Dasarkhed Toll Plaza,Maharashtra,Jalgaon,Amravati- Chikhali section,53
+881,536049,Baharagaon Toll Plaza,Madhya Pradesh,Harda,section of NH-47 (Design Length - 30.000km) under Bharatmala Pariyojna Phase-1 (Economic,47
+882,536051,Patni Pratappur Toll Plaza,Uttar Pradesh,Shamli,Meerut -Karnal,709A
+883,536052,Tarana Toll Plaza,Gujarat,Rajkot,Dhrol-Bhadra Patiya-Pipaliya Patiya section of NH-151A,151A
+884,536057,Maigalganj Toll Plaza,Uttar Pradesh,Lakhimpur Kheri,Bareily-Sitapur,24
+885,536058,Bonli Toll Plaza,Rajasthan,Sawai Madhopur,Delhi-Vadodra Greenfield alignment (EPC),NE-4
+886,536059,Kusthala Toll Plaza,Rajasthan,Sawai Madhopur,Delhi-Vadodra Greenfield alignment (EPC),NE-4
+887,536060,Chatrapatti Toll Plaza,Tamil Nadu,Virudhunagar,Oddanchatram - Madathukulam,83
+888,536061,Mithegaon Toll Plaza,Uttar Pradesh,Ayodhya,Jagdishpur-Ayodhya section,330A
+889,536063,Patrachauli Toll Plaza,Jharkhand,Ranchi,Ranchi Piska More to Palma section,23
+890,536066,Jagahedi Fee Plaza,Uttar Pradesh,Muzaffar Nagar,Shamli - Muzzafarnagar,709AD
+891,536067,Subgavhan Kh. Toll Plaza,Maharashtra,Jalgaon,Tarsod - Fagen section,53
+892,536068,Derhi Toll Plaza,Uttar Pradesh,Varansi,Ghagra Bridge to Varanasi section,233 (new NH-28)
+893,536069,Reddypalem Toll Plaza,Andhra Pradesh,Bapatla,Rapalle-Eepurpalem,216
+894,536070,Dongrale Toll Plaza,Maharashtra,Nashik,Kusumba to Malegaon section,160H
+895,536071,Devikulam Plaza,Kerala,Kannur,Bodimettu to Munnar section,85
+896,536072,Gadha Plaza,Madhya Pradesh,Betul,Design Ch 81.000 to Design Ch 121.248 (Length- 40.248 km) under Bharatmala Pariyojana Phase-I,47
+897,536073,Kurankhed Toll Plaza,Maharashtra,Akola,Amravati - Chikhali,53
+898,536075,Dakan Kotra,Rajasthan,Banswara,6lane Greenfield Udaipur Bypass NH-48 PKG-IV,48
+899,536076,Balenahalli Toll Plaza,Karnataka,Chitradurga District,Challakere - Hiriyur (Pkg-III),150A
+900,536078,Akwabad Toll Plaza,Uttar Pradesh,Unnao,Unnao to Lalganj section,31 (Old NH -232A)
+901,536079,Hirapur Toll Plaza,Maharashtra,Gadchiroli,930,Chandrapur
+902,536080,BhitahaToll Plaza,Uttar Pradesh,Gorakhpur,4 and more lane of Varanasi to Gorakhpur Section,29
+903,536081,Amora Moiddinpur Toll Plaza,Uttar Pradesh,Azamgarh,Ghaghra Bridge to Varanasi section of NH-233 (New NH-28) from Design km. 180.420 to,233 (New NH-28)
+904,536083,Nunmath Toll Plaza,Odisha,Bolangir,Nunmath Toll Plaza,26
+905,536084,Chottian User fee Plaza,Punjab,Sangrur,Moonak - Jakhal - Budhlada - Bhikhi,148B
+906,536085,Tuptakli Toll Plaza,Maharashtra,Yavatmal,161A,Washim
+907,536086,Kadaligarh Toll Plaza,Odisha,SAMBALPUR,Nektideuli-Boudh,153B
+908,536087,Thuvakudi Toll Plaza,Tamil Nadu,Tiruchirappalli,Trichy Bypass from Km.110.016 to Km.135.930,67(New NH-83)
+909,536088,Ashta Toll Plaza,Maharashtra,Latur,Ausa to Chakur,361
+910,536089,Maroud Toll Plaza,Punjab,Dhamtari,Raipur-Dhamtari,30
+911,536090,Pimparkhed User Fee Plaza,Maharashtra,Nashik,Chalisgaon-Nandgaon-Manmad,753J
+912,536091,Semalkhedi Fee Plaza,Madhya Pradesh,Agar Malwa,552G,Ujjain
+913,536093,Jogewal Toll Plaza,Haryana,Sirsa,Mandi Dabwali (Pb./Hr. Border)-Chautala Road Section from Proposed Mandi Dabwali Bypass,54
+914,536094,Dabwali Toll Plaza,Haryana,Sirsa,Mandi Dabwali (Pb./Hr. Border)-Chautala Road Section from Proposed Mandi Dabwali Bypass,54
+915,536095,Alika Toll Plaza,Haryana,Sirsa,Mandi Dabwali (Pb./Hr. Border)-Chautala Road Section from Proposed Mandi Dabwali Bypass,54
+916,536096,Shergarh Toll Plaza,Haryana,Sirsa,Mandi Dabwali (Pb./Hr. Border)-Chautala Road Section from Proposed Mandi Dabwali Bypass,54
+917,536097,Abubshehar Toll Plaza,Haryana,Sirsa,Mandi Dabwali (Pb./Hr. Border)-Chautala Road Section from Proposed Mandi Dabwali Bypass,54
+918,536098,Chautala Toll Plaza,Haryana,Sirsa,Mandi Dabwali (Pb./Hr. Border)-Chautala Road Section from Proposed Mandi Dabwali Bypass,54
+919,536099,Nipaniya Toll Plaza,Madhya Pradesh,Ujjian,552G,Ujjain
+920,536100,Undewadi Toll Plaza,Maharashtra,Pune,Patas-Baramati,965 G
+921,536101,Malegaon Toll Plaza,Maharashtra,Nanded,Chakur-Loha,361
+922,536102,Thiruvangad Toll Plaza,Kerala,Idukki,Thalassery-Mahe Bypass,66
+923,536103,Gangarampalayam Toll Plaza,Tamil Nadu,Viluppuram,Viluppuram to Puducherry Section,45A (New NH-332)
+924,536104,Velampatti fee plaza,Tamil Nadu,Tiruppur,Avinashi – Tiruppur – Avinashipalayam section,381
+925,536105,Mengaon Toll Plaza,Madhya Pradesh,Khargone,NH-347C / Khalghat to sarwardewla,347C
+926,536106,Medshi Sawarkheda Toll Plaza,Maharashtra,Akola,Akola-Medshi-Washim,161
+927,536109,Kothatai Toll Plaza,Tamil Nadu,Cuddalore,Poondiyankuppam - Sattanathapuram,32 ( NH 45A)
+928,536119,Dhulepura Toll Plaza,Rajasthan,Bhilwara,Asind to Mandal Section,158
+929,536120,Jaswantpura Toll Plaza,Rajasthan,Banswara,Beawar to Asind Section,158
+930,536121,Jeerangachh Toll Plaza,Bihar,Kishanganj,Galgalia-Bahadurganj,327 E
+931,536122,Routara Toll Plaza,Bihar,Katihar,Narenpur - Purnia,131 A
+932,536123,Sangariya Toll Plaza,Rajasthan,Hanumangarh,Amritsar-Jamnagar,754A
+933,536124,Chohilanwali Toll Plaza,Rajasthan,Hanumangarh,Amritsar-Jamnagar,754A
+934,536138,Pardi Makta toll plaza,Maharashtra,Nanded,Loha-Waranga section,361
+935,536174,Chhegaon Makhan Toll Plaza,Madhya Pradesh,East Nimar,Dhangaon Boregaon 347BG&753LFrom 81.950 to 139.000,347BG&753L
+936,536179,Tetla Toll Plaza,Jharkhand,Jharkhand,Purulia - Chandil,18 (Old NH-32)
+937,536183,Linglapura Toll Plaza,Karnataka,Chikkamagaluru,206 (New-73 & 69),Tumkur
+938,536184,Jonnada Toll Plaza,Andhra Pradesh,Visakhapatnam,Vishakhapatnam,Vijayawada
+939,536194,Belkuri Toll Plaza,West Bengal,Purulia,Purulia - Chandil,18 (Old NH-32)
+940,536198,Hulikunte Toll Plaza,Karnataka,Bangalore Rural,Dobaspet to Dodaballapur,648 (Old-NH-207)
+941,536199,Shringveerpur Toll Plaza,Uttar Pradesh,Prayagraj,Allahabad Bypass,2 ( new NH-19)
+942,536200,Bhirandiyara Toll Plaza,Gujarat,Rajkot,Bhirandiyara Toll Plaza Km 65.478 - Km 162.209,341
+943,536201,Badkapara Split Plaza,Rajasthan,kota,Delhi-Vadodra Greenfield alignment (EPC),NE-4
+944,536202,Khadaka Toll Plaza,Maharashtra,Nagpur,353 I & 53,Nagpur
+945,536203,Rohisa Toll Plaza,Gujarat,Bhavnagar,Talaja-Mahuva-Kagvadar,51
+946,536205,Zalimpura Toll Plaza,Rajasthan,churu,DVE Package-13,NE-4
+947,536206,Karadiya Toll Plaza,Rajasthan,Sawai Madhopur,DVE Package-13,NE-4
+948,536207,Gopalpura Toll Plaza,Rajasthan,Jaipur,DVE Package-14,NE-4
+949,536208,Balapura Toll Plaza,Rajasthan,Tonk,DVE Package-14,NE-4
+950,536213,Hariharnath Toll Plaza,Jharkhand,Palamu,Hariharganj - Parwa More (HAM),98
+951,536216,Bhanera Toll Plaza,Uttar Pradesh,Bijnor,Meerut-Najibabad,34 (old-119)
+952,536217,Chota Mawana,Uttar Pradesh,Meerut,Meerut-Najibabad Km 11.500,34 (old-119)
+953,536236,Kurungudi Toll Plaza,Tamil Nadu,Cuddalore,Meensurutti - Chidambaram,81 ( NH-227)
+954,536237,Gantyada Toll Plaza,Andhra Pradesh,Vizianagaram,Bowdara - Viziangaram,516E
+955,536238,Phulwaria Toll Plaza,Bihar,East Champaran,Piprakothi - Motihari - Raxual,527 D
+956,536244,IVRCL ramp plaza,Madhya Pradesh,Indore,Gujarat-MP Border Section,59
+957,536245,Patharahata Toll Plaza,Madhya Pradesh,Satna,Satna-Maihar Section form km 85.250 to km 119.600 NH -135 BG,135BG
+958,536246,Kariyamanglam Toll Plaza,Tamil Nadu,Tiruvannamalai,Tindivanam-Krishnagiri,77 ( NH-66)
+959,536307,Chechat Toll Plaza,Rajasthan,Sawai Madhopur,DVE Package-16,NE-4
+960,536308,Mamrejpur Fee Plaza,Bihar,Patna,Kanhauli-Ramnagar Section,131 G
+961,536309,Sundarpara Toll Plaza,Gujarat,Panchmahal,Kodinar - Veraval section (HAM),51
+962,536310,DodakaToll Plaza,Gujarat,Vadodara,Vadodara Mumbai Expressway (Padra to Vadodara) (Phase IA - Pkg I) [Km 355.00 to Km 378.740],NE-4
+963,536311,FajalpurToll Plaza,Gujarat,Ahmedabad,Vadodara Mumbai Expressway (Padra to Vadodara) (Phase IA - Pkg I) [Km 355.00 to Km 378.740],NE-4
+964,536312,SamiyalaToll Plaza,Gujarat,Kutch,Vadodara Mumbai Expressway (Padra to Vadodara) (Phase IA - Pkg I) [Km 355.00 to Km 378.740],NE-4
+965,536313,SanpaToll Plaza,Gujarat,Morbi,Vadodara Mumbai Expressway (Padra to Vadodara) (Phase IA - Pkg I) [Km 355.00 to Km 378.740],NE-4
+966,536314,DahegamToll Plaza,Gujarat,Gandhinagar,Vadodara Mumbai Expressway (Ankleshwar to Manubar) (Phase IA- Pkg IV),NE-4
+967,536325,Manaklaw TP-02,Rajasthan,Sawai Madhopur,Dangiawas - Jajiwal (pkg-1) of Jodhpur ringroad section,125A
+968,536328,Dangiyawas Toll Plaza,Rajasthan,Jodhpur,Dangiawas - Jajiwal (pkg-1) of Jodhpur ringroad section,125A
+969,536329,Velva Toll Plaza,Gujarat,Gir Somnath,Km 181.450 to Km 22.400 Una-Kodinar section,51
+970,536332,Banpimpri Toll Plaza,Maharashtra,Ahilyanagar,Ahmednagar-Ghogargaon-Solapur Border,561A
+971,536336,Rolla Toll Plaza,Andhra Pradesh,Sri Satya Sai,Madakasaira - Sira section,544E
+972,536337,Telipara Toll Plaza,Assam,Kokrajhar,to kilometer 30.000 (existing Km 0.000 to Km 30.000) National Highway number NH-31C (New NH-,31 C (New-27)
+973,536372,Jhinjholi Toll Plaza,Haryana,Sonepat,"Bawana Industrial Area, Delhi (at Km 7+750 of NH-344M or UER-Il) till Sonipat bypass of NH-352A",344P
+974,536373,Ahilyanagar (Ahmednagar) Bypass Toll Plaza,Maharashtra,Ahilyanagar,Sinner – Shirdi- Ahmednagar (NH- 160) road to Km 228.700 of NH222,61
+975,536374,Malhipur Toll Plaza,Bihar,Begusarai,Rail-cum- Road Bridge across river Ganga at Munger Ghat,333B
+976,536377,Ayeshpur Toll Plaza,West Bengal,Nadia,Barasat-Krishnagar,12 (Old34)
+977,536382,Nagampatti Toll Plaza,Tamil Nadu,Krishnagiri,Tindivanam-Krishnagiri,77 ( NH-66)
+978,536383,Chowlagere Fee Plaza,Karnataka,Hassan,75,Hasan
+979,536385,Nanglikondan Toll Plaza,Tamil Nadu,Viluppuram,Tindivanam-Krishnagiri,77 ( NH-66)
+980,536386,Nimgaon Khalu Toll Plaza,Maharashtra,Ahilyanagar,Ahmednagar-Kinetic Chowk to Vashunde Phata,160
+981,536391,Asada Ki Beri,Rajasthan,Barmer,Barmer-Gagariya Section,25 extn
+982,536392,Painampalli Toll Plaza,Telangana,Suryapet,Km 0.00 to Km 35.40 of Kodad to Khammam Section,365A
+983,536393,Kakan Toll Plaza,Bihar,Araria,Bahadurganj - Araria,327 E
+984,536395,Turup Toll Plaza,Jharkhand,Ranchi,33,Ranchi
+985,536397,Medipally Toll Plaza,Telangana,Medchal-Malkajgiri,Sironcha - Atmakur section in between Mahadevpur - BhupaIapaIIy,353C
+986,536398,Borvihir Toll Plaza,Maharashtra,Dhule,Bodhre - Dhule section,52
+987,536400,Kundi fee plaza,Madhya Pradesh,Betul,(Design length 73.955 km) in the state of Madhya Pradesh (Package-II/NH-69) on EPC mode:.,46
+988,536402,3M Toll Plaza,Rajasthan,Jaipur,Sriganganagar to Raisinghnagar section of NH-911,911
+989,536403,Khairamunda Toll Plaza,Odisha,DHENKANAL,Talecher- Duburi section,53
+990,536404,Kadhavani Toll Plaza,Tamil Nadu,Krishnagiri,Salem-Tirupathur-Vaniyambadi,179A
+991,536406,Hassangarh,Haryana,Rohtak,Delhi-Amritsar-Katra Expressway,NE-5
+992,536407,Humanyupur,Haryana,Rohtak,Delhi-Amritsar-Katra Expressway,NE-5
+993,536408,Puthi,Haryana,Sonipat,Delhi-Amritsar-Katra Expressway,NE-5
+994,536409,Issapur Kheri,Haryana,Sonipat,Delhi-Amritsar-Katra Expressway,NE-5
+995,536410,Jamni,Haryana,Jind,Delhi-Amritsar-Katra Expressway (Ch. 79.090),NE-5
+996,536411,Alewa,Haryana,Jind,Delhi-Amritsar-Katra Expressway (Ch. 87+122),NE-5
+997,536412,Kharak Pandwa,Haryana,Kaithal,Delhi-Amritsar-Katra Expressway,NE-5
+998,536413,Kovilvenni Toll Plaza,Tamil Nadu,Thiruvarur,Thanjavur,Madurai
+999,536417,Laban Toll Plaza,Rajasthan,Tonk,DVE Package-12,NE-4
+1000,536418,Mandawara Toll Plaza DVE,Rajasthan,Kota,DVE Package-12,NE-4
+1001,536419,Vembukudi Toll Plaza,Tamil Nadu,Thanjavur,Cholpauram-Thanjavur section,45-C
+1002,536422,Mulawad Toll Plaza,Karnataka,Vijayapura,Bijapur - Hubli section,218
+1003,536423,Pipalwas Plaza,Rajasthan,Ajmer,Kundal - Jhadol section,58E
+1004,536424,Dakuamunda Toll Plaza,Odisha,Angul,42 (New NH-55),Sambalpur
+1005,536425,Hatibari Toll Plaza,Odisha,Sambalpur,42 (New NH-55),Sambalpur
+1006,536426,Dondpur Fee Plaza,Jammu & Kashmir,Ammu,244A,Jammu
+1007,536427,Barhima Toll Plaza,Bihar,Gopalganj,UP-Border to Kotwa,27
+1008,536430,Padla Hadliya Toll Plaza,Rajasthan,Pali,Deval-Dungarpur-Hirata-Varda-Sagwara section of NH-927A in the state of Raj.,927A
+1009,536431,Madangundi,Jharkhand,Koderma,31,Hazaribagh
+1010,536432,Nimbhi Toll Plaza,Maharashtra,Amravati,Nandgaon Peth - Morshi Section km 0.000 - Km 43.000 in thestate of Maharashtra,353K
+1011,536434,H. Pudhupatti Toll Plaza,Tamil Nadu,Dharmapuri,Salem to Vayembadi (Km36.000 to 80.00),179A
+1012,536441,Veeranjaneyapuram Fee Plaza,Andhra Pradesh,Palnadu,2-LPS of Nagarjuna sagar Dam to Davulapally,565
+1013,536450,Mustapur Fee Plaza,Karnataka,Bidar,Aurad-Bidar section,161A
+1014,536451,Dabhedi Toll Plaza,Uttar Pradesh,Saharanpur,Shamli to Saharanpur Section,709B
+1015,536454,Chandi Toll Plaza,Haryana,Rohtak,from Km.347.800 of NH-71 to km .9+400 of NH-71A (Balance work) on EPC mode under,352
+1016,536457,Alagapada Toll Plaza,Telangana,Nalgonda district,Miryalaguda to Kodad,167
+1017,536458,Balani plaza,Odisha,DEOGARH,Rajamunda to Barkote Section,143
+1018,536459,"TP-24 Nana Masera, Mota Masera",Gujarat,Surat,130+073 of Rajasthan/Gujarat border to Santalpur section of NH-754A as a part of Amritsar-,754A
+1019,536460,TP-25 Budhanpur,Gujarat,Mehsana,130+073 of Rajasthan/Gujarat border to Santalpur section of NH-754A as a part of Amritsar-,754A
+1020,536461,TP-26 Tharad,Gujarat,Banaskantha,130+073 of Rajasthan/Gujarat border to Santalpur section of NH-754A as a part of Amritsar-,754A
+1021,536462,TP-27 Jorawargadh,Gujarat,Vadodara,130+073 of Rajasthan/Gujarat border to Santalpur section of NH-754A as a part of Amritsar-,754A
+1022,536463,TP-28 Varonosari,Gujarat,Varanasi,130+073 of Rajasthan/Gujarat border to Santalpur section of NH-754A as a part of Amritsar-,754A
+1023,536464,TP-29 Bakutra,Gujarat,Kutch,130+073 of Rajasthan/Gujarat border to Santalpur section of NH-754A as a part of Amritsar-,754A
+1024,536465,Jamni NH 152D,Haryana,Jind,Ismailabad-Gangheri,152D
+1025,536466,Merlapaka,Andhra Pradesh,Tirupati,Renigunta - Naidupeta,71
+1026,536467,Karagathahalli Toll Plaza,Tamil Nadu,Dharmapuri,Neraluru-Dharmapuri,844
+1027,536469,Bijora Toll plaza,Maharashtra,Yavatmal,Four laning of Waranga to Mahagaon (Pkg-I) section of NH-361 in the state of Maharashtra,361
+1028,536470,Nagla Toll Plaza,Uttarakhand,Rudrapur,Rampur-Kathgodam section,87
+1029,536471,Garhdevi Toll Plaza,Jharkhand,Garhwa,39,Daltonganj
+1030,536472,Badagaom Toll Plaza,Uttar Pradesh,Baghpat,NH NE -II(National Highway on NE-II) (EPE) Eastern peripheral Expressway,NE-II
+1031,536473,Peelak Toll Plaza,Haryana,Palwal,NH NE -II(National Highway on NE-II) (EPE) Eastern peripheral Expressway,NE-II
+1032,536475,Devkuli Toll Plaza,Bihar,Jahanabad,PatnaGaya-Dobhi Section of NH-83,22
+1033,536476,Jindapur Toll Plaza,Bihar,Gaya,PatnaGaya-Dobhi Section of NH-83,22
+1034,536477,Manapuram,Andhra Pradesh,Vizianagaram,Slauru - Gotlam section of NH-26 (Raipur - Visakhaptnam) from Km. 491+000 to Km. 525+200,26
+1035,536480,Paithna Toll Plaza,Bihar,Nalanda,Rajauli-Bakhtiyarpur section,20
+1036,536481,Kishanpura toll plaza,Madhya Pradesh,Sagar,Tolling work of Sagar-Bina Road on NH-934,934
+1037,536482,Sathyagala,Karnataka,Chamarajanagara,BRT Tiger Reserve Boundary to Bangalore section,353J
+1038,536483,Kesla Plaza,Chhattisgarh,Sakti,village Banari to Village Masania kala section,49
+1039,536484,Akhtiyari Kotila Toll Plaza,Uttar Pradesh,Pratapgarh,Raebareli to Prayagraj (KM 0.000 to KM 87.156),30 (Old NH-24B)
+1040,536485,Ghatta Toll Plaza,Himachal Pradesh,Kangra,88 (New NH-503),Hamirpur
+1041,536486,TP-23 Mokhupura,Rajasthan,Ajmer,130+073 of Rajasthan/Gujarat border to Santalpur section of NH-754A as a part of Amritsar-,754A
+1042,536487,Jajoosan,Rajasthan,Jalore,Amritsar Jamnagar Economic Corridor,754A
+1043,536488,Pandane,Maharashtra,Nashik,953,Nashik
+1044,536489,Pawangaon Toll Plaza,Maharashtra,Nagpur,353,Nagpur
+1045,536490,Bawada Toll Plaza,Maharashtra,Pune,Four laning of Indapur-Bondale (Saint Tukaram Maharaj Palkhi Marg),965G
+1046,536492,Balleerpur Toll plaza,Uttar Pradesh,Baghpat,Hardoi Bypass to End of Hardoi Dist. Section,731
+1047,536493,Anjam Dham Toll Plaza,Jharkhand,Gumla,Palma-Gumla,43(Old NH-23)
+1048,536497,Etaura Bujurg Toll Plaza,Uttar Pradesh,Raebareli,Raebareli to Prayagraj (KM 0.000 to KM 87.156),2(New 19)
+1049,536498,Attigulipura Toll plaza,Karnataka,Chamarajanagara,Reserve Boundary to Bangalore section of National Highway no.209 (New NH-948),209
+1050,536499,Pedagaruvu,Andhra Pradesh,Alluri Sitaramaraju,Paderu-Gondiguda-Araku section of NH-516E,516E
+1051,536500,Madukkarai,Tamil Nadu,Coimbatore,Coimbatore Bypass,544(Old NH-47)
+1052,536510,Sundarpura Toll,Rajasthan,Surendranagar,Bandikul to Jaipur,NE-4C
+1053,536511,Gella Ki Nagal,Rajasthan,Sri Madhopur,Bandikul to Jaipur,NE-4C
+1054,536512,Shyamsinghpura Virtual (Entry Exit ) Toll,Rajasthan,Shyamsinghpura,Bandikul to Jaipur ( Dausa/Delhi-Mumbai Expressway),NE-4C
+1055,536513,Bedoli,Rajasthan,Bhilwara,Bandikul to Jaipur,NE-4C
+1056,536514,Kuri Khurd,Rajasthan,Dausa,Bandikul to Jaipur,NE-4C
+1057,536515,Bagrana,Rajasthan,Jaipur,Bandikul to Jaipur,NE-4C
+1058,536517,Mormugao Port Toll Plaza,Goa,South Goa,4 laning stretch of NH-17 B Varunapuri to Sada junction,17 B
+1059,536519,Somanahalli Toll Plaza,Karnataka,Bengaluru South,209 (New NH-948),Mysuru
+1060,536520,Manambadi Fee Plaza,Tamil Nadu,Thanjavur,Sethiyathope-Cholpauram (Km 65.960-Km 116.440),36
+1061,536521,Arifke Fee Plaza,Punjab,Ferozepur,Makhu-Arifke,703A
+1062,536536,Jawar Toll Plaza,Uttar Pradesh,Agra,Mathura to Devinagar Bypass,530B
+1063,536537,Nayagaon Toll Plaza,Maharashtra,Jalna,Mantha-Parturn,548C
+1064,536539,Bartana Toll Plaza,Haryana,Jind,Jind-Gohana (Greenfield) section of NH-352A (Pkg-I),352 A
+1065,536542,Kharsodkhurd Toll Plaza,Madhya Pradesh,Dewas,Ujjain Badnawar section of NH 752D,752D
+1066,536544,Bhavaninagar fee plaza,Maharashtra,Satara,965,Pune
+1067,536547,Mangapatnam Toll Plaza,Andhra Pradesh,Kadapa,Tadipatri - Jammalamadugu via Muddanur,67
+1068,536548,Loni Toll Plaza,Maharashtra,Jalna,Parturn - Majalgaon,548C
+1069,536550,Sameerapalem Toll Plaza,Andhra Pradesh,Nellore,Malakonda to Singarayakonda of NH-167B in the State of Andhra Pradesh,167B
+1070,536552,Mujhera Toll Plaza,Uttar Pradesh,Muzaffarnagar,Spur of Muzaffarnagar connecting NH-709AD (Panipat-Shamli-Muzaffarnagar Highway) and NH-58,709AD
+1071,536560,Barwaikheda Toll Plaza,Madhya Pradesh,Indore,hardapackage-III design Ch. 95+000 to 142+445 km,47
+1072,536573,Basinenipalli,Andhra Pradesh,Nellore,Seetharampuram -Duttaluru,167BG
+1073,536575,Banaundi Toll Plaza,Haryana,Ambala,Ambala - Kalaamb,7 (New NH-344)
+1074,536587,Gandaboyanapalle,Andhra Pradesh,Annamayya,Madanapalli - Pileru Section,71
+1075,536599,Parewar Toll Plaza,Nagaur,Rajasthan,968,Jaisalmer
+1076,536600,Ramgarh Toll Plaza,Alwar,Rajasthan,68,Jaisalmer
+1077,536601,Devghat Toll Plaza,Maharashtra,Chandrapur,(Design km 89.090 ( Design - 56.180km) section of NH353B ON HAM mode.,353B
+1078,536602,Itapa,Odisha,Dhenkanal,Section of NH-42(New NH-55) from Kms. 60.200 - Kms. 112.00 in the state of odisha.,55 (Old NH 42)
+1079,536611,Sunderpalya (Closed Loop toll ),Karnataka,Kolar,Venkatgirikota Road-SH-95) Vengasandra & Sunderpalya Village in Kolar District ),NE-07
+1080,536612,Ena Toll Plaza,Gujarat,Vadodara,Vadodara Mumbai Expressway (Ena -Kim) (Phase IB - Pkg VI) [Km 217.500 to Km 254.430],NE-4
+1081,536613,Hedaginabele (Closed Loop toll ),Karnataka,Kolar,Hedigenabele Village in Kolar District),NE-07
+1082,536614,Agrahara (Closed Loop toll),Karnataka,Kolar,NE-07,Bangalore Expressway
+1083,536615,Krishnarajapura (Closed Loop toll ),Karnataka,Kolar,Bethamangala Road SH-95) Doddaru Karapanahalli & Krishnarajapura Village in Kolar District),NE-07
+1084,536618,Mundka (UER II Expressway ),Delhi,West,"Najafgarh Road to Sector 24 Dwarka. Development of 4 lane NH 344N (from km 0+000 to 7+269, 344M and 344N",Dwarka
+1085,536619,Olavanna Fee Plaza,Kerala,Kozhikode,Valanchery upto km. 284.760,66
+1086,536620,Mana Toll Plaza,Madhya Pradesh,Malwa,MP-RJ Border Road (From Km 0+000 to Km 40+400. excluding 1.1 Km length from Km 26.400 to,752B
+1087,536625,Lanela Toll Plaza,Pali,Rajasthan,68,Jaisalmer
+1088,536626,Burakayalakota,Andhra Pradesh,Annamayya,Mulakalacheruvu - Madanapalli Section,42
+1089,536627,Jamnipali Toll Plaza,Chhattisgarh,Korba,Champa-Urga,149B
+1090,536629,Umri,Maharashtra,Nanded,Manjarsumbha Section Pimpla Junction to Manjarsumbha Section of NH 548D,548D
+1091,536632,Akbarganj Simra (Tikri ) Toll Plaza,Uttar Pradesh,Pilibhit,Radhaita-Pilibhit Section of 46.130,"730B,730C & 731K"
+1092,536634,Ramanathapuram,Andhra Pradesh,Chittoor,Km 518.700 to design Km.534.100,75
+1093,536641,Rampura,Karnataka,Prakasam,Vijayapur-Sankeshwar Section,548B
+1094,536647,Bijawasan Toll Plaza,Delhi,South West,"At Km 9+045 of NH 248BB near village Bijwasan in the South West, Delhi District of State Delhi",Bijawasan Toll Plaza
+1095,536648,Tulaheda,Madhya Pradesh,Ujjain,"4 Lane ujjain-garoth (Package -I,II & III) section of NH-752D",752D
+1096,536649,Khedakhajuriya,Madhya Pradesh,Ujjain,"4 Lane ujjain-garoth (Package -I,II & III) section of NH-752D",752D
+1097,536650,Mudla Sondhiya,Madhya Pradesh,Ujjain,"4 Lane ujjain-garoth (Package -I,II & III) section of NH-752D",752D
+1098,536651,Barkheda Barod,Madhya Pradesh,Indore,752D,Ujjain
+1099,536652,Nayakheda,Madhya Pradesh,Malwa,"4 Lane ujjain-garoth (Package -I,II & III) section of NH-752D",752D
+1100,536653,Antraliya,Madhya Pradesh,Jhalawar,"4 Lane ujjain-garoth (Package -I,II & III) section of NH-752D",752D
+1101,536654,Semalikankad,Madhya Pradesh,Mandsaur,"4 Lane ujjain-garoth (Package -I,II & III) section of NH-752D",752D
+1102,536659,Sukekulan Mopa Fee Plaza,Goa,North Goa,66,Goa
+1103,536664,Mohan Toll Plaza,Haryana,Sonipat,"At km 58.035, of NH-352A near village Mohana in Sonipat District of Haryana.",352A
+1104,536665,Biharibigha,Bihar,Patna,At Design Kilometre 178.700 at Biharibigha Village of Patna District in Bihar State.,31
+1105,536666,Rudravaram,Andhra Pradesh,Nandyal,Madlem-Atmakur,340C
+1106,536671,Kothapalli,Andhra Pradesh,Prakasam,Puram (Via) Seetharampuram section of NH-167B to Two Lane with Paved shoulder configuration,167B
+1107,536673,Kadarampalli,Andhra Pradesh,Ananthapuramu,KALYANDURG-RAYADURG-MOLAKALMUR,544DD
+1108,536674,Pongalur Toll Plaza,Tamil Nadu,Tiruppur,At km 32.00 of new NH-81 near village pongalur palladam taluk of tiruppur district of Tamil Nadu.,81
+1109,536675,Kumbla Toll Plaza,Kerala,Kasaragod,Km 37+200 (new NH Ch. 20+000) of NH -66 (near Kumbla village in Kasaragod District),66
+1110,536681,Pusla Toll Plaza,Maharashtra,Nagpur,Morshi Warud pandhuruna MAH/MP border section of NH-353K in the state of Maharashtra.,353K
+1111,536694,Gadra Toll Plaza,Rajasthan,Barmer,Section Of Highway- Barmer-Munabao,25E
+1112,536702,Jassi Baghwali,Panjab,Bathinda,Bathinda dabwali section,54
+1113,536703,Gurthari,Panjab,Mansa,54,Bhatinda
+1114,536705,Pathrala Toll Plaza,Panjab,Sangrur,54,Bhatinda
+1115,536708,Seliyamedu Fee Plaza,Tamil Nadu,Pondicherry,Puducherry to Poondiyankuppam section of NH-32,32
+1116,536723,Rangamati Toll Plaza,Assam,Jorhat,Numaligarh to Jorhat,715
+1117,536743,Kukma Toll Plaza,Gujarat,Kutch,Bhimasar-Anjar-Bhuj,341
+1118,536744,Varshamedi,Gujarat,Kutch,Bhimasar-Anjar-Bhuj,341
+1119,536761,Sulung Toll Plaza,Assam,"Sonitpur,Nagaon",Kaliabor Tiniali to Dolabari,715 & 127
+1120,540006,Shilphata NH48 Toll Plaza,Maharashtra,Thane,Four laning of Mumbai-Pune section of NH-4 [New NH-48] from Km 20/400- Km 131/200,48
+1121,540007,Shedung NH48 Toll Plaza,Maharashtra,Raigad,Four laning of Mumbai-Pune section of NH-4 [New NH-48] from Km 20/400- Km 131/200,48
+1122,540008,Kusgaon NH48 Toll Plaza,Maharashtra,Pune,Four laning of Mumbai-Pune section of NH-4 [New NH-48] from Km 20/400- Km 131/200,48
+1123,540009,Dehuroad (Somatane) Toll Plaza,Maharashtra,Pune,Four laning of Mumbai-Pune section of NH-4 [New NH-48] from Km 20/400- Km 131/200,48
+1124,540032,Nandani,Maharashtra,Solapur,Solapur - Bijapur Section,13(new-52)
+1125,545097,Bagwada Fee Plaza,Madhya Pradesh,Narmdapuram,Obedullaganj to Itarsi section of NH-69 Pkg-1,47
+1126,545104,Tarapoungi plaza,Chhattisgarh,Raipur,Raipur-Simga section,30
+1127,545106,Mudiyapara,Chhattisgarh,Kabir Dham,MP border Chilpi - Kawardha (Pkg-I),30
+1128,545107,Limha Toll Plaza,Chhattisgarh,Bilaspur,Bilaspur - Pathrapali,130
+1129,545108,Jhalmala Toll Plaza,Chhattisgarh,Raigarh,Masaniakala - Rengapali Vill / odisha border,49
+1130,545110,Lodam Toll Plaza,Chhattisgarh,Jashpur,Kunkuri to Chhattisgarh / Jharkhand Border section,43
+1131,545111,Maharajpur Toll Plaza,Chhattisgarh,Manendragarh-Bharatpur-Chirmiri,MP/CG Border to Surajpur section,43
+1132,546000,NeemthurToll Plaza,Madhya Pradesh,Mandsuar,Delhi- Vadodara Mumbai Expressway NE-4 in the state of Madhya Pradesh,NE-4
+1133,546001,GarothToll Plaza,Madhya Pradesh,Mandsuar,Delhi- Vadodara Mumbai Expressway NE-4 in the state of Madhya Pradesh,NE-4
+1134,546002,DalavadaToll Plaza,Madhya Pradesh,Mandsuar,Delhi - Vadodara Mumbai Expressway NE-4 in the state of Madhya Pradesh,NE-4
+1135,546003,DVE Bhuteda Plaza,Madhya Pradesh,Ratlam,Delhi- Vadodara Mumbai Expressway NE-4 in the state of Madhya Pradesh,NE-4
+1136,546004,NayapuraToll Plaza,Madhya Pradesh,Ratlam,Delhi- Vadodara Mumbai Expressway NE-4 in the state of Madhya Pradesh,NE-4
+1137,546005,DhamnodToll Plaza,Madhya Pradesh,Ratlam,Delhi- Vadodara Mumbai Expressway NE-4 in the state of Madhya Pradesh,NE-4
+1138,546006,TimarwaniToll Plaza,Madhya Pradesh,Jhabua,Delhi- Vadodara Mumbai Expressway NE-4 in the state of Madhya Pradesh,NE-4
+1139,546007,Jaitpur Toll Plaza,Rajasthan,Jaipur,Amritsar -Jamnagar Section,754A
+1140,546008,Malkisar Toll Plaza,Rajasthan,Jhunjhunu,Amritsar -Jamnagar Section,754A
+1141,546009,Uchharangdesar Toll Plaza,Rajasthan,Bikaner,Amritsar -Jamnagar Section,754A
+1142,546010,Norangdesar Toll Plaza,Rajasthan,Hanumangarh,Amritsar -Jamnagar Section,754A
+1143,546011,Deshnok Toll Plaza,Rajasthan,Bikaner,Amritsar -Jamnagar Section,754A
+1144,546012,Panchu Toll Plaza,Rajasthan,Jodhpur,Amritsar -Jamnagar Section,754A
+1145,546013,Bungri Toll Plaza,Rajasthan,Sirohi,Amritsar -Jamnagar Section,754A
+1146,546014,Lamnannagar Toll Plaza,Rajasthan,Dausa,Amritsar -Jamnagar Section,754A
+1147,546015,Jathon ki Dhani Hanumansagar Toll Plaza,Rajasthan,Hanumangarh,Amritsar -Jamnagar Section,754A
+1148,546016,Sirmandi Toll Plaza,Rajasthan,Jodhpur,Amritsar -Jamnagar Section,754A
+1149,546017,Khudiyala Toll Plaza,Rajasthan,Jodhpur,Amritsar -Jamnagar Section,754A
+1150,546018,Deogarh Toll Plaza,Rajasthan,Rajsamand,Amritsar -Jamnagar Section,754A
+1151,546019,Ashirway Toll Plaza,Rajasthan,Alwar,Amritsar -Jamnagar Section,754A
+1152,546020,Patau Toll Plaza,Rajasthan,Jodhpur,Amritsar -Jamnagar Section,754A
+1153,546021,Moothli Toll Plaza,Rajasthan,Pali,Amritsar -Jamnagar Section,754A
+1154,546022,Sangana Toll Plaza,Rajasthan,Jodhpur,Amritsar -Jamnagar Section,754A
+1155,546023,Rati Rampura Plaza,Madhya Pradesh,Morena,Morena - porsa - Ater (Ch 254.370 to Ch 291.800),552Ext.
+1156,546024,Gogelao Toll Plaza,Rajasthan,Nagaur,Nagpur Bypass to Nokha Section,731
+1157,546025,Parwa Toll Plaza,Rajasthan,Nagaur,Nokha to Bikaner Section,56
+1158,546026,Madanpur Toll Plaza C,Chhattisgarh,Korba,Pathrapali-Katghora,130
+1159,546028,Nalluru Devanahalli Toll Plaza,Karnataka,Bangalore Rual,Doballapur Bypass - Hoskote,648
+1160,546031,Newada kanthi,Uttar Pradesh,Bulandshahr,Aligarh-Kanpur,91
+1161,546039,Palkhanda (Dewas Ujjain) Toll Plaza,Madhya Pradesh,Ujjian,of 4-Lane Ujjain Bypass from Design Ch. 19+733 to 26+900 (Part I) and Construction of 4-Lane,148NG
+1162,546041,Sarandi Toll Plaza,Telangana,Adilabad,Repelawada - Telangana/MH border,363
+1163,546042,Bhuni Toll Plaza,Uttar Pradesh,Meerut,Meerut - Karnal Section,709A
+1164,550024,Kothagudem,Telangana,Bhadradri Kothagudem,Nakrekal-Tanamcherla,365
+1165,570041,Bahala Toll Plaza,Rajasthan,Alwar,Alwar to Nuh Section (SPWD),248A
+1166,570042,Sheetal Fee Plaza,Rajasthan,Alwar,Delhi-Vadodra Expressway in the states of Haryana and Rajasthan on EPC Mode,NE-4
+1167,570043,Pinan Fee Plaza,Rajasthan,Alwar,Delhi-Vadodra Expressway in the states of Haryana and Rajasthan on EPC Mode,NE-4
+1168,570044,Bhandaraj Fee Plaza,Rajasthan,Dausa,Delhi-Vadodra Expressway in the states of Haryana and Rajasthan on EPC Mode,NE-4
+1169,570045,Dungarpur Fee Plaza,Rajasthan,Dungarpur,Delhi-Vadodra Expressway in the states of Haryana and Rajasthan on EPC Mode,NE-4
+1170,570046,Badkapara Fee Plaza,Rajasthan,Dausa,Delhi-Vadodra Expressway in the states of Haryana and Rajasthan on EPC Mode,NE-4
+1171,570047,Karel Toll Plaza,Rajasthan,Udaipur,Jhadol-Ambhabelly section (SPWD),58E (Old NH-76A)
+1172,570055,Daulatpura Fee Plaza,Rajasthan,Jaipur,Sawai Madhopur to Sheopur section,552
+1173,536828,Belsar Toll Plaza,Maharashtra,Pune,Lonand to Dive Ghat (Km 166.400 to Km 220.900 ) of Mohol – Alandi section of NH-965 (Pkg - V),965
+1174,536709,Paluvai,Andhra Pradesh,Palnadu,"Rentachinthala, Gurazala from Km. 0/0 to Km. 43/659 of Two Lane with Paved shoulder in the",167AD
+1175,536842,Rampei,Odisa,Dhenkanal,55,Dhenkanal
+1176,536719,Darwha Toll Plaza,Maharashtra,Yavatmal,Digras-Darwha-Karanja section of NH-361 C,361 C
+1177,,Ichhapur Toll plaza,Maharashtra,Dhule,Balance work of 4 landing from Fagne - Maharashtra Gujarat border section of NH-53,53
+1178,536829,Peddakonduru,Andhra Pradesh,Nellore,167BG,Ongole
+1179,536795,Sonari Toll Plaza,Hingoli,161A,,
+1180,352008,Durgamvaripalli,Andhra Pradesh,Tirupati,Pileru to Rayachoty,40
+1181,536449,Sinhaniya,Rajasthan,Jaisalmer,Gagaria Baori Kalan Serwa Bakhasar section,NH 925
+1182,536710,Banshidhar,Garhwa,75,,
+1183,536780,Upputuru Toll Plaza,Bapatla,(Design Chainage Km.0.000 to Km. 47.000) of NH-167A (Package-I) in the State of Andhra,167C,
+1184,536823,Karrapur Fee Plaza,Narmadapuram,934,,
+1185,536706,Katiyara Toll Plaza,Bihar,Rohtas(Sasaram),At Km/Ch.77.821 of NH 319 near Village Katiyara in Rohtas district of State Bihar,319
+1186,536749,Medininagar Toll Plaza,Jharkhand,Medininagar,at Km 156.850 of Bhogu to Shankha section of NH-139 (Old NH-75).,139
+1187,536721,Shahpur Kalyanpur,Uttrakhannd,Dehradun,Chainage 4.780 to Km. 36.240 (Tollable),7
+1188,536455,Vellar Toll Plaza,Tamil Nadu,Coimbatore,Thoppur-Mettur-Bhavani-Erode,544H
+1189,536724,Dadal TP 20 (Close Loop Toll),Jaisalmer,to Km 130+073 of Rajasthan/Gujarat border to Santalpur section of NH-754A as a part of,754 A,
+1190,536722,Deora TP 21 (Close Loop Toll),Jaisalmer,to Km 130+073 of Rajasthan/Gujarat border to Santalpur section of NH-754A as a part of,754A,
+1191,536707,Baiji Toll Plaza,Katni,30 (NH-12A),,
+1192,910002,Mundka-Bakkarwala Toll Plaza,West Delhi,344M,,
+1193,536801,Venkatapalem Toll Plaza,Andhra Pradesh,Guntur,Vijayawada bypass (Pkg-IV) section of NH-16,16
+1194,536745,Bajheri Toll Plaza,Punjab,Mohali,IT City-Kurali Section of NH-205A,205A
+1195,536682,Khadernagar Toll Plaza,Karnataka,Gulbarga,54.370 to 101.412 Km,50
+1196,536752,R Kothapalli,Nandyal,340B,,
+1197,536551,Bautha Toll Plaza,Badaun,730,,
+1198,536561,Kudaiya Toll Plaza,Badaun,configuration of Allahganj Miranpur katra Section of NH-730C (km. 52.770 to km. 114.000),730C,
+1199,536753,Yogini Mata,Deoghar,133,,
+1200,536776,Bawani Khera,Haryana,Bhiwani,4 Laning of Bhiwani-Hansi road section of NH 148B,148B
+1201,536775,Kachwar,Nagarkurnool,167,,
+1202,536762,Bakhtyarpur Toll Plaza,Uttar Pradesh,Etawah,Bewar to Etawah Section (Km 0.000 to Km 57.346) in the State of Uttar Pradesh,92 (New NH-234)
+1203,536791,Kingaon,Nanded,Kopra - KingaonAmbejogai - Kaij - Maharashtra - Patoda - Jamkhed road (NH-5480) from,548D,
+1204,536628,Gulzarpur (Close Loop Toll),Charkhi Dadri,near Jussur Kheri village to junction with Jind-Panipat road (NH-352A) near Gangana village 352A,,
+1205,536747,Ghaneshpur,Uttarakhand,Roorkee,Delhi - Dehradun,NH 334
+1206,536683,Loni (UP),Uttar Pradesh,Ghaziabad,Delhi - Dehradun,334
+1207,536684,Katha,Uttar Pradesh,Baghpat,Delhi - Dehradun,NH 334
+1208,536799,Elurpatti Toll Plaza,Tamil Nadu,Trichy,Musiri-Namakkal section of NH-381B from Km 34.000 to Km 73.200,381B
+1209,536847,Ammapettai,Tamil Nadu,Coimbatore,Km 0.000 to Km 85.000,544H
+1210,536850,Nathampatti Toll Plaza,Tamil Nadu,Tenkasi,Vadugapatti to Therkuvenganallur (Rajapalyam) section from km 36.000 to km 71.600,744
+1211,536802,Inagaluru,Andhra Pradesh,Sri Sathya Sai (Ananatapur),From B. Kotapalli to Gorantla Section NH-716G(Km 56.400 to Km 120.300),716G
+1212,536748,Vettichira,Kerala,Malappuram,66,Cochin
+1213,,Ratowa Toll Plaza,Assam,"Biswanath,Sonitpur",Biswanath Chariali to Gohpur,715 & 15
+1214,,Sahijana,Uttar Pradesh,Lucknow,At km/Ch.230.344 near village Sahijana in Lucknow Dist. of Uttar Pradesh,731
+1215,,Madagi Fee Plaza,Maharashtra,Nagpur,753,Nagpur
+1216,,Marri Toll Plaza,Madhya Pradesh,Chhindwara,0+000 to 41.210 Km,543
+1217,,Ramagopalapuram Toll Plaza,East Godavari,30,,
+1218,,Gavarayyapeta Toll Plaza,Andhra Pradesh,East Godavari,Km.43+700 to Km.113+820,516E
+1219,,Anjukuzhipatti,Tamil Nadu,Dindigul,Dindigul - kottampatty,383
+1220,,Bardipada Toll plaza,Maharashtra,Nandurbar,Balance work of 4 landing from Fagne - Maharashtra Gujarat border section of NH-53,53
+1221,,Katri Toll Plaza,Maharashtra,Wardha,Ralegaon-sirasgaon-vadner section of NH-361 B,361 B
