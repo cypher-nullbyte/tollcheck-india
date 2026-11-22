@@ -54,11 +54,11 @@ def main():
                 continue
             ours = int(km.group(1)); url = html.unescape(link.group(1))
             g = re.sub(r"[\ue000-\uf8ff]", " ", text(re.sub(r"(?s)<(script|style)[^>]*>.*?</\1>", "", dump(url, 25000))))
-            gm = re.search(r"(\d[\d,]*) km via (.{3,70}?)(?= Fastest| This | Best| Due | Avoid| Usual| Slower| Faster| Includes|  |$)", g)
+            gm = re.search(r"(\d[\d,]*(?:\.\d+)?) km via (.{3,70}?)(?= Fastest| This | Best| Due | Avoid| Usual| Slower| Faster| Includes|  |$)", g)
             total += 1
             if not gm:
                 print(f"{trip} {name}: ours {ours} km via {roads} | Google: could not read"); continue
-            gkm = int(gm.group(1).replace(",", "")); gvia = gm.group(2); match = abs(gkm - ours) <= max(12, ours * 0.10)   # same road; town start points differ a little
+            gkm = round(float(gm.group(1).replace(",", ""))); gvia = gm.group(2); match = abs(gkm - ours) <= max(12, ours * 0.10)   # same road; town start points differ a little
             ok += match
             print(f"{'OK  ' if match else 'DIFF'} {trip} {name}: ours {ours} km via {roads} | Google {gkm} km via {gvia.strip()} | stops {url.split('waypoints=')[1].count('%7C') + 1 if 'waypoints=' in url else 0}")
     print(f"\n{ok}/{total} routes: Google follows our road (km within 10% or 12 km)")

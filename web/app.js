@@ -426,6 +426,15 @@ function viaTolls(r) {
     const gap = Math.floor(n * 0.15);                         // well away from the toll stop (no bunching)
     for (const p of [farthest(0, cut - gap), farthest(cut + gap, n)]) if (p) stops.push(p);
   }
+  // 3. Fill up to 3 stops with points spread along the road (about 1/3 and 2/3), kept apart from
+  //    the other stops: pins the whole road, also when there is only one route to compare with.
+  //    Tested 2026-11-22 on 14 trips: with only 1–2 stops Google left our road on 3 of 21 routes.
+  const n = r.coords.length;
+  for (const f of [1 / 3, 2 / 3, 0.5]) {
+    if (stops.length >= 3) break;
+    const k = Math.floor(n * f);
+    if (stops.every((s) => Math.abs(s.idx - k) > n * 0.15)) { const [lon, lat] = r.coords[k]; stops.push({ lat, lon, idx: k }); }
+  }
   return stops.sort((a, b) => a.idx - b.idx).slice(0, 3);     // in driving order, max 3
 }
 const ll = (p) => `${p.lat.toFixed(5)},${p.lon.toFixed(5)}`;
