@@ -400,8 +400,9 @@ const placeName = (p) => encodeURIComponent(p.full || `${p.lat},${p.lon}`);
 function viaTolls(r) {
   if (!r) return [];
   const pts = r.shown.map((x) => (x.group ? x.plazas[0] : x)).filter((p) => p && p.lat);   // expressway: its entry
-  if (pts.length <= 3) return pts;
-  return [0, Math.floor((pts.length - 1) / 2), pts.length - 1].map((i) => pts[i]);
+  // ONE stop is enough to lock the maps app onto this road and keeps "arrived → Continue" to a single tap:
+  // the toll nearest the middle of the trip.
+  return pts.length ? [pts[Math.floor(pts.length / 2)]] : [];   // 2 tolls → the 2nd (further along pins the road better)
 }
 const ll = (p) => `${p.lat.toFixed(5)},${p.lon.toFixed(5)}`;
 // Google Maps URLs: https://developers.google.com/maps/documentation/urls/get-started
@@ -414,8 +415,8 @@ function startsHere() {
   const me = meMarker.getLatLng();
   return km({ lat: me.lat, lon: me.lng }, state.from) < 5;
 }
-function googleUrl(r, exact = false) {
-  const via = exact ? viaTolls(r) : [];
+function googleUrl(r, own = false) {
+  const via = own ? [] : viaTolls(r);
   return "https://www.google.com/maps/dir/?api=1&travelmode=driving" +
     (startsHere() ? "&dir_action=navigate" : `&origin=${placeName(state.from)}`) +
     `&destination=${placeName(state.to)}` +
@@ -424,7 +425,8 @@ function googleUrl(r, exact = false) {
 // Apple unified Maps URLs (iOS 18.4+ / macOS 15.4+): repeated `waypoint`
 function appleUrl(r) {
   return `https://maps.apple.com/directions?mode=driving` +
-    (startsHere() ? "" : `&source=${placeName(state.from)}`) + `&destination=${placeName(state.to)}`;
+    (startsHere() ? "" : `&source=${placeName(state.from)}`) + `&destination=${placeName(state.to)}` +
+    viaTolls(r).map((p) => `&waypoint=${ll(p)}`).join("");
 }
 
 // ---------- rendering ----------
@@ -514,13 +516,14 @@ function cards() {
           ${p.detail ? `<br><small>${esc(p.detail)}</small>` : ""}
           ${p.coords_suspect ? '<span class="warn">(location doubtful)</span>' : ""}</span></li>`;
       }).join("")}</ul></details>` : ""}
-      ${roads(r) ? `<div class="match">${t("matchLine", { roads: esc(roads(r)), km: r.km.toFixed(0), time: fmtTime(r.min) })}</div>` : ""}
+      ${roads(r) ? `<div class="match">${t("routeVia", { roads: esc(roads(r)), km: r.km.toFixed(0), time: fmtTime(r.min) })}</div>` : ""}
       <div class="actions"><button type="button" data-show="${r.i}">${t("showOnMap")}</button>
         <a href="${googleUrl(r)}" target="_blank" rel="noopener">${t("googleMaps")}</a>
         <a href="${appleUrl(r)}" target="_blank" rel="noopener">${t("appleMaps")}</a></div>
+      ${viaTolls(r).length ? `<p class="preview-note">${t("stopNote")}</p>` : ""}
       ${startsHere() ? "" : `<p class="preview-note">${t("previewNote")}</p>`}
-      ${viaTolls(r).length ? `<div class="exact"><a href="${googleUrl(r, true)}" target="_blank" rel="noopener">${t("exactRoute")}</a>
-        <small>${t("exactNote")}</small></div>` : ""}
+      ${viaTolls(r).length ? `<div class="exact"><a href="${googleUrl(r, true)}" target="_blank" rel="noopener">${t("ownRoute")}</a>
+        <small>${t("ownNote")}</small></div>` : ""}
       <button type="button" class="linkbtn" data-help-same>${t("sameRoadHow")}</button>
       <div class="actions secondary"><button type="button" data-save="${r.i}">${t("saveRoute")}</button>
         <button type="button" data-share="${r.i}">${t("share")}</button></div>
