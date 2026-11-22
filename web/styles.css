@@ -158,3 +158,10 @@ footer .version { font-weight: 600; color: var(--ink); }
 @media (max-width: 420px) { .reset-btn span { display: none; } .reset-btn { width: 46px; font-size: 18px; } }
 .head-tools { display: flex; gap: 6px; align-items: center; margin-left: auto; flex-wrap: wrap; justify-content: flex-end; }
 .head-tools select { font: inherit; font-size: 14px; padding: 6px 8px; border-radius: 8px; border: 1px solid var(--line); background: var(--card); color: var(--ink); cursor: pointer; }
+/* updates */
+.update-bar { position: fixed; left: 12px; right: 12px; bottom: calc(78px + env(safe-area-inset-bottom)); z-index: 1600; display: flex; gap: 10px;
+  align-items: center; justify-content: space-between; background: var(--brand); color: #fff; padding: 10px 14px; border-radius: 12px; box-shadow: 0 6px 18px rgba(0,0,0,.3); }
+.update-bar button { background: #fff; color: var(--brand); border: 0; font-weight: 700; padding: 6px 12px; }
+.pull-hint { position: fixed; top: calc(8px + env(safe-area-inset-top)); left: 50%; transform: translateX(-50%); z-index: 1700;
+  background: var(--card); color: var(--ink); border: 1px solid var(--line); border-radius: 999px; padding: 6px 14px; font-size: 14px; box-shadow: 0 4px 12px rgba(0,0,0,.25); }
+.update-bar[hidden], .pull-hint[hidden] { display: none; }

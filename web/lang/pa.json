@@ -148,5 +148,9 @@
  "themeSystem": "◐ ਸਿਸਟਮ",
  "themeLight": "☀ ਲਾਈਟ",
  "themeDark": "☾ ਡਾਰਕ",
- "theme": "ਥੀਮ"
+ "theme": "ਥੀਮ",
+ "updateReady": "ਨਵਾਂ ਵਰਜ਼ਨ ਤਿਆਰ ਹੈ।",
+ "updateNow": "ਅੱਪਡੇਟ ਕਰੋ",
+ "checkUpdates": "↻ ਅੱਪਡੇਟ ਦੇਖੋ",
+ "pullRelease": "↻ ਛੱਡੋ, ਰਿਫ੍ਰੈਸ਼ ਹੋਵੇਗਾ"
 }

@@ -148,5 +148,9 @@
  "themeSystem": "◐ System",
  "themeLight": "☀ Light",
  "themeDark": "☾ Dark",
- "theme": "Theme"
+ "theme": "Theme",
+ "updateReady": "A new version is ready.",
+ "updateNow": "Update",
+ "checkUpdates": "↻ Check for updates",
+ "pullRelease": "↻ Release to refresh"
 }

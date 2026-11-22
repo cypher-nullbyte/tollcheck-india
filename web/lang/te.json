@@ -148,5 +148,9 @@
  "themeSystem": "◐ సిస్టమ్",
  "themeLight": "☀ లైట్",
  "themeDark": "☾ డార్క్",
- "theme": "థీమ్"
+ "theme": "థీమ్",
+ "updateReady": "కొత్త వెర్షన్ సిద్ధంగా ఉంది.",
+ "updateNow": "అప్‌డేట్ చేయండి",
+ "checkUpdates": "↻ అప్‌డేట్‌లు చూడండి",
+ "pullRelease": "↻ వదలండి, రిఫ్రెష్ అవుతుంది"
 }

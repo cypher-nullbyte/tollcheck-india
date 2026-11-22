@@ -148,5 +148,9 @@
  "themeSystem": "◐ सिस्टम",
  "themeLight": "☀ लाइट",
  "themeDark": "☾ डार्क",
- "theme": "थीम"
+ "theme": "थीम",
+ "updateReady": "नवीन आवृत्ती तयार आहे.",
+ "updateNow": "अपडेट करा",
+ "checkUpdates": "↻ अपडेट तपासा",
+ "pullRelease": "↻ सोडा, रिफ्रेश होईल"
 }

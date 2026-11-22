@@ -148,5 +148,9 @@
  "themeSystem": "◐ સિસ્ટમ",
  "themeLight": "☀ લાઇટ",
  "themeDark": "☾ ડાર્ક",
- "theme": "થીમ"
+ "theme": "થીમ",
+ "updateReady": "નવું વર્ઝન તૈયાર છે.",
+ "updateNow": "અપડેટ કરો",
+ "checkUpdates": "↻ અપડેટ તપાસો",
+ "pullRelease": "↻ છોડો, રિફ્રેશ થશે"
 }

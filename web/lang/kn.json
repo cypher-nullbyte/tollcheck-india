@@ -148,5 +148,9 @@
  "themeSystem": "◐ ಸಿಸ್ಟಮ್",
  "themeLight": "☀ ಲೈಟ್",
  "themeDark": "☾ ಡಾರ್ಕ್",
- "theme": "ಥೀಮ್"
+ "theme": "ಥೀಮ್",
+ "updateReady": "ಹೊಸ ಆವೃತ್ತಿ ಸಿದ್ಧವಾಗಿದೆ.",
+ "updateNow": "ಅಪ್‌ಡೇಟ್ ಮಾಡಿ",
+ "checkUpdates": "↻ ಅಪ್‌ಡೇಟ್ ಪರಿಶೀಲಿಸಿ",
+ "pullRelease": "↻ ಬಿಡಿ, ರಿಫ್ರೆಶ್ ಆಗುತ್ತದೆ"
 }

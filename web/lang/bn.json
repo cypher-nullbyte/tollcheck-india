@@ -148,5 +148,9 @@
  "themeSystem": "◐ সিস্টেম",
  "themeLight": "☀ লাইট",
  "themeDark": "☾ ডার্ক",
- "theme": "থিম"
+ "theme": "থিম",
+ "updateReady": "নতুন সংস্করণ তৈরি।",
+ "updateNow": "আপডেট করুন",
+ "checkUpdates": "↻ আপডেট দেখুন",
+ "pullRelease": "↻ ছাড়ুন, রিফ্রেশ হবে"
 }

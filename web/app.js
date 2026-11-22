@@ -839,5 +839,32 @@ $("installBtn").addEventListener("click", async () => {
 });
 $("installHelpClose").addEventListener("click", () => $("installHelp").close());
 
-// ---------- PWA ----------
-if ("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js").catch(() => {});
+// ---------- PWA + updates ----------
+// The service worker fetches app files network-first, so opening the app online loads the newest version.
+// On top of that: a bar when a new version takes over, "Check for updates" in the footer, and
+// pull-down-to-refresh in the installed app (installed apps have no browser pull-to-refresh).
+const reloadFresh = () => location.reload();
+if ("serviceWorker" in navigator) {
+  const hadController = !!navigator.serviceWorker.controller;
+  navigator.serviceWorker.register("sw.js").then((reg) => {
+    setInterval(() => reg.update().catch(() => {}), 30 * 60 * 1000);       // look for a new version every 30 min
+    document.addEventListener("visibilitychange", () => { if (!document.hidden) reg.update().catch(() => {}); });
+  }).catch(() => {});
+  navigator.serviceWorker.addEventListener("controllerchange", () => { if (hadController) $("updateBar").hidden = false; });
+}
+$("updateNow").addEventListener("click", reloadFresh);
+$("checkUpdates").addEventListener("click", async () => {
+  try { const reg = await navigator.serviceWorker?.getRegistration(); await reg?.update(); } catch { /* offline */ }
+  reloadFresh();
+});
+(() => {                                                   // pull down at the top of the page to refresh
+  let startY = null, pulled = false;
+  document.addEventListener("touchstart", (e) => {
+    startY = window.scrollY <= 0 && !e.target.closest("#map, dialog, .suggest") ? e.touches[0].clientY : null; pulled = false;
+  }, { passive: true });
+  document.addEventListener("touchmove", (e) => {
+    if (startY === null) return;
+    pulled = e.touches[0].clientY - startY > 90; $("pullHint").hidden = !pulled;
+  }, { passive: true });
+  document.addEventListener("touchend", () => { $("pullHint").hidden = true; if (pulled) reloadFresh(); startY = null; pulled = false; });
+})();

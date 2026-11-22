@@ -148,5 +148,9 @@
  "themeSystem": "◐ സിസ്റ്റം",
  "themeLight": "☀ ലൈറ്റ്",
  "themeDark": "☾ ഡാർക്ക്",
- "theme": "തീം"
+ "theme": "തീം",
+ "updateReady": "പുതിയ പതിപ്പ് തയ്യാർ.",
+ "updateNow": "അപ്ഡേറ്റ് ചെയ്യുക",
+ "checkUpdates": "↻ അപ്ഡേറ്റുകൾ പരിശോധിക്കുക",
+ "pullRelease": "↻ വിടുക, റിഫ്രഷ് ആകും"
 }
